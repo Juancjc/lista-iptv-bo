@@ -15,9 +15,9 @@ Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmis
 |---|---|
 | Canais encontrados | **81** |
 | Canais na lista principal | **55** |
-| Canais online na última verificação | **55** |
-| Streams online / total | **80 / 135** |
-| Última atualização | **25/10/2026 15:11 (horário da Bolívia, UTC−4)** |
+| Canais online na última verificação | **54** |
+| Streams online / total | **78 / 135** |
+| Última atualização | **25/10/2026 15:12 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -159,7 +159,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Unitel Cochabamba | Geral | Cochabamba | 🔴 Offline | 0/2 |
 | Unitel La Paz | Geral | La Paz | 🔴 Offline | 0/2 |
 | Unitel Santa Cruz | Geral | Santa Cruz | 🟢 Online | 1/2 |
-| Univalle TV | Universitário | Cochabamba | 🟢 Online | 2/2 |
+| Univalle TV | Universitário | Cochabamba | 🟡 Instável | 0/2 |
 | UPEA TV | Universitário | La Paz | 🟢 Online | 1/1 |
 | Vos TV | Geral | — | 🟢 Online | 2/3 |
 | VTV Canal 17 | Religioso | — | 🔴 Offline | 0/2 |

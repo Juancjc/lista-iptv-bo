@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T19:11:33+00:00",
-  "duration_seconds": 38.1,
+  "generated_at": "2026-10-25T19:12:40+00:00",
+  "duration_seconds": 40.5,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
     "channels_main": 55,
-    "channels_online": 55,
+    "channels_online": 54,
     "streams_total": 135,
-    "streams_online": 80
+    "streams_online": 78
   },
   "sources": [
     {
@@ -1179,6 +1179,18 @@
       "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
       "error": "HTTP 403",
       "error_kind": "permanent"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",
