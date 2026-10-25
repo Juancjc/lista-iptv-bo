@@ -1,7 +1,7 @@
 # lista-iptv-bo 🇧🇴
 
-[![Atualizar lista IPTV](https://github.com/SEU_USUARIO/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/SEU_USUARIO/lista-iptv-bo/actions/workflows/update-iptv.yml)
-[![Testes](https://github.com/SEU_USUARIO/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/SEU_USUARIO/lista-iptv-bo/actions/workflows/tests.yml)
+[![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
+[![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
 
 Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmissões públicas disponíveis na internet. Os canais são coletados de fontes abertas, verificados automaticamente (HTTP, estrutura da playlist HLS e segmentos de vídeo) e as listas M3U são regeneradas pelo GitHub Actions a cada 6 horas.
 
@@ -21,9 +21,9 @@ Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmis
 
 | Lista | Conteúdo | URL |
 |---|---|---|
-| `bolivia.m3u` | **Principal** — um stream por canal, apenas canais que passaram na verificação (tolera instabilidades de até 48 h) | https://raw.githubusercontent.com/SEU_USUARIO/lista-iptv-bo/main/playlists/bolivia.m3u |
-| `bolivia-online.m3u` | Todos os streams confirmados online na última execução, incluindo alternativos (`Alt. 2`, `Alt. 3`…) | https://raw.githubusercontent.com/SEU_USUARIO/lista-iptv-bo/main/playlists/bolivia-online.m3u |
-| `bolivia-all.m3u` | Todos os canais e streams encontrados, inclusive os que falharam (marcados com `[Offline]`) | https://raw.githubusercontent.com/SEU_USUARIO/lista-iptv-bo/main/playlists/bolivia-all.m3u |
+| `bolivia.m3u` | **Principal** — um stream por canal, apenas canais que passaram na verificação (tolera instabilidades de até 48 h) | https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia.m3u |
+| `bolivia-online.m3u` | Todos os streams confirmados online na última execução, incluindo alternativos (`Alt. 2`, `Alt. 3`…) | https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia-online.m3u |
+| `bolivia-all.m3u` | Todos os canais e streams encontrados, inclusive os que falharam (marcados com `[Offline]`) | https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia-all.m3u |
 
 Recomendação: use **`bolivia.m3u`**. Se um canal não abrir, procure-o em `bolivia-online.m3u`, que traz URLs alternativas.
 
@@ -31,19 +31,19 @@ Recomendação: use **`bolivia.m3u`**. Se um canal não abrir, procure-o em `bol
 
 ### VLC (Windows, macOS, Linux, Android)
 1. Abra o VLC e vá em **Mídia → Abrir fluxo de rede** (Ctrl+N).
-2. Cole a URL da lista principal: `https://raw.githubusercontent.com/SEU_USUARIO/lista-iptv-bo/main/playlists/bolivia.m3u`
+2. Cole a URL da lista principal: `https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia.m3u`
 3. Clique em **Reproduzir** e abra a lista de reprodução (Ctrl+L) para escolher o canal.
 
 ### Kodi
 1. Instale o add-on **PVR IPTV Simple Client** (Add-ons → Instalar a partir do repositório → Clientes PVR).
 2. Em **Configurar → Geral**, escolha *Localização: Caminho remoto (endereço da Internet)*.
-3. Em **URL da lista M3U**, cole `https://raw.githubusercontent.com/SEU_USUARIO/lista-iptv-bo/main/playlists/bolivia.m3u`.
+3. Em **URL da lista M3U**, cole `https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia.m3u`.
 4. Reinicie o Kodi; os canais aparecem em **TV**.
 
 ### Fire TV / Fire Stick
 1. Instale um player IPTV compatível com M3U (por exemplo **TiviMate**, **IPTV Smarters** ou **VLC para Fire TV**) pela loja da Amazon ou pelo app *Downloader*.
 2. Adicione uma nova lista do tipo **M3U / URL**.
-3. Cole `https://raw.githubusercontent.com/SEU_USUARIO/lista-iptv-bo/main/playlists/bolivia.m3u` e salve.
+3. Cole `https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia.m3u` e salve.
 4. Configure a atualização automática da lista no app (a cada 12 ou 24 h) para receber as correções.
 
 As listas usam UTF-8 e sintaxe M3U estendida padrão (`#EXTINF` com `tvg-id`, `tvg-name`, `tvg-logo` e `group-title`), compatível com VLC, Kodi, TiviMate, IPTV Smarters, OTT Navigator, GSE e outros players HLS.
