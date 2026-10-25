@@ -1,13 +1,51 @@
-# lista-iptv-bo 🇧🇴
+<!-- Arquivo gerado automaticamente a partir de config/readme_template.md (espanhol: config/readme_template.es.md). Edite os modelos, não o README. -->
 
-🇧🇷 **Português** · 🇧🇴 [Español](README.es.md)
+<div align="center">
+
+<img src="https://flagcdn.com/w160/bo.png" width="96" alt="Bandeira da Bolívia">
+
+# 📺 Lista IPTV Bolívia
+
+### Toda a TV boliviana ao vivo em um só link — grátis, organizada e verificada a cada 6 horas
+
+**🇧🇷 Português** &nbsp;|&nbsp; [🇧🇴 Español](README.es.md)
+
+<br>
+
+![Canais online](https://img.shields.io/badge/canais_online-$channels_online-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canais encontrados](https://img.shields.io/badge/canais_encontrados-$channels_total-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Streams online](https://img.shields.io/badge/streams_online-$streams_online%2F$streams_total-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/$repo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/$repo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/$repo/actions/workflows/tests.yml/badge.svg)](https://github.com/$repo/actions/workflows/tests.yml)
 
-Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmissões públicas disponíveis na internet. Os canais são coletados de fontes abertas, verificados automaticamente (HTTP, estrutura da playlist HLS e segmentos de vídeo) e as listas M3U são regeneradas pelo GitHub Actions a cada 6 horas.
+<br>
 
-> Este arquivo é gerado automaticamente a partir de `config/readme_template.md` (versão em espanhol: `config/readme_template.es.md`). Edite os modelos, não o README.
+[![Lista principal](https://img.shields.io/badge/%E2%96%B6_LISTA_PRINCIPAL-bolivia.m3u-007934?style=for-the-badge)]($raw_main)
+[![Somente online](https://img.shields.io/badge/%E2%9C%94_SOMENTE_ONLINE-bolivia--online.m3u-0A66C2?style=for-the-badge)]($raw_online)
+[![Lista completa](https://img.shields.io/badge/%E2%98%B0_LISTA_COMPLETA-bolivia--all.m3u-6E40C9?style=for-the-badge)]($raw_all)
+
+<br>
+
+![VLC](https://img.shields.io/badge/VLC-FF8800?style=flat-square&logo=vlcmediaplayer&logoColor=white)
+![Kodi](https://img.shields.io/badge/Kodi-17B2E7?style=flat-square&logo=kodi&logoColor=white)
+![Fire TV](https://img.shields.io/badge/Fire_TV-FF9900?style=flat-square&logo=amazonfiretv&logoColor=white)
+![TiviMate](https://img.shields.io/badge/TiviMate-1E88E5?style=flat-square)
+![IPTV Smarters](https://img.shields.io/badge/IPTV_Smarters-6A1B9A?style=flat-square)
+![Android TV](https://img.shields.io/badge/Android_TV-3DDC84?style=flat-square&logo=androidtv&logoColor=white)
+
+</div>
+
+---
+
+> [!TIP]
+> **Comece em 10 segundos:** copie o link abaixo e cole no seu player IPTV (VLC, Kodi, TiviMate, IPTV Smarters…).
+>
+> ```
+> $raw_main
+> ```
+
+Canais abertos da **Bolívia** — redes nacionais, emissoras regionais, TVs universitárias, religiosas e culturais — reunidos a partir de transmissões públicas na internet. Cada stream é testado automaticamente (HTTP, playlist HLS e segmentos de vídeo) e as listas são regeneradas pelo GitHub Actions a cada 6 horas.
 
 ## 📊 Situação atual
 
