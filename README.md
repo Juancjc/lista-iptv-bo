@@ -1,13 +1,51 @@
-# lista-iptv-bo 🇧🇴
+<!-- Arquivo gerado automaticamente a partir de config/readme_template.md (espanhol: config/readme_template.es.md). Edite os modelos, não o README. -->
 
-🇧🇷 **Português** · 🇧🇴 [Español](README.es.md)
+<div align="center">
+
+<img src="https://flagcdn.com/w160/bo.png" width="96" alt="Bandeira da Bolívia">
+
+# 📺 Lista IPTV Bolívia
+
+### Toda a TV boliviana ao vivo em um só link — grátis, organizada e verificada a cada 6 horas
+
+**🇧🇷 Português** &nbsp;|&nbsp; [🇧🇴 Español](README.es.md)
+
+<br>
+
+![Canais online](https://img.shields.io/badge/canais_online-55-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canais encontrados](https://img.shields.io/badge/canais_encontrados-81-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Streams online](https://img.shields.io/badge/streams_online-80%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
 
-Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmissões públicas disponíveis na internet. Os canais são coletados de fontes abertas, verificados automaticamente (HTTP, estrutura da playlist HLS e segmentos de vídeo) e as listas M3U são regeneradas pelo GitHub Actions a cada 6 horas.
+<br>
 
-> Este arquivo é gerado automaticamente a partir de `config/readme_template.md` (versão em espanhol: `config/readme_template.es.md`). Edite os modelos, não o README.
+[![Lista principal](https://img.shields.io/badge/%E2%96%B6_LISTA_PRINCIPAL-bolivia.m3u-007934?style=for-the-badge)](https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia.m3u)
+[![Somente online](https://img.shields.io/badge/%E2%9C%94_SOMENTE_ONLINE-bolivia--online.m3u-0A66C2?style=for-the-badge)](https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia-online.m3u)
+[![Lista completa](https://img.shields.io/badge/%E2%98%B0_LISTA_COMPLETA-bolivia--all.m3u-6E40C9?style=for-the-badge)](https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia-all.m3u)
+
+<br>
+
+![VLC](https://img.shields.io/badge/VLC-FF8800?style=flat-square&logo=vlcmediaplayer&logoColor=white)
+![Kodi](https://img.shields.io/badge/Kodi-17B2E7?style=flat-square&logo=kodi&logoColor=white)
+![Fire TV](https://img.shields.io/badge/Fire_TV-FF9900?style=flat-square&logo=amazonfiretv&logoColor=white)
+![TiviMate](https://img.shields.io/badge/TiviMate-1E88E5?style=flat-square)
+![IPTV Smarters](https://img.shields.io/badge/IPTV_Smarters-6A1B9A?style=flat-square)
+![Android TV](https://img.shields.io/badge/Android_TV-3DDC84?style=flat-square&logo=androidtv&logoColor=white)
+
+</div>
+
+---
+
+> [!TIP]
+> **Comece em 10 segundos:** copie o link abaixo e cole no seu player IPTV (VLC, Kodi, TiviMate, IPTV Smarters…).
+>
+> ```
+> https://raw.githubusercontent.com/Juancjc/lista-iptv-bo/main/playlists/bolivia.m3u
+> ```
+
+Canais abertos da **Bolívia** — redes nacionais, emissoras regionais, TVs universitárias, religiosas e culturais — reunidos a partir de transmissões públicas na internet. Cada stream é testado automaticamente (HTTP, playlist HLS e segmentos de vídeo) e as listas são regeneradas pelo GitHub Actions a cada 6 horas.
 
 ## 📊 Situação atual
 
@@ -15,9 +53,9 @@ Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmis
 |---|---|
 | Canais encontrados | **81** |
 | Canais na lista principal | **55** |
-| Canais online na última verificação | **54** |
-| Streams online / total | **78 / 135** |
-| Última atualização | **25/10/2026 15:12 (horário da Bolívia, UTC−4)** |
+| Canais online na última verificação | **55** |
+| Streams online / total | **80 / 135** |
+| Última atualização | **25/10/2026 15:13 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -159,7 +197,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Unitel Cochabamba | Geral | Cochabamba | 🔴 Offline | 0/2 |
 | Unitel La Paz | Geral | La Paz | 🔴 Offline | 0/2 |
 | Unitel Santa Cruz | Geral | Santa Cruz | 🟢 Online | 1/2 |
-| Univalle TV | Universitário | Cochabamba | 🟡 Instável | 0/2 |
+| Univalle TV | Universitário | Cochabamba | 🟢 Online | 2/2 |
 | UPEA TV | Universitário | La Paz | 🟢 Online | 1/1 |
 | Vos TV | Geral | — | 🟢 Online | 2/3 |
 | VTV Canal 17 | Religioso | — | 🔴 Offline | 0/2 |
