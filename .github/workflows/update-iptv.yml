@@ -64,7 +64,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playlists data/channels.json data/report.json README.md
+          git add playlists data/channels.json data/report.json README.md README.es.md
           if git diff --staged --quiet; then
             echo "Nenhuma alteração para publicar."
             exit 0

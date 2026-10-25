@@ -1,11 +1,13 @@
 # lista-iptv-bo 🇧🇴
 
+🇧🇷 **Português** · 🇧🇴 [Español](README.es.md)
+
 [![Atualizar lista IPTV](https://github.com/$repo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/$repo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/$repo/actions/workflows/tests.yml/badge.svg)](https://github.com/$repo/actions/workflows/tests.yml)
 
 Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmissões públicas disponíveis na internet. Os canais são coletados de fontes abertas, verificados automaticamente (HTTP, estrutura da playlist HLS e segmentos de vídeo) e as listas M3U são regeneradas pelo GitHub Actions a cada 6 horas.
 
-> Este arquivo é gerado automaticamente a partir de `config/readme_template.md`. Edite o modelo, não o README.
+> Este arquivo é gerado automaticamente a partir de `config/readme_template.md` (versão em espanhol: `config/readme_template.es.md`). Edite os modelos, não o README.
 
 ## 📊 Situação atual
 

@@ -108,3 +108,9 @@ def test_render_readme(monkeypatch):
     assert "| Bolivia TV | TV Pública | — | 🟢 Online | 2/3 |" in out
     assert "🟡 Instável" in out and "🔴 Offline" in out
     assert "| `s2` | ❌ Falhou | 0 | 0 |" in out
+
+    es = render_readme(tpl, channels, stats, sources, {"branch": "main"}, 48, NOW, lang="es")
+    assert "hora de Bolivia" in es
+    assert "| Canal \"Instável\" | General | — | 🟡 Inestable | 0/1 |" in es
+    assert "🟢 En línea" in es and "🔴 Fuera de línea" in es
+    assert "| `s2` | ❌ Falló | 0 | 0 |" in es

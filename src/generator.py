@@ -191,26 +191,44 @@ def repo_info(config: dict) -> tuple[str, str]:
     return repo, branch
 
 
-def _status_icon(channel: Channel, grace_hours: float, now: datetime) -> str:
+README_TEXT = {
+    "pt": {"online": "🟢 Online", "unstable": "🟡 Instável", "offline": "🔴 Offline", "ok": "✅ OK",
+           "cache": "⚠️ Falhou (cache)", "fail": "❌ Falhou", "tz": "horário da Bolívia, UTC−4"},
+    "es": {"online": "🟢 En línea", "unstable": "🟡 Inestable", "offline": "🔴 Fuera de línea", "ok": "✅ OK",
+           "cache": "⚠️ Falló (caché)", "fail": "❌ Falló", "tz": "hora de Bolivia, UTC−4"},
+}
+
+# categorias (em português no catálogo) -> espanhol, para o README.es.md
+CATEGORY_ES = {
+    "Geral": "General", "Notícias": "Noticias", "Esportes": "Deportes", "Entretenimento": "Entretenimiento",
+    "Documentários": "Documentales", "Negócios": "Negocios", "Viagens": "Viajes",
+    "Estilo de Vida": "Estilo de vida", "Filmes": "Películas", "Comédia": "Comedia", "Ciência": "Ciencia",
+    "Universitário": "Universitario",
+}
+
+
+def _status_icon(channel: Channel, grace_hours: float, now: datetime, text: dict) -> str:
     if any(s.status == STATUS_ONLINE for s in channel.streams):
-        return "🟢 Online"
+        return text["online"]
     if any(is_usable(s, grace_hours, now) for s in channel.streams):
-        return "🟡 Instável"
-    return "🔴 Offline"
+        return text["unstable"]
+    return text["offline"]
 
 
 def render_readme(template: str, channels: list[Channel], stats: Stats, sources: list[dict],
-                  config: dict, grace_hours: float, now: datetime) -> str:
+                  config: dict, grace_hours: float, now: datetime, lang: str = "pt") -> str:
+    text = README_TEXT[lang]
     repo, branch = repo_info(config)
     raw = f"https://raw.githubusercontent.com/{repo}/{branch}/playlists"
     rows = []
     for c in sort_channels(channels):
         online = sum(1 for s in c.streams if s.status == STATUS_ONLINE)
-        rows.append(f"| {c.name} | {c.category} | {c.region or '—'} | {_status_icon(c, grace_hours, now)} "
+        category = CATEGORY_ES.get(c.category, c.category) if lang == "es" else c.category
+        rows.append(f"| {c.name} | {category} | {c.region or '—'} | {_status_icon(c, grace_hours, now, text)} "
                     f"| {online}/{len(c.streams)} |")
     source_rows = []
     for s in sources:
-        state = "✅ OK" if s["ok"] else ("⚠️ Falhou (cache)" if s.get("from_cache") else "❌ Falhou")
+        state = text["ok"] if s["ok"] else (text["cache"] if s.get("from_cache") else text["fail"])
         source_rows.append(f"| `{s['name']}` | {state} | {s['accepted']} | {s['rejected']} |")
     return Template(template).safe_substitute(
         repo=repo,
@@ -223,7 +241,7 @@ def render_readme(template: str, channels: list[Channel], stats: Stats, sources:
         channels_online=stats.channels_online,
         streams_total=stats.streams_total,
         streams_online=stats.streams_online,
-        updated_at=now.astimezone(timezone(timedelta(hours=-4))).strftime("%d/%m/%Y %H:%M") + " (horário da Bolívia, UTC−4)",
+        updated_at=now.astimezone(timezone(timedelta(hours=-4))).strftime("%d/%m/%Y %H:%M") + f" ({text['tz']})",
         channel_table="\n".join(rows),
         source_table="\n".join(source_rows),
     )

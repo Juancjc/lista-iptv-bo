@@ -25,6 +25,11 @@ from src.collector import Collector
 from src.validator import Validator
 
 ROOT = Path(__file__).resolve().parent.parent
+# (modelo em config/, arquivo gerado na raiz, idioma)
+README_VARIANTS = [
+    ("readme_template.md", "README.md", "pt"),
+    ("readme_template.es.md", "README.es.md", "es"),
+]
 log = logging.getLogger("lista-iptv-bo")
 
 
@@ -156,13 +161,14 @@ async def run(args: argparse.Namespace) -> int:
                 for c in generator.sort_channels(channel_list) for s in c.streams if s.status == "offline"
             ],
         })
-        template_path = ROOT / "config" / "readme_template.md"
-        if template_path.exists():
-            readme = generator.render_readme(template_path.read_text(encoding="utf-8"), channel_list, stats,
-                                             reports, config, grace_hours, now)
-            generator.write_text(ROOT / "README.md", readme)
+        for template_name, output_name, lang in README_VARIANTS:
+            template_path = ROOT / "config" / template_name
+            if template_path.exists():
+                readme = generator.render_readme(template_path.read_text(encoding="utf-8"), channel_list, stats,
+                                                 reports, config, grace_hours, now, lang)
+                generator.write_text(ROOT / output_name, readme)
         wrote = True
-        log.info("Arquivos atualizados: playlists/, data/channels.json, data/report.json, README.md")
+        log.info("Arquivos atualizados: playlists/, data/channels.json, data/report.json, README.md, README.es.md")
     else:
         log.info("Sem mudanças relevantes desde a última execução; arquivos mantidos.")
 
