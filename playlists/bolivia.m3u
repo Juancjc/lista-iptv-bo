@@ -23,8 +23,6 @@ https://eu1.servers10.com:8081/ceacom/index.m3u8
 https://tv.mediacp.eu:8081/coraltv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="CosmosTV.bo" tvg-name="Cosmos TV" tvg-logo="" group-title="Bolívia | Geral",Cosmos TV
 https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
-#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia
-https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8
 #EXTINF:-1 tvg-id="DeltaTV.bo" tvg-name="Delta TV" tvg-logo="https://i.imgur.com/FcciYMD.png" group-title="Bolívia | Geral",Delta TV
 https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="DmodaChannel.bo" tvg-name="Dmoda Channel" tvg-logo="https://dmoda.com.bo/wp-content/uploads/2025/07/09-LOGO-EN-BLANCO-LIGHT-380-X-180-pixeles.png" group-title="Bolívia | Geral",Dmoda Channel
@@ -59,6 +57,8 @@ https://streamlov.alsolnet.com/grupocentrobo/live/playlist.m3u8
 https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioKollasuyo.bo" tvg-name="Radio Kollasuyo" tvg-logo="https://kollasuyobucket.s3.amazonaws.com/wp_files/2022/08/01/rk-white-500.png" group-title="Bolívia | Geral",Radio Kollasuyo
 https://azura2.bitstreaming.net/hls/kollasuyo3/live.m3u8
+#EXTINF:-1 tvg-id="RadioMegaTVAmazonia.bo" tvg-name="Radio Mega TV Amazonia" tvg-logo="https://i.imgur.com/yzSNWZ3.png" group-title="Bolívia | Geral",Radio Mega TV Amazonia
+https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioUniversitariaSanAndres.bo" tvg-name="Radio Universitaria San Andrés" tvg-logo="https://tvu.umsa.bo/documents/780216/0/LogoRUSA+%283%29.jpg" group-title="Bolívia | Universitário",Radio Universitaria San Andrés
 https://edge.enhdtv.com/8054/index.m3u8
 #EXTINF:-1 tvg-id="RedAmericaTV.bo" tvg-name="Red America TV" tvg-logo="https://i.imgur.com/qYNmeDe.png" group-title="Bolívia | Geral",Red America TV

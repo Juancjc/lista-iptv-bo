@@ -1,11 +1,13 @@
 # lista-iptv-bo 🇧🇴
 
+🇧🇷 **Português** · 🇧🇴 [Español](README.es.md)
+
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
 
 Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmissões públicas disponíveis na internet. Os canais são coletados de fontes abertas, verificados automaticamente (HTTP, estrutura da playlist HLS e segmentos de vídeo) e as listas M3U são regeneradas pelo GitHub Actions a cada 6 horas.
 
-> Este arquivo é gerado automaticamente a partir de `config/readme_template.md`. Edite o modelo, não o README.
+> Este arquivo é gerado automaticamente a partir de `config/readme_template.md` (versão em espanhol: `config/readme_template.es.md`). Edite os modelos, não o README.
 
 ## 📊 Situação atual
 
@@ -15,7 +17,7 @@ Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmis
 | Canais na lista principal | **55** |
 | Canais online na última verificação | **55** |
 | Streams online / total | **80 / 135** |
-| Última atualização | **25/10/2026 15:01 (horário da Bolívia, UTC−4)** |
+| Última atualização | **25/10/2026 15:11 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -103,7 +105,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Cinerama Television | Entretenimento | — | 🔴 Offline | 0/1 |
 | Coral TV | Geral | — | 🟢 Online | 3/3 |
 | Cosmos TV | Geral | — | 🟢 Online | 1/1 |
-| CTV Bolivia | Geral | — | 🟢 Online | 1/4 |
+| CTV Bolivia | Geral | — | 🔴 Offline | 0/4 |
 | CVC | Religioso | — | 🔴 Offline | 0/1 |
 | Delta TV | Geral | — | 🟢 Online | 1/1 |
 | Dmoda Channel | Geral | — | 🟢 Online | 1/1 |
@@ -126,7 +128,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Radio Centro | Geral | — | 🟢 Online | 1/1 |
 | Radio Clasica TV | Música | — | 🟢 Online | 1/1 |
 | Radio Kollasuyo | Geral | — | 🟢 Online | 1/1 |
-| Radio Mega TV Amazonia | Geral | — | 🔴 Offline | 0/1 |
+| Radio Mega TV Amazonia | Geral | — | 🟢 Online | 1/1 |
 | Radio Universitaria San Andrés | Universitário | La Paz | 🟢 Online | 1/1 |
 | Red ADvenir TV | Religioso | — | 🔴 Offline | 0/2 |
 | Red America TV | Geral | — | 🟢 Online | 1/1 |

@@ -63,7 +63,7 @@ https://tv.mediacp.eu:8081/coraltv/index.m3u8
 https://tv.mediacp.eu:8081/coraltv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="CosmosTV.bo" tvg-name="Cosmos TV" tvg-logo="" group-title="Bolívia | Geral",Cosmos TV
 https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
-#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia
+#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia [Offline]
 https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8
 #EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia (Alt. 2) [Offline]
 http://15.204.246.24:8080/CTVHD/index.m3u8
@@ -135,7 +135,7 @@ https://streamlov.alsolnet.com/grupocentrobo/live/playlist.m3u8
 https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioKollasuyo.bo" tvg-name="Radio Kollasuyo" tvg-logo="https://kollasuyobucket.s3.amazonaws.com/wp_files/2022/08/01/rk-white-500.png" group-title="Bolívia | Geral",Radio Kollasuyo
 https://azura2.bitstreaming.net/hls/kollasuyo3/live.m3u8
-#EXTINF:-1 tvg-id="RadioMegaTVAmazonia.bo" tvg-name="Radio Mega TV Amazonia" tvg-logo="https://i.imgur.com/yzSNWZ3.png" group-title="Bolívia | Geral",Radio Mega TV Amazonia [Offline]
+#EXTINF:-1 tvg-id="RadioMegaTVAmazonia.bo" tvg-name="Radio Mega TV Amazonia" tvg-logo="https://i.imgur.com/yzSNWZ3.png" group-title="Bolívia | Geral",Radio Mega TV Amazonia
 https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioUniversitariaSanAndres.bo" tvg-name="Radio Universitaria San Andrés" tvg-logo="https://tvu.umsa.bo/documents/780216/0/LogoRUSA+%283%29.jpg" group-title="Bolívia | Universitário",Radio Universitaria San Andrés
 https://edge.enhdtv.com/8054/index.m3u8
@@ -221,11 +221,11 @@ https://edge.enhdtv.com/8190/index.m3u8
 #EXTINF:-1 tvg-id="UMSATVULP.bo" tvg-name="UMSA TVU La Paz" tvg-logo="https://tvu.umsa.bo/documents/780216/12171558/logo+tvu+icon.png/4367e79e-4541-d340-0e82-3943b73e7b18?t=1747686917412" group-title="Bolívia | Universitário" http-referrer="https://tvu.umsa.bo/en-vivo",UMSA TVU La Paz (Alt. 2)
 #EXTVLCOPT:http-referrer=https://tvu.umsa.bo/en-vivo
 https://live.enhdtv.com:8081/8190/index.m3u8
-#EXTINF:-1 tvg-id="UMSATVULP.bo" tvg-name="UMSA TVU La Paz" tvg-logo="https://tvu.umsa.bo/documents/780216/12171558/logo+tvu+icon.png/4367e79e-4541-d340-0e82-3943b73e7b18?t=1747686917412" group-title="Bolívia | Universitário",UMSA TVU La Paz (Alt. 3)
-https://edge.enhdtv.com/8190/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="UMSATVULP.bo" tvg-name="UMSA TVU La Paz" tvg-logo="https://tvu.umsa.bo/documents/780216/12171558/logo+tvu+icon.png/4367e79e-4541-d340-0e82-3943b73e7b18?t=1747686917412" group-title="Bolívia | Universitário" http-referrer="https://tvu.umsa.bo/en-vivo",UMSA TVU La Paz (Alt. 4)
+#EXTINF:-1 tvg-id="UMSATVULP.bo" tvg-name="UMSA TVU La Paz" tvg-logo="https://tvu.umsa.bo/documents/780216/12171558/logo+tvu+icon.png/4367e79e-4541-d340-0e82-3943b73e7b18?t=1747686917412" group-title="Bolívia | Universitário" http-referrer="https://tvu.umsa.bo/en-vivo",UMSA TVU La Paz (Alt. 3)
 #EXTVLCOPT:http-referrer=https://tvu.umsa.bo/en-vivo
 https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="UMSATVULP.bo" tvg-name="UMSA TVU La Paz" tvg-logo="https://tvu.umsa.bo/documents/780216/12171558/logo+tvu+icon.png/4367e79e-4541-d340-0e82-3943b73e7b18?t=1747686917412" group-title="Bolívia | Universitário",UMSA TVU La Paz (Alt. 4)
+https://edge.enhdtv.com/8190/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Unifranz.bo" tvg-name="Unifranz TV" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="Bolívia | Universitário",Unifranz TV [Offline]
 https://live.enhdtv.com:8081/8192/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Unifranz.bo" tvg-name="Unifranz TV" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="Bolívia | Universitário",Unifranz TV (Alt. 2) [Offline]
