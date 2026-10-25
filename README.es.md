@@ -14,7 +14,7 @@
 
 ![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-55-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canales encontrados](https://img.shields.io/badge/canales_encontrados-81-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-80%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-79%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -52,10 +52,10 @@ Canales abiertos de **Bolivia** — redes nacionales, canales regionales, TV uni
 | | |
 |---|---|
 | Canales encontrados | **81** |
-| Canales en la lista principal | **55** |
+| Canales en la lista principal | **56** |
 | Canales en línea en la última verificación | **55** |
-| Streams en línea / total | **80 / 135** |
-| Última actualización | **25/10/2026 15:13 (hora de Bolivia, UTC−4)** |
+| Streams en línea / total | **79 / 135** |
+| Última actualización | **25/10/2026 15:15 (hora de Bolivia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -143,7 +143,7 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Cinerama Television | Entretenimiento | — | 🔴 Fuera de línea | 0/1 |
 | Coral TV | General | — | 🟢 En línea | 3/3 |
 | Cosmos TV | General | — | 🟢 En línea | 1/1 |
-| CTV Bolivia | General | — | 🔴 Fuera de línea | 0/4 |
+| CTV Bolivia | General | — | 🟢 En línea | 1/4 |
 | CVC | Religioso | — | 🔴 Fuera de línea | 0/1 |
 | Delta TV | General | — | 🟢 En línea | 1/1 |
 | Dmoda Channel | General | — | 🟢 En línea | 1/1 |

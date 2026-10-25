@@ -35,6 +35,8 @@ https://tv.mediacp.eu:8081/coraltv/index.m3u8
 https://tv.mediacp.eu:8081/coraltv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="CosmosTV.bo" tvg-name="Cosmos TV" tvg-logo="" group-title="Bolívia | Geral",Cosmos TV
 https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia
+https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8
 #EXTINF:-1 tvg-id="DeltaTV.bo" tvg-name="Delta TV" tvg-logo="https://i.imgur.com/FcciYMD.png" group-title="Bolívia | Geral",Delta TV
 https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="DmodaChannel.bo" tvg-name="Dmoda Channel" tvg-logo="https://dmoda.com.bo/wp-content/uploads/2025/07/09-LOGO-EN-BLANCO-LIGHT-380-X-180-pixeles.png" group-title="Bolívia | Geral",Dmoda Channel

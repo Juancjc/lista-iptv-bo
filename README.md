@@ -14,7 +14,7 @@
 
 ![Canais online](https://img.shields.io/badge/canais_online-55-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canais encontrados](https://img.shields.io/badge/canais_encontrados-81-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams online](https://img.shields.io/badge/streams_online-80%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams online](https://img.shields.io/badge/streams_online-79%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -52,10 +52,10 @@ Canais abertos da **Bolívia** — redes nacionais, emissoras regionais, TVs uni
 | | |
 |---|---|
 | Canais encontrados | **81** |
-| Canais na lista principal | **55** |
+| Canais na lista principal | **56** |
 | Canais online na última verificação | **55** |
-| Streams online / total | **80 / 135** |
-| Última atualização | **25/10/2026 15:13 (horário da Bolívia, UTC−4)** |
+| Streams online / total | **79 / 135** |
+| Última atualização | **25/10/2026 15:15 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -143,7 +143,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Cinerama Television | Entretenimento | — | 🔴 Offline | 0/1 |
 | Coral TV | Geral | — | 🟢 Online | 3/3 |
 | Cosmos TV | Geral | — | 🟢 Online | 1/1 |
-| CTV Bolivia | Geral | — | 🔴 Offline | 0/4 |
+| CTV Bolivia | Geral | — | 🟢 Online | 1/4 |
 | CVC | Religioso | — | 🔴 Offline | 0/1 |
 | Delta TV | Geral | — | 🟢 Online | 1/1 |
 | Dmoda Channel | Geral | — | 🟢 Online | 1/1 |

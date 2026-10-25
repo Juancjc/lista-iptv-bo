@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T19:13:57+00:00",
-  "duration_seconds": 37.5,
+  "generated_at": "2026-10-25T19:15:04+00:00",
+  "duration_seconds": 40.0,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 55,
+    "channels_main": 56,
     "channels_online": 55,
     "streams_total": 135,
-    "streams_online": 80
+    "streams_online": 79
   },
   "sources": [
     {
@@ -986,12 +986,6 @@
       "channel": "CTV Bolivia",
       "url": "https://live.ctvbolivia.com/hls/ctv.m3u8",
       "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CTV Bolivia",
-      "url": "https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8",
-      "error": "nenhuma variante funcional: playlist HLS inválida: sem segmentos (#EXTINF) nem variantes",
       "error_kind": "permanent"
     },
     {

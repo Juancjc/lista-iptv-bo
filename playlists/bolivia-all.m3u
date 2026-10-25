@@ -63,14 +63,14 @@ https://tv.mediacp.eu:8081/coraltv/index.m3u8
 https://tv.mediacp.eu:8081/coraltv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="CosmosTV.bo" tvg-name="Cosmos TV" tvg-logo="" group-title="Bolívia | Geral",Cosmos TV
 https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
-#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia [Offline]
+#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia
 https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8
 #EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia (Alt. 2) [Offline]
 http://15.204.246.24:8080/CTVHD/index.m3u8
 #EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia (Alt. 3) [Offline]
-https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8
-#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia (Alt. 4) [Offline]
 https://live.ctvbolivia.com/hls/ctv.m3u8
+#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia (Alt. 4) [Offline]
+https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8
 #EXTINF:-1 tvg-id="CVC.bo" tvg-name="CVC" tvg-logo="https://i.imgur.com/taGdzLe.png" group-title="Bolívia | Religioso",CVC [Offline]
 http://15.204.246.24:8080/CVCHD/index.m3u8
 #EXTINF:-1 tvg-id="DeltaTV.bo" tvg-name="Delta TV" tvg-logo="https://i.imgur.com/FcciYMD.png" group-title="Bolívia | Geral",Delta TV
@@ -227,11 +227,11 @@ https://edge.enhdtv.com/8190/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:http-referrer=https://tvu.umsa.bo/en-vivo
 https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Unifranz.bo" tvg-name="Unifranz TV" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="Bolívia | Universitário",Unifranz TV [Offline]
-https://edge.enhdtv.com/8192/index.m3u8
-#EXTINF:-1 tvg-id="Unifranz.bo" tvg-name="Unifranz TV" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="Bolívia | Universitário",Unifranz TV (Alt. 2) [Offline]
-https://live.enhdtv.com:8081/8192/index.m3u8
-#EXTINF:-1 tvg-id="Unifranz.bo" tvg-name="Unifranz TV" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="Bolívia | Universitário",Unifranz TV (Alt. 3) [Offline]
 https://live.enhdtv.com:8081/8192/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Unifranz.bo" tvg-name="Unifranz TV" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="Bolívia | Universitário",Unifranz TV (Alt. 2) [Offline]
+https://edge.enhdtv.com/8192/index.m3u8
+#EXTINF:-1 tvg-id="Unifranz.bo" tvg-name="Unifranz TV" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="Bolívia | Universitário",Unifranz TV (Alt. 3) [Offline]
+https://live.enhdtv.com:8081/8192/index.m3u8
 #EXTINF:-1 tvg-id="UnitelCochabamba.bo" tvg-name="Unitel Cochabamba" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel Cochabamba [Offline]
 https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8
 #EXTINF:-1 tvg-id="UnitelCochabamba.bo" tvg-name="Unitel Cochabamba" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel Cochabamba (Alt. 2) [Offline]
