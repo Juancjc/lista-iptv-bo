@@ -1,0 +1,89 @@
+name: Atualizar lista IPTV
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # a cada 6 horas (minuto 17 para evitar o pico do início da hora)
+  workflow_dispatch:
+    inputs:
+      force_write:
+        description: "Gravar arquivos mesmo sem mudanças relevantes"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "src/**"
+      - "requirements.txt"
+      - ".github/workflows/update-iptv.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-iptv
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Instalar dependências
+        run: pip install -r requirements-dev.txt
+
+      - name: Testes
+        run: python -m pytest -q
+
+      - name: Cache das fontes M3U
+        uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: sources-${{ github.run_id }}
+          restore-keys: sources-
+
+      - name: Coletar, verificar e gerar listas
+        run: |
+          if [ "${{ inputs.force_write }}" = "true" ]; then
+            python -m src.main --force-write
+          else
+            python -m src.main
+          fi
+
+      - name: Publicar alterações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlists data/channels.json data/report.json README.md
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração para publicar."
+            exit 0
+          fi
+          git commit -m "Atualiza listas IPTV ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "Push falhou (tentativa $attempt); sincronizando..."
+            git pull --rebase -X theirs
+          done
+          exit 1
+
+      - name: Guardar log da execução
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: log-verificacao
+          path: |
+            logs/last-run.log
+            data/report.json
+          retention-days: 14
+          if-no-files-found: ignore

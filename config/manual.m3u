@@ -1,0 +1,30 @@
+#EXTM3U
+# Streams curados manualmente. Adicione apenas URLs públicas (sem tokens, DRM ou login).
+# Use o mesmo tvg-id do catálogo (src/channels.py) para agrupar com o canal correto.
+# Cada entrada indica onde a URL foi encontrada (pesquisa de 25/10/2026).
+
+# Fonte: player oficial em https://www.boliviatv.bo (iframe conceptoweb-studio.com/radio/video/boliviatv/)
+#EXTINF:-1 tvg-id="BoliviaTV.bo" tvg-logo="https://i.imgur.com/tKLYYys.png" group-title="TV Pública",Bolivia TV
+https://5fe2654d6127d.streamlock.net:443/boliviatv/videoboliviatv/playlist.m3u8
+
+# Fonte: página oficial https://www.boliviatv.bo/principal/vivo72.php
+#EXTINF:-1 tvg-id="BoliviaTV72.bo" tvg-logo="https://i.imgur.com/tKLYYys.png" group-title="TV Pública",Bolivia TV 7.2
+https://5ca3e84a76d30.streamlock.net:443/boliviatv2/videoboliviatv2/playlist.m3u8
+
+# Fonte: player oficial em https://www.cadenaa.tv (iframe conceptoweb-studio.com/radio/video/cadenaa/)
+#EXTINF:-1 tvg-id="CadenaA.bo" group-title="News",Cadena A
+https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8
+
+# Fonte: player oficial em https://ctvbolivia.com/en-vivo-ctv-red-nacional/
+#EXTINF:-1 tvg-id="CTV.bo" group-title="General",CTV Bolivia
+https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8
+
+# Fonte: página oficial https://www.redpat.tv/envivolpz (player hls.js)
+#EXTINF:-1 tvg-id="PATLaPaz.bo" group-title="General",PAT La Paz
+https://www.redpat.tv:8000/play/12/index.m3u8
+
+# Fonte: lista comunitária Dyo-Anima/Bolivia_IPTV_personal (não oficial)
+#EXTINF:-1 tvg-id="CosmosTV.bo" group-title="General",Cosmos TV
+https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+#EXTINF:-1 tvg-id="CoralTV.bo" group-title="General",Coral TV
+https://tv.mediacp.eu:8081/coraltv/tracks-v1a1/mono.m3u8

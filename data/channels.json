@@ -1,0 +1,4019 @@
+{
+  "generated_at": "2026-10-25T18:26:35+00:00",
+  "stats": {
+    "channels_total": 81,
+    "channels_main": 54,
+    "channels_online": 54,
+    "streams_total": 135,
+    "streams_online": 79
+  },
+  "sources": [
+    {
+      "name": "iptv-org-bo",
+      "location": "https://iptv-org.github.io/iptv/countries/bo.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 95,
+      "accepted": 65,
+      "rejected": 30
+    },
+    {
+      "name": "iptv-org-streams-bo",
+      "location": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/bo.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 110,
+      "accepted": 104,
+      "rejected": 6
+    },
+    {
+      "name": "manual",
+      "location": "config/manual.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 7,
+      "accepted": 7,
+      "rejected": 0
+    },
+    {
+      "name": "codemonchit0",
+      "location": "https://raw.githubusercontent.com/codemonchit0/canales-digitales-de-bolivia-iptv-hd/main/canales%20de%20bolivia/canales%20de%20bolivia.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 82,
+      "accepted": 31,
+      "rejected": 51
+    },
+    {
+      "name": "gatojustiniano",
+      "location": "https://raw.githubusercontent.com/GatoJustiniano/M3U-Bolivia-SCZ/main/canales-bolivia.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 81,
+      "accepted": 31,
+      "rejected": 50
+    }
+  ],
+  "channels": [
+    {
+      "id": "AbyaYalaTV.bo",
+      "name": "Abya Yala TV",
+      "logo": "https://abyayala.tv.bo/wp-content/uploads/2024/04/MOSCA-BLANCA-OK-308x189.png",
+      "category": "Geral",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/AbyaYalaTvHD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Abya Yala TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 390,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:45+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "AlegriaTV.bo",
+      "name": "Alegria TV",
+      "logo": "https://i.imgur.com/MIBZ2pZ.png",
+      "category": "Música",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Alegria TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 984,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:46+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "AmitelTV.bo",
+      "name": "Amitel TV",
+      "logo": "https://amiteltv.com/wp-content/uploads/2026/01/LOGO-SIN-FONDO-WEB.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://stv2.boliviaplay.com.bo/hls/stream.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Amitel TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1425600,
+          "segment_checked": true,
+          "response_ms": 1328,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": "2026-10-25T18:25:47+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://stv2.boliviaplay.com.bo/hls/0/stream.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "AMITEL TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 1265,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": "2026-10-25T18:25:47+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "AsContenidos.bo",
+      "name": "As Contenidos",
+      "logo": "https://ascontenidos.com.bo/wp-content/uploads/2023/07/cropped-logo512.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://master.tucableip.com/ascontenido/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "As Contenidos (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 8130000,
+          "segment_checked": true,
+          "response_ms": 1217,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": "2026-10-25T18:25:47+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "ATBLaPaz.bo",
+      "name": "ATB",
+      "logo": "https://i.postimg.cc/CLfjYr5X/ATB-MOVIL-HD.jpg",
+      "category": "Geral",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/ATBHD/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "ATB La Paz (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 202,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:01+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "http://186.121.206.197/live/daniel/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo",
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "ATB La Paz (614p) [Not 24/7]",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [
+            "Not 24/7"
+          ],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 390,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:01+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://stream.atb.com.bo/live/daniel/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "ATB La Paz",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 1047,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:02+00:00",
+          "last_success": "2026-10-25T18:26:02+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "Audiokiss.bo",
+      "name": "Audiokiss",
+      "logo": "https://www.audiokiss.com/audiokiss/wp-content/uploads/sites/4/2021/02/Audio_kiss800-768x405.png",
+      "category": "Música",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://master.tucableip.com/audiokisstv/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Audiokiss (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 2830000,
+          "segment_checked": true,
+          "response_ms": 1234,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": "2026-10-25T18:25:47+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "AYNITV.bo",
+      "name": "Ayni TV",
+      "logo": "https://i.ibb.co/SPCkBR8/ayni-tv-bo.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/AyniTVHD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "AYNI TV (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 405,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:45+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/Aynitv/Aynitv/playlist.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "AYNI TV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "854x480",
+          "bandwidth": 2584295,
+          "segment_checked": true,
+          "response_ms": 859,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:46+00:00",
+          "last_success": "2026-10-25T18:25:46+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "BoliviaMixTV.bo",
+      "name": "Bolivia Mix TV",
+      "logo": "https://i.ibb.co/6RbWMwMx/65Mixbo.jpg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://live20.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/chunks.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "BOLIVIA MIX TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [getaddrinfo failed]",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:05+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "BoliviaTV.bo",
+      "name": "Bolivia TV",
+      "logo": "https://i.imgur.com/tKLYYys.png",
+      "category": "TV Pública",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a001/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Bolivia TV (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 5313000,
+          "segment_checked": true,
+          "response_ms": 421,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": "2026-10-25T18:25:47+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://hls.tvabierta.net/hls/boliviatv.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Bolivia TV (720p) [Not 24/7]",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [
+            "Not 24/7"
+          ],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 1078,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:46+00:00",
+          "last_success": "2026-10-25T18:25:46+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://5fe2654d6127d.streamlock.net:443/boliviatv/videoboliviatv/playlist.m3u8",
+          "sources": [
+            "manual"
+          ],
+          "title": "Bolivia TV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 1217,
+          "first_seen": "2026-10-25T18:25:45+00:00",
+          "last_checked": "2026-10-25T18:25:46+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        }
+      ]
+    },
+    {
+      "id": "BoliviaTV72.bo",
+      "name": "Bolivia TV 7.2",
+      "logo": "https://i.imgur.com/tKLYYys.png",
+      "category": "TV Pública",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "https://5ca3e84a76d30.streamlock.net:443/boliviatv2/videoboliviatv2/playlist.m3u8",
+          "sources": [
+            "manual"
+          ],
+          "title": "Bolivia TV 7.2",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 766,
+          "first_seen": "2026-10-25T18:25:45+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        }
+      ]
+    },
+    {
+      "id": "Bolivision.bo",
+      "name": "Bolivisión",
+      "logo": "https://i.imgur.com/U98Z5zn.png",
+      "category": "Geral",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/BolivisionHD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Bolivision (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 453,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:45+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://d135ohnuotzzyo.cloudfront.net/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Bolivision (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 403",
+          "error_kind": "permanent",
+          "http_status": 403,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 625,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:46+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "BolivisionSantaCruz.bo",
+      "name": "Bolivisión Santa Cruz",
+      "logo": "https://i.imgur.com/U98Z5zn.png",
+      "category": "Geral",
+      "region": "Santa Cruz",
+      "streams": [
+        {
+          "url": "https://d1mws3umreue1g.cloudfront.net/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Bolivision Santa Cruz (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 403",
+          "error_kind": "permanent",
+          "http_status": 403,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 625,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:01+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "UPP TV/Bolivisión SCZ (720p) [Not 24/7]",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [
+            "Not 24/7"
+          ],
+          "status": "offline",
+          "error": "falha de rede: Cannot connect to host alba-bo-bolivision-upptv.stream.mediatiquestream.com:443 ssl:default [getaddrinfo failed]",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "CadenaA.bo",
+      "name": "Cadena A",
+      "logo": "",
+      "category": "Notícias",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Cadena A (720p) [Not 24/7]",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [
+            "Not 24/7"
+          ],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1775050,
+          "segment_checked": true,
+          "response_ms": 1094,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": "2026-10-25T18:26:03+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Cadena A (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 202,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:01+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
+          "sources": [
+            "manual"
+          ],
+          "title": "Cadena A",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1775050,
+          "segment_checked": true,
+          "response_ms": 765,
+          "first_seen": "2026-10-25T18:25:45+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": "2026-10-25T18:26:03+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "Canal15Teleor.bo",
+      "name": "Canal 15 Teleor",
+      "logo": "https://i.imgur.com/w8CB2On.jpeg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Canal 15 Teleor (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 1936,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "Canal56QuieroTV.bo",
+      "name": "Canal 56 Quiero TV",
+      "logo": "https://i.imgur.com/l9kDNld.jpeg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://45.5.118.152:8000/play/a08z/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Canal 56 Quiero TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1884000,
+          "segment_checked": true,
+          "response_ms": 405,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": "2026-10-25T18:25:47+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "CEACOMTV.bo",
+      "name": "CEACOM TV",
+      "logo": "https://i.imgur.com/hutdRfk.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "CEACOM TV (1080p) [Not 24/7]",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [
+            "Not 24/7"
+          ],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 3410000,
+          "segment_checked": true,
+          "response_ms": 1702,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:48+00:00",
+          "last_success": "2026-10-25T18:25:48+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "CEACOM HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 1640,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:48+00:00",
+          "last_success": "2026-10-25T18:25:48+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "CineramaTelevision.bo",
+      "name": "Cinerama Television",
+      "logo": "https://play-lh.googleusercontent.com/RJ49IeJve4VPALBXqrqJGeAYOEoLQIZZ4zWwtJhofisng6ZYwGemZ-VXCx9ZQ-u7fw",
+      "category": "Entretenimento",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://live.cineramatvbo.com/hls/stream.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Cinerama Television (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "erro TLS/certificado: ClientConnectorCertificateError",
+          "error_kind": "permanent",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "CoralTV.bo",
+      "name": "Coral TV",
+      "logo": "https://i.ibb.co/xDrc5MD/CORALTv.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://tv.mediacp.eu:8081/coraltv/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Coral TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1430000,
+          "segment_checked": true,
+          "response_ms": 905,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:48+00:00",
+          "last_success": "2026-10-25T18:25:48+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://tv.mediacp.eu:8081/coraltv/tracks-v1a1/mono.m3u8",
+          "sources": [
+            "manual"
+          ],
+          "title": "Coral TV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 796,
+          "first_seen": "2026-10-25T18:25:45+00:00",
+          "last_checked": "2026-10-25T18:25:48+00:00",
+          "last_success": "2026-10-25T18:25:48+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://tv.mediacp.eu:8081/coraltv/tracks-v1a1/mono.ts.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "CORAL TV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 797,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:48+00:00",
+          "last_success": "2026-10-25T18:25:48+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "CosmosTV.bo",
+      "name": "Cosmos TV",
+      "logo": "",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+          "sources": [
+            "manual"
+          ],
+          "title": "Cosmos TV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 1078,
+          "first_seen": "2026-10-25T18:25:45+00:00",
+          "last_checked": "2026-10-25T18:26:05+00:00",
+          "last_success": "2026-10-25T18:26:05+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "CTV.bo",
+      "name": "CTV Bolivia",
+      "logo": "https://i.imgur.com/ljKb0UX.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/CTVHD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "CTV (Bolivia) (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 188,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8",
+          "sources": [
+            "iptv-org-streams-bo",
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "CTV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 5594,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://live.ctvbolivia.com/hls/ctv.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "CTV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 4717,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8",
+          "sources": [
+            "manual"
+          ],
+          "title": "CTV Bolivia",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "854x480",
+          "bandwidth": 59416,
+          "segment_checked": true,
+          "response_ms": 9250,
+          "first_seen": "2026-10-25T18:25:45+00:00",
+          "last_checked": "2026-10-25T18:25:58+00:00",
+          "last_success": "2026-10-25T18:25:58+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "CVC.bo",
+      "name": "CVC",
+      "logo": "https://i.imgur.com/taGdzLe.png",
+      "category": "Religioso",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/CVCHD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "CVC (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 202,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "DeltaTV.bo",
+      "name": "Delta TV",
+      "logo": "https://i.imgur.com/FcciYMD.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Delta TV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 1250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:49+00:00",
+          "last_success": "2026-10-25T18:25:49+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "DmodaChannel.bo",
+      "name": "Dmoda Channel",
+      "logo": "https://dmoda.com.bo/wp-content/uploads/2025/07/09-LOGO-EN-BLANCO-LIGHT-380-X-180-pixeles.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://master.tucableip.com/dmoda/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Dmoda Channel (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 2260000,
+          "segment_checked": true,
+          "response_ms": 250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:48+00:00",
+          "last_success": "2026-10-25T18:25:48+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "ELDEBER.bo",
+      "name": "El Deber TV",
+      "logo": "https://www.trabajopolis.bo/attachment/images/cw600_ch315_sw585_sh300_clfff_q100_id618378_8e3aaf1db590f10.jpeg",
+      "category": "Notícias",
+      "region": "Santa Cruz",
+      "streams": [
+        {
+          "url": "https://master.tucableip.com/eldebertv/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "EL DEBER (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 4770000,
+          "segment_checked": true,
+          "response_ms": 250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:48+00:00",
+          "last_success": "2026-10-25T18:25:48+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "F10HD.bo",
+      "name": "F10",
+      "logo": "https://i.imgur.com/OEsT0KN.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/F10HD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "F10 HD (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 219,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:47+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://tv2.bitstreaming.net:3235/multi_live/play_720.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "F10 HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1,
+          "segment_checked": true,
+          "response_ms": 1125,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:49+00:00",
+          "last_success": "2026-10-25T18:25:49+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://tv2.bitstreaming.net:3235/multi_live/play_480.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "F10 SD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 842,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:49+00:00",
+          "last_success": "2026-10-25T18:25:49+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "FAPTV.bo",
+      "name": "FAP TV",
+      "logo": "https://i.imgur.com/jZ7g58e.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://edge.enhdtv.com/faptv/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "FAP TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 2600000,
+          "segment_checked": true,
+          "response_ms": 953,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": "2026-10-25T18:25:50+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "FAP TV (480p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "playlist HLS inválida: sem segmentos (#EXTINF) nem variantes",
+          "error_kind": "permanent",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 2297,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "FTV.bo",
+      "name": "FTV",
+      "logo": "https://i.imgur.com/YOr1Oac.png",
+      "category": "Esportes",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://master.tucableip.com/ftvhd/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "FTV (Bolivia) (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 2450000,
+          "segment_checked": true,
+          "response_ms": 250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:49+00:00",
+          "last_success": "2026-10-25T18:25:49+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "Gigavision.bo",
+      "name": "Gigavisión",
+      "logo": "https://i.postimg.cc/VNCqJJcv/Gigvlpz01.jpg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://tv2.bitstreaming.net:3576/multi_live/play.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Gigavision (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 4096000,
+          "segment_checked": true,
+          "response_ms": 640,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": "2026-10-25T18:26:03+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://tv.bitstreaming.net:3348/live/gigavisionlive.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Gigavision",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1,
+          "segment_checked": true,
+          "response_ms": 688,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:02+00:00",
+          "last_success": "2026-10-25T18:26:02+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "Gigavision.bo@LaPaz",
+      "name": "Gigavisión La Paz",
+      "logo": "https://i.postimg.cc/VNCqJJcv/Gigvlpz01.jpg",
+      "category": "Geral",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "https://tv2.bitstreaming.net:3576/live/gigavisionlplive.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "RED GIGAVISION LPZ HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1,
+          "segment_checked": true,
+          "response_ms": 657,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:04+00:00",
+          "last_success": "2026-10-25T18:26:04+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "Gigavision.bo@SantaCruz",
+      "name": "Gigavisión Santa Cruz",
+      "logo": "https://i.imgur.com/fE3BkcT.png",
+      "category": "Geral",
+      "region": "Santa Cruz",
+      "streams": [
+        {
+          "url": "http://158.172.155.130:8000/play/a0e7/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Gigavision (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 3820000,
+          "segment_checked": true,
+          "response_ms": 265,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": "2026-10-25T18:25:50+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://tv.bitstreaming.net:3348/live/gigavisionlive.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "RED GIGAVISION SCZ HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1,
+          "segment_checked": true,
+          "response_ms": 688,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": "2026-10-25T18:25:50+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "GogoplayTV.bo",
+      "name": "Gogoplay TV",
+      "logo": "https://i.postimg.cc/sxhdVLHw/Gogogo-Play-Bolivia23.jpg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "GOGOPLAY TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [getaddrinfo failed]",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:05+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "ImperialTV.bo",
+      "name": "Imperial TV",
+      "logo": "https://i.ibb.co/8XHSVWY/IMG-20210613-153444.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Imperial TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 953,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": "2026-10-25T18:25:50+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "InteractivoTelevision.bo",
+      "name": "Interactivo Television",
+      "logo": "https://i.imgur.com/sGOSDo2.jpeg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Interactivo Television (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [getaddrinfo failed]",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://mist01.homestream.fun/hls/interactivotv/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Interactivo Television (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [getaddrinfo failed]",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "PalenqueTV.bo",
+      "name": "Palenque TV",
+      "logo": "https://i.imgur.com/wAIBvaO.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/PalenqueTVSD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Palenque TV (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 203,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:49+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
+          "sources": [
+            "iptv-org-streams-bo",
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "Palenque TV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 828,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:51+00:00",
+          "last_success": "2026-10-25T18:25:51+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "PATLaPaz.bo",
+      "name": "PAT La Paz",
+      "logo": "https://i.imgur.com/4A7R2Jt.png",
+      "category": "Geral",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "PAT La Paz (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 219,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:02+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
+          "sources": [
+            "manual"
+          ],
+          "title": "PAT La Paz",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T18:25:45+00:00",
+          "last_checked": "2026-10-25T18:26:35+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        }
+      ]
+    },
+    {
+      "id": "PAT.bo@SantaCruz",
+      "name": "PAT Santa Cruz",
+      "logo": "https://i.imgur.com/4A7R2Jt.png",
+      "category": "Geral",
+      "region": "Santa Cruz",
+      "streams": [
+        {
+          "url": "http://158.172.155.130:8000/play/a0e6/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "PAT (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "PlusTLT.bo",
+      "name": "Plus TLT",
+      "logo": "",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/PlusTLTHD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Plus TLT (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 202,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "PoderdeDiosTV.bo",
+      "name": "Poder de Dios TV",
+      "logo": "https://i.imgur.com/jUfRz3L.png",
+      "category": "Religioso",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/PoderdeDiosHD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Poder de Dios TV (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 219,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:50+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://s3.tvdatta.com:3846/live/poderdedioslive.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Poder de Dios TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 1219,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": "2026-10-25T18:25:52+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "PTV.bo",
+      "name": "PTV Paceñísima",
+      "logo": "https://i.imgur.com/vPvR7dX.png",
+      "category": "Geral",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "PTV (Bolivia) (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1235508,
+          "segment_checked": true,
+          "response_ms": 639,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:51+00:00",
+          "last_success": "2026-10-25T18:25:51+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "PACEÑISIMA TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 578,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:51+00:00",
+          "last_success": "2026-10-25T18:25:51+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RadioCentro.bo",
+      "name": "Radio Centro",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/574/radio-centro-fm.e939fb1e.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://streamlov.alsolnet.com/grupocentrobo/live/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Radio Centro (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 2231936,
+          "segment_checked": true,
+          "response_ms": 875,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:51+00:00",
+          "last_success": "2026-10-25T18:25:51+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RadioClasicaTV.bo",
+      "name": "Radio Clasica TV",
+      "logo": "https://radioclasicapotosi.com/players/nexoplayer/assets/logo.png",
+      "category": "Música",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Radio Clasica TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "852x480",
+          "bandwidth": 843012,
+          "segment_checked": true,
+          "response_ms": 217,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:51+00:00",
+          "last_success": "2026-10-25T18:25:51+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RadioKollasuyo.bo",
+      "name": "Radio Kollasuyo",
+      "logo": "https://kollasuyobucket.s3.amazonaws.com/wp_files/2022/08/01/rk-white-500.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://azura2.bitstreaming.net/hls/kollasuyo3/live.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Radio Kollasuyo (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 140800,
+          "segment_checked": true,
+          "response_ms": 875,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": "2026-10-25T18:25:52+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RadioMegaTVAmazonia.bo",
+      "name": "Radio Mega TV Amazonia",
+      "logo": "https://i.imgur.com/yzSNWZ3.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Radio Mega TV Amazonia (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "854x480",
+          "bandwidth": 1261265,
+          "segment_checked": true,
+          "response_ms": 1109,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": "2026-10-25T18:25:52+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RadioUniversitariaSanAndres.bo",
+      "name": "Radio Universitaria San Andrés",
+      "logo": "https://tvu.umsa.bo/documents/780216/0/LogoRUSA+%283%29.jpg",
+      "category": "Universitário",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "https://edge.enhdtv.com/8054/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Radio Universitaria San Andres (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1300000,
+          "segment_checked": true,
+          "response_ms": 609,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": "2026-10-25T18:25:52+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RedADvenirTV.bo",
+      "name": "Red ADvenir TV",
+      "logo": "https://i.imgur.com/WGkMt2j.png",
+      "category": "Religioso",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://streamer1.streamhost.org:1935/salive/GMIredadvenirm/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "RedADvenir TV (360p) [Not 24/7]",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [
+            "Not 24/7"
+          ],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 1469,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:53+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://streamer1.streamhost.org/salive/GMIredadvenirh/chunklist_w1940547209.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "RED ADVENIR HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 1967,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:54+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "RedAmericaTV.bo",
+      "name": "Red America TV",
+      "logo": "https://i.imgur.com/qYNmeDe.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://edge.enhdtv.com/redamerica/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red America TV (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 2500000,
+          "segment_checked": true,
+          "response_ms": 609,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": "2026-10-25T18:25:52+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RedCCTV.bo",
+      "name": "Red CCTV",
+      "logo": "https://i.imgur.com/YC5FRmq.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red CCTV (480p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "erro TLS/certificado: ClientConnectorCertificateError",
+          "error_kind": "permanent",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red CCTV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "854x480",
+          "bandwidth": 2263550,
+          "segment_checked": true,
+          "response_ms": 203,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": "2026-10-25T18:25:52+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/chunklist_w2098818106.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "RED CCTV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 1046,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:53+00:00",
+          "last_success": "2026-10-25T18:25:53+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RedDTV.bo",
+      "name": "Red DTV",
+      "logo": "https://i.imgur.com/fK0g2CK.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/DTVHD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red DTV (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 202,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "RedRubi.bo",
+      "name": "Red Rubi",
+      "logo": "https://i.imgur.com/Y4KOypc.jpeg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/asiesmipueblo/asiesmipueblo/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red Rubi (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1855605,
+          "segment_checked": true,
+          "response_ms": 188,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": "2026-10-25T18:25:52+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RedSigloXXI.bo",
+      "name": "Red Siglo XXI",
+      "logo": "https://i.postimg.cc/2jgpYpNz/redameric01x.jpg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/sigloxxi/sigloxxi/chunklist_w1833611505.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "RED SIGLO XXI HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 186,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "RedTVShop.bo",
+      "name": "Red TV Shop",
+      "logo": "https://i.imgur.com/I7yB176.png",
+      "category": "Compras",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://master.tucableip.com/redtvshop/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red TV Shop (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 2490000,
+          "segment_checked": true,
+          "response_ms": 250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:52+00:00",
+          "last_success": "2026-10-25T18:25:52+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RedUno.bo",
+      "name": "Red Uno",
+      "logo": "https://i.imgur.com/wfNaEV9.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red Uno (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 405,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:02+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red Uno (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 219,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": "2026-10-25T18:26:03+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RedUno.bo@LaPaz",
+      "name": "Red Uno La Paz",
+      "logo": "https://i.imgur.com/wfNaEV9.png",
+      "category": "Geral",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a003/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red Uno La Paz (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 4760000,
+          "segment_checked": true,
+          "response_ms": 422,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:54+00:00",
+          "last_success": "2026-10-25T18:25:54+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RedUno.bo@SantaCruz",
+      "name": "Red Uno Santa Cruz",
+      "logo": "https://i.imgur.com/wfNaEV9.png",
+      "category": "Geral",
+      "region": "Santa Cruz",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a002/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red Uno (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 5000000,
+          "segment_checked": true,
+          "response_ms": 438,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:53+00:00",
+          "last_success": "2026-10-25T18:25:53+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "http://190.181.18.82:4111/play/a006/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Red Uno Santa Cruz (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 4659000,
+          "segment_checked": true,
+          "response_ms": 390,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:53+00:00",
+          "last_success": "2026-10-25T18:25:53+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "RTP.bo",
+      "name": "RTP",
+      "logo": "https://i.imgur.com/cECNvvr.png",
+      "category": "Geral",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a00n/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "RTP (Bolivia) (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 2706000,
+          "segment_checked": true,
+          "response_ms": 422,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:54+00:00",
+          "last_success": "2026-10-25T18:25:54+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://rtp.noxun.net/hls720/stream3.m3u8",
+          "sources": [
+            "iptv-org-streams-bo",
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "RTP (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 952,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:54+00:00",
+          "last_success": "2026-10-25T18:25:54+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://rtp.noxun.net/hls480/stream2.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "RTP (480p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 890,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:54+00:00",
+          "last_success": "2026-10-25T18:25:54+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://rtp.noxun.net/hls/stream.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "RTP",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 827,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:54+00:00",
+          "last_success": "2026-10-25T18:25:54+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "SolTV.bo",
+      "name": "Sol TV",
+      "logo": "https://i.imgur.com/2m8PVpA.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Sol TV (Bolivia) (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:25+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "SPCCanal15.bo",
+      "name": "SPC Canal 15",
+      "logo": "https://i.imgur.com/8GzjELt.jpeg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "SPC Canal 15 (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 203,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:53+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "SucremantaTV.bo",
+      "name": "Sucremanta TV",
+      "logo": "https://i.imgur.com/noN0Yhe.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://lbgo.bozztv.com/ssh101/ssh101/ok2026/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Sucremanta TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 122701,
+          "segment_checked": true,
+          "response_ms": 234,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:54+00:00",
+          "last_success": "2026-10-25T18:25:54+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "TDTMultimedia.bo",
+      "name": "TDT Multimedia",
+      "logo": "https://i.imgur.com/JkCywl5.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://video01.brascast.com/juan6318/juan6318/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo",
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "TDT Multimedia (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 844,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:55+00:00",
+          "last_success": "2026-10-25T18:25:55+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "TDT Multimedia (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Connection timeout to host https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:26+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "TELE6.bo",
+      "name": "Tele 6",
+      "logo": "https://i.imgur.com/p7tt72X.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TELE 6 (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 3391913,
+          "segment_checked": true,
+          "response_ms": 250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:55+00:00",
+          "last_success": "2026-10-25T18:25:55+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "TLEstrella.bo",
+      "name": "Tele Estrella",
+      "logo": "https://i.ibb.co/h24smyF/TELE-ESTRELLA-HD.jpg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TL Estrella (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1844505,
+          "segment_checked": true,
+          "response_ms": 765,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:55+00:00",
+          "last_success": "2026-10-25T18:25:55+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/chunklist_w1410972879.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "TELE ESTRELLA TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 719,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:55+00:00",
+          "last_success": "2026-10-25T18:25:55+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "TeleFeBolivia.bo",
+      "name": "Tele Fe Bolivia",
+      "logo": "",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/telefehd/telefehd/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Tele Fe Bolivia (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1416768,
+          "segment_checked": true,
+          "response_ms": 186,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:54+00:00",
+          "last_success": "2026-10-25T18:25:54+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "TransMedia.bo",
+      "name": "TransMedia",
+      "logo": "https://i.imgur.com/tAdxar9.jpeg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://edge.enhdtv.com/8064/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TransMedia (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 10797,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:05+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "TVCulturas.bo",
+      "name": "TV Culturas",
+      "logo": "https://comteco.com.bo/img/upload/canales/lBVfEh.png",
+      "category": "Cultural",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/TVCulturasSD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TV Culturas (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 203,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:54+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "TVLatina.bo",
+      "name": "TV Latina",
+      "logo": "https://i.imgur.com/V6wxEdh.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://castv10.plugstreaming.com:19360/redtv/redtv.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TV Latina (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 2340800,
+          "segment_checked": true,
+          "response_ms": 1140,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:56+00:00",
+          "last_success": "2026-10-25T18:25:56+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://master.tucableip.com/tvlatina/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "TV Latina (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 3390000,
+          "segment_checked": true,
+          "response_ms": 233,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:55+00:00",
+          "last_success": "2026-10-25T18:25:55+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://castv10.plugstreaming.com:19360/redtv/1080p.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "TV LATINA HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 1030,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:56+00:00",
+          "last_success": "2026-10-25T18:25:56+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "TVOFF.bo",
+      "name": "TV Off",
+      "logo": "https://i.imgur.com/vBe1GgI.png",
+      "category": "Viagens",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://edge.enhdtv.com/tvoff/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TV OFF (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 2490000,
+          "segment_checked": true,
+          "response_ms": 592,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:56+00:00",
+          "last_success": "2026-10-25T18:25:56+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://s4.tvdatta.com:3449/live/tvofflive.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "TV OFF HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Cannot connect to host s4.tvdatta.com:3449 ssl:default [Connect call failed ('192.99.42.223', 3449)]",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:02+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "TVUSucre.bo",
+      "name": "TVU Sucre",
+      "logo": "https://i.imgur.com/7c0b4Y4.png",
+      "category": "Universitário",
+      "region": "Chuquisaca",
+      "streams": [
+        {
+          "url": "https://edge.enhdtv.com/8214/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TVU Sucre (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1160000,
+          "segment_checked": true,
+          "response_ms": 625,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:56+00:00",
+          "last_success": "2026-10-25T18:25:56+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "UMSATVUInternacional.bo",
+      "name": "UMSA TVU Internacional",
+      "logo": "https://tvu.umsa.bo/documents/780216/12171558/Logo+TVU-Int.png/b67c9c61-7516-e38a-a425-72e61f3824c6?t=1751574228493",
+      "category": "Universitário",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "https://edge.enhdtv.com/8026/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "UMSA TVU Internacional (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1110000,
+          "segment_checked": true,
+          "response_ms": 1250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:57+00:00",
+          "last_success": "2026-10-25T18:25:57+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://live.enhdtv.com:8081/8026/tracks-v1a1/mono.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "UMSA TVU Internacional (720p)",
+          "user_agent": null,
+          "referrer": "https://tvu.umsa.bo/tvu-internacional",
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 2563,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:58+00:00",
+          "last_success": "2026-10-25T18:25:58+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "UMSATVULP.bo",
+      "name": "UMSA TVU La Paz",
+      "logo": "https://tvu.umsa.bo/documents/780216/12171558/logo+tvu+icon.png/4367e79e-4541-d340-0e82-3943b73e7b18?t=1747686917412",
+      "category": "Universitário",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "https://edge.enhdtv.com/8190/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "UMSA TVU LP (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1910000,
+          "segment_checked": true,
+          "response_ms": 1655,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:58+00:00",
+          "last_success": "2026-10-25T18:25:58+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "UMSA TVU LP (720p)",
+          "user_agent": null,
+          "referrer": "https://tvu.umsa.bo/en-vivo",
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 3983,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": "2026-10-25T18:26:00+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://live.enhdtv.com:8081/8190/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "UniversidadMayordeSanAndres (1080p) [Not 24/7]",
+          "user_agent": null,
+          "referrer": "https://tvu.umsa.bo/en-vivo",
+          "labels": [
+            "Not 24/7"
+          ],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1910000,
+          "segment_checked": true,
+          "response_ms": 2405,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:59+00:00",
+          "last_success": "2026-10-25T18:25:59+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://edge.enhdtv.com/8190/tracks-v1a1/mono.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "TVU UMSA HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 2717,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:59+00:00",
+          "last_success": "2026-10-25T18:25:59+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "Unifranz.bo",
+      "name": "Unifranz TV",
+      "logo": "https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg",
+      "category": "Universitário",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://edge.enhdtv.com/8192/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unifranz (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 3734,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://live.enhdtv.com:8081/8192/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unifranz (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 3171,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://live.enhdtv.com:8081/8192/tracks-v1a1/mono.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "UNIFRANZ TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 2719,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "UnitelCochabamba.bo",
+      "name": "Unitel Cochabamba",
+      "logo": "https://i.imgur.com/B9wg1zj.png",
+      "category": "Geral",
+      "region": "Cochabamba",
+      "streams": [
+        {
+          "url": "https://lbgo.bozztv.com/ssh101/ssh101/tvjoaquiniana26/playlist.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel Cochabamba (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 296,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel Cochabamba (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 403",
+          "error_kind": "permanent",
+          "http_status": 403,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 2890800,
+          "segment_checked": false,
+          "response_ms": 219,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": "2026-10-25T17:54:08+00:00",
+          "consecutive_failures": 1
+        }
+      ]
+    },
+    {
+      "id": "UnitelLaPaz.bo",
+      "name": "Unitel La Paz",
+      "logo": "https://i.imgur.com/B9wg1zj.png",
+      "category": "Geral",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel La Paz (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 403",
+          "error_kind": "permanent",
+          "http_status": 403,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 2890800,
+          "segment_checked": false,
+          "response_ms": 280,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": "2026-10-25T17:54:08+00:00",
+          "consecutive_failures": 1
+        },
+        {
+          "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel La Paz (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 469,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:03+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "Unitel.bo@SantaCruz",
+      "name": "Unitel Santa Cruz",
+      "logo": "https://i.imgur.com/B9wg1zj.png",
+      "category": "Geral",
+      "region": "Santa Cruz",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/1909/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel (Bolivia) (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 5902000,
+          "segment_checked": true,
+          "response_ms": 436,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": "2026-10-25T18:26:00+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel Santa Cruz (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 403",
+          "error_kind": "permanent",
+          "http_status": 403,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 2890800,
+          "segment_checked": false,
+          "response_ms": 358,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:59+00:00",
+          "last_success": "2026-10-25T17:54:05+00:00",
+          "consecutive_failures": 1
+        }
+      ]
+    },
+    {
+      "id": "UnivalleTelevision.bo",
+      "name": "Univalle TV",
+      "logo": "https://i.imgur.com/qgrWDIs.png",
+      "category": "Universitário",
+      "region": "Cochabamba",
+      "streams": [
+        {
+          "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Univalle Television (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1920x1080",
+          "bandwidth": 2740000,
+          "segment_checked": true,
+          "response_ms": 250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": "2026-10-25T18:26:00+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "UNIVALLE TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 250,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:25:59+00:00",
+          "last_success": "2026-10-25T18:25:59+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "UPEATV.bo",
+      "name": "UPEA TV",
+      "logo": "https://tvadmin.upea.bo/storage/imagenes_institucion/imagen_institucion_66cd025754fcb.png",
+      "category": "Universitário",
+      "region": "La Paz",
+      "streams": [
+        {
+          "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo",
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "UPEA TV (720p)",
+          "user_agent": null,
+          "referrer": "https://tv.upea.bo/live",
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 7375,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:08+00:00",
+          "last_success": "2026-10-25T18:26:08+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "VosTV.bo",
+      "name": "Vos TV",
+      "logo": "https://i.imgur.com/Cm1Xjeq.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://15.204.246.24:8080/VOSTVHD/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Vos TV (Bolivia) (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 219,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/vostv/vostv/playlist.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Vos TV",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1880676,
+          "segment_checked": true,
+          "response_ms": 188,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": "2026-10-25T18:26:00+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/vostv/vostv/chunklist_w1975291800.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "VOS TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 186,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": "2026-10-25T18:26:00+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "VTVCanal17.bo",
+      "name": "VTV Canal 17",
+      "logo": "https://i.imgur.com/TUhFzql.png",
+      "category": "Religioso",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "VTV Canal 17 (720p) [Not 24/7]",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [
+            "Not 24/7"
+          ],
+          "status": "offline",
+          "error": "erro TLS/certificado: ClientConnectorCertificateError",
+          "error_kind": "permanent",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:01+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "https://ares.disfrutaenlared.com:1936/vtvcanal/vtvcanal/chunklist_w1413178975.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "VTV TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 219,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:00+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "WaraTV.bo",
+      "name": "Wara TV",
+      "logo": "https://i.postimg.cc/2jgpYpNz/redameric01x.jpg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://s4.tvdatta.com:3355/live/redamericalive.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "WARA TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Cannot connect to host s4.tvdatta.com:3355 ssl:default [Connect call failed ('192.99.42.223', 3355)]",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:11+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "XTOTV.bo",
+      "name": "XTO TV",
+      "logo": "https://i.imgur.com/MLwLlWl.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://www.sccbolivia.com/dash/720p.mpd",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo",
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "XTOTV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "erro TLS/certificado: ClientConnectorCertificateError",
+          "error_kind": "permanent",
+          "http_status": null,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:01+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        },
+        {
+          "url": "http://190.104.15.135/0.ts",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "XTOTV (1280p) [Not 24/7]",
+          "user_agent": null,
+          "referrer": "https://www.sccbolivia.com/",
+          "labels": [
+            "Not 24/7"
+          ],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "ts",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": true,
+          "response_ms": 609,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:01+00:00",
+          "last_success": "2026-10-25T18:26:01+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "ZoyTV.bo",
+      "name": "Zoy TV",
+      "logo": "https://i.postimg.cc/TwjGWJG2/zoy-tv-hd-new.jpg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://tv.zoymilton.com/ZoyPlus/tracks-v1a1/mono.ts.m3u8",
+          "sources": [
+            "codemonchit0",
+            "gatojustiniano"
+          ],
+          "title": "ZOY TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 1125,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:04+00:00",
+          "last_success": null,
+          "consecutive_failures": 3
+        }
+      ]
+    },
+    {
+      "id": "ZuracaTV.bo",
+      "name": "Zuraca TV",
+      "logo": "https://i.imgur.com/NsNytWD.jpeg",
+      "category": "Negócios",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://tv3.bitstreaming.net:3680/live/zuracatvlive.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo",
+            "gatojustiniano"
+          ],
+          "title": "Zuraca TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1,
+          "segment_checked": true,
+          "response_ms": 686,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:02+00:00",
+          "last_success": "2026-10-25T18:26:02+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://tv3.bitstreaming.net:3680/zuracatvlive/zuracatvlive.m3u8",
+          "sources": [
+            "codemonchit0"
+          ],
+          "title": "ZURACA TV HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1,
+          "segment_checked": true,
+          "response_ms": 686,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-10-25T18:26:02+00:00",
+          "last_success": "2026-10-25T18:26:02+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    }
+  ]
+}

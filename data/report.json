@@ -1,0 +1,1226 @@
+{
+  "generated_at": "2026-10-25T18:26:35+00:00",
+  "duration_seconds": 50.8,
+  "validation_skipped": false,
+  "stats": {
+    "channels_total": 81,
+    "channels_main": 54,
+    "channels_online": 54,
+    "streams_total": 135,
+    "streams_online": 79
+  },
+  "sources": [
+    {
+      "name": "iptv-org-bo",
+      "location": "https://iptv-org.github.io/iptv/countries/bo.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 95,
+      "accepted": 65,
+      "rejected": 30
+    },
+    {
+      "name": "iptv-org-streams-bo",
+      "location": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/bo.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 110,
+      "accepted": 104,
+      "rejected": 6
+    },
+    {
+      "name": "manual",
+      "location": "config/manual.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 7,
+      "accepted": 7,
+      "rejected": 0
+    },
+    {
+      "name": "codemonchit0",
+      "location": "https://raw.githubusercontent.com/codemonchit0/canales-digitales-de-bolivia-iptv-hd/main/canales%20de%20bolivia/canales%20de%20bolivia.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 82,
+      "accepted": 31,
+      "rejected": 51
+    },
+    {
+      "name": "gatojustiniano",
+      "location": "https://raw.githubusercontent.com/GatoJustiniano/M3U-Bolivia-SCZ/main/canales-bolivia.m3u",
+      "ok": true,
+      "from_cache": false,
+      "error": null,
+      "entries": 81,
+      "accepted": 31,
+      "rejected": 50
+    }
+  ],
+  "rejected_entries": [
+    {
+      "source": "iptv-org-bo",
+      "title": "A&E Latin America (1080p)",
+      "url": "http://138.121.15.230:9002/A&E/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: AELatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "AXN Latin America Andes (1080p)",
+      "url": "http://181.78.8.199:8000/play/a0cu/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: AXNLatinAmerica.us@Andes)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Cartoon Network Latin America South Pacific (576p)",
+      "url": "http://45.167.1.138:8000/play/a00w",
+      "reason": "canal não boliviano (tvg-id: CartoonNetworkLatinAmerica.us@SouthPacific)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Cinecanal Pacific (1080p)",
+      "url": "http://138.121.15.230:9002/CINECANAL/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: Cinecanal.us@Pacific)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Comedy Central Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8",
+      "reason": "canal não boliviano (tvg-id: ComedyCentralLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Discovery Channel Latin America (1080p)",
+      "url": "http://45.171.64.30:6060/play/a032/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: DiscoveryChannelLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Disney Channel Latin America (1080p)",
+      "url": "http://15.204.246.24:8080/DisneyHD/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: DisneyChannelLatinAmerica.ar@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Disney Channel Latin America Panregional HD (1080p)",
+      "url": "http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: DisneyChannelLatinAmerica.ar@PanregionalHD)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Disney Channel Latin America South",
+      "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/disney-channel-key/chunks.m3u8",
+      "reason": "canal não boliviano (tvg-id: DisneyChannelLatinAmerica.ar@South)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Disney Jr. Latin America South (1080p)",
+      "url": "http://45.185.163.75:8000/play/a016/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: DisneyJrLatinAmerica.ar@South)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Disney Jr. Latin America South HD (1080p)",
+      "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/disney_jr.stream/playlist.m3u8",
+      "reason": "canal não boliviano (tvg-id: DisneyJrLatinAmerica.ar@SouthHD)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "ESPN 2 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8",
+      "reason": "canal não boliviano (tvg-id: ESPN2LatinAmerica.us@South)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "ESPN 3 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8",
+      "reason": "canal não boliviano (tvg-id: ESPN3LatinAmerica.us@South)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "ESPN 4 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8",
+      "reason": "canal não boliviano (tvg-id: ESPN4LatinAmerica.us@South)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "ESPN 5 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8",
+      "reason": "canal não boliviano (tvg-id: ESPN5LatinAmerica.us@South)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "ESPN 6 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8",
+      "reason": "canal não boliviano (tvg-id: ESPN6LatinAmerica.us@SD)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "ESPN 7 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8",
+      "reason": "canal não boliviano (tvg-id: ESPN7LatinAmerica.us@SD)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "ESPN Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8",
+      "reason": "canal não boliviano (tvg-id: ESPNLatinAmerica.us@South)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "FX Latin America (1080p)",
+      "url": "http://15.204.246.24:8080/FXHD/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: FXLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "History Latin America (1080p)",
+      "url": "http://15.204.246.24:8080/HistoryHD/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: HistoryLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "MTV Latin America (1080p)",
+      "url": "http://15.204.246.24:8080/MTVHD/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: MTVLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Nick Jr. Latin America (1080p)",
+      "url": "https://streaming.onnethn.com/NICK_JR/playlist.m3u8",
+      "reason": "canal não boliviano (tvg-id: NickJrLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Nickelodeon Latin America (1080p)",
+      "url": "http://15.204.246.24:8080/NickHD/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: NickelodeonLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Space (1080p)",
+      "url": "http://45.171.64.30:6060/play/a04n/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: Space.ar@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Star Channel Latin America (1080p)",
+      "url": "http://15.204.246.24:8080/STARCHANNELHD/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: StarChannelLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Studio Universal Latin America (1080p)",
+      "url": "http://15.204.246.24:8080/StudioUniversalHD/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: StudioUniversalLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Tigo Sports (Bolivia) (720p) [Geo-blocked]",
+      "url": "https://dipdxjic51jcl.cloudfront.net/out/v1/81f769d780694be488d85811331c8a4f/index.m3u8",
+      "reason": "rótulo excluído: Geo-blocked"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "TLC Latin America (1080p)",
+      "url": "http://38.134.250.110:8000/play/a00n/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: TLCLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "TNT Series Latin America (1080p)",
+      "url": "http://168.196.127.137:6001/play/a095/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: TNTSeriesLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Universal TV Latin America (1080p)",
+      "url": "http://15.204.246.24:8080/UniversalHD/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: UniversalTVLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-streams-bo",
+      "title": "Abya Yala TV",
+      "url": "https://seo.tv.bo/live.php?ch=abyayala_sd&token=seotv2026",
+      "reason": "URL bloqueada pela regra 'token=' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "iptv-org-streams-bo",
+      "title": "F10 HD [Geo-blocked]",
+      "url": "https://tv2.bitstreaming.net:3235/multi_live/play.m3u8",
+      "reason": "rótulo excluído: Geo-blocked"
+    },
+    {
+      "source": "iptv-org-streams-bo",
+      "title": "Tigo Sports (720p) [Geo-blocked]",
+      "url": "https://dipdxjic51jcl.cloudfront.net/out/v1/81f769d780694be488d85811331c8a4f/index.m3u8",
+      "reason": "rótulo excluído: Geo-blocked"
+    },
+    {
+      "source": "iptv-org-streams-bo",
+      "title": "Red Uno (1080p) [Geo-blocked]",
+      "url": "http://15.204.246.24:8080/RedUnoSCZHD/index.m3u8",
+      "reason": "rótulo excluído: Geo-blocked"
+    },
+    {
+      "source": "iptv-org-streams-bo",
+      "title": "Red Uno La Paz (1080p) [Geo-blocked]",
+      "url": "http://15.204.246.24:8080/RedUnoLPZHD/index.m3u8",
+      "reason": "rótulo excluído: Geo-blocked"
+    },
+    {
+      "source": "iptv-org-streams-bo",
+      "title": "RTP (576p) [Geo-blocked]",
+      "url": "http://15.204.246.24:8080/RTPSD/index.m3u8",
+      "reason": "rótulo excluído: Geo-blocked"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RED UNO LPZ",
+      "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(BwZQEseiaSNfiVHoovOaDqpHYqmPRhia-LOX_j6F1N7d4LNPwx2AKQzipzSZEHNaRuUdiphR1XxmmaFA7p098w63nK_wIvIShNClYLB2ii7AlrMr0v-IATommb1DIMwS)/cloud/3/xa0fwio/d/live-720.m3u8",
+      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RED UNO SCZ HD",
+      "url": "https://live2.eu-north-1b.cf.dmcdn.net/sec2(knWlyCWh4eNXGFB0snz1T_JSHVFofQ-Fp0f5MCR57lpqOm4Jdh3MWWDp-B0nOC_cREsijqOyTuqLQ3vCa-RImGIigMH-V_uMreaYtJ3LKoi7Z3usj11rEtaVBFsZQRgx)/cloud/3/x9n2qyk/d/live-720.m3u8",
+      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RED UNO LP",
+      "url": "https://live.eu-north-1b.cf.dmcdn.net/sec2(Ok1b4yYKGTEEmw5R1u4m7J5XBYLsUYRevDpaEOEwFxRwIkmeRX1IoM-s3omSkzdZ4TCFun-vPaNYDfpiLXvkPqigUh2PK1tcdSjDVjqU7gFHXd9sdXIY4vzzd5KRrrZ-)/dm/3/xa0fwio/d/live-720.m3u8",
+      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "UNITEL LP",
+      "url": "https://csc-axs-edge01.sensa.com.ar/live/eds/UnitelLPZ/live_dash_cld/UnitelLPZ.mpd",
+      "reason": "URL bloqueada pela regra 'sensa.com.ar' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "ATB BOLIVIA",
+      "url": "https://live.eu-north-1a.cf.dmcdn.net/sec2(gaiL9ELuzX2XClOhqJYB1wBUSrri7OotojeWv_oZSk5yqR6KMm1SV3MCJjFqMMvT2r8Z5O8pMjmbvxvITr-g1cYKCdRXZbio7-wKjRvh5QqG19ft2JBVYiuYs_lHtgQ_)/dm/3/x84eirw/d/live-720.m3u8",
+      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "BOLIVISION LPZ HD",
+      "url": "https://d135ohnuotzzyo.cloudfront.net/_token/v1.1790056588.nji8saooj4L1tbq7mfidDHdtnEaKU9-Igx3QHhVVgXc/index_2.m3u8",
+      "reason": "URL bloqueada pela regra '/_token/' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "BOLIVISION LPZ SD",
+      "url": "https://d135ohnuotzzyo.cloudfront.net/_token/v1.1787727375.PDUTIlFIVlZVQSjtMoX5NINrS02yb3WAEsm8mSdAkmQ/index_1.m3u8",
+      "reason": "URL bloqueada pela regra '/_token/' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "BOLIVISION SCZ HD",
+      "url": "https://d1mws3umreue1g.cloudfront.net/_token/v1.1787727494.dwRR3No2oNJkE_fhMtvoZt-nZpmLOvvPoiOJmeCvgvw/index_2.m3u8",
+      "reason": "URL bloqueada pela regra '/_token/' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "BOLIVISION SCZ SD",
+      "url": "https://d1mws3umreue1g.cloudfront.net/_token/v1.1787727494.dwRR3No2oNJkE_fhMtvoZt-nZpmLOvvPoiOJmeCvgvw/index_1.m3u8",
+      "reason": "URL bloqueada pela regra '/_token/' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "PAT SANTA CRUZ HD",
+      "url": "https://csc-axs-edge01.sensa.com.ar/bpk-tv/PAT/default/index.mpd",
+      "reason": "URL bloqueada pela regra 'sensa.com.ar' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RED UNO LPZ HD",
+      "url": "https://www.dailymotion.com/video/xa0fwio",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RED UNO CBBA HD",
+      "url": "https://www.dailymotion.com/video/xa0qka8",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RED UNO SCZ HD",
+      "url": "https://www.dailymotion.com/video/x9n2qyk",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "ATB BOLIVIA HD",
+      "url": "https://www.dailymotion.com/video/x84eirw",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "TELESUR HD",
+      "url": "https://www.dailymotion.com/video/x82ug5r",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "BTV 7.1 HD",
+      "url": "https://www.dailymotion.com/video/x9nzqpo",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "BTV 7.2 HD",
+      "url": "https://www.dailymotion.com/video/x9ny70y",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "GARAJE TV HD",
+      "url": "https://stream1.sersat.com/hls/garagetv.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "CGTN ES HD",
+      "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "ANIME STATION 01 HD",
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/livestreamingtv/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "ANIME STATION 02 HD",
+      "url": "https://live20.bozztv.com/giatv/giatv-livestreamingtv/livestreamingtv/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RETROMAGICO HD",
+      "url": "https://live20.bozztv.com/giatv/giatv-retromagico/retromagico/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "MAGICKIDS TV HD",
+      "url": "https://kiiroilabs.ddns.net/magickids/stream/stream.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "WOW PELICULAS HD",
+      "url": "https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "DW ESPAÑOL FHD",
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530-b/dwstream104/stream05/streamPlaylist.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "DW ESPAÑOL HD",
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530-b/dwstream104/stream04/streamPlaylist.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "DW ESPAÑOL SD",
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530-b/dwstream104/stream03/streamPlaylist.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "DW ENGLISH HD",
+      "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RT NOTICIAS FHD",
+      "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RT NOTICIAS HD",
+      "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_2500Kb.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RT NOTICIAS SD",
+      "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_1600Kb.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "TELESUR FHD",
+      "url": "https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/chunklist.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RED+ HD",
+      "url": "https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/06.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "HISPANTV HD",
+      "url": "https://live.presstv.ir/hls/hispantv_5_482/index.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "TVP ARGENTINA HD",
+      "url": "https://g2.mc-slo.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/c7_vivo01_dai_source-20001_720p.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "ECUADOR TV HD",
+      "url": "https://samson.streamerr.co:8081/shogun/tracks-v1a1/mono.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "ATV+ HD",
+      "url": "https://d2b5h5wyivfnfl.cloudfront.net/live/77eece7f-8de5-4406-9f7e-7be16d81f2ce/medialist_15609871089997455276_hls.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "ATV HD",
+      "url": "https://d2b5h5wyivfnfl.cloudfront.net/live/1dedd057-0bc1-44a7-a747-bd52e12166b3/medialist_15609871089997455276_hls.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "TELEMUNDO HD",
+      "url": "https://nbcu-telemundoflorida-firetv.amagi.tv/playlist1080.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "EL TORO TV HD",
+      "url": "https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/tracks-v1a1/mono.ts.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "EXITOSA TV HD",
+      "url": "https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.fmp4.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "TV PERU HD",
+      "url": "https://cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf7.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "CANAL LUZ FHD",
+      "url": "https://g3.vxral-hor.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8",
+      "reason": "grupo fora do escopo: RELIGIOSOS"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "EWTN HD",
+      "url": "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/l4hjmzyf/720/chunklist.m3u8",
+      "reason": "grupo fora do escopo: RELIGIOSOS"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "K-POP HD",
+      "url": "https://newidco-newkid-1-eu.xiaomi.wurl.tv/2000.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "OLDIES HITS HD",
+      "url": "https://video07.logicahost.com.br/oldieshits/oldieshits/chunklist_w1787316660.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "SPIRIT TV HD",
+      "url": "https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.ts.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "PLANETA TV MUSIC HD",
+      "url": "https://tls-cl.cdnz.cl/planetatv/live/chunklist_w187229446.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "ALEGRIA CRISTIANA HD",
+      "url": "https://vdochile.com:3182/stream/play.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "DELTA TV HD",
+      "url": "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "DRAGON BALL Z HD",
+      "url": "https://183.bozztv.com/giatv/giatv-dball/dball/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RED UNO LPZ",
+      "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(BwZQEseiaSNfiVHoovOaDqpHYqmPRhia-LOX_j6F1N7d4LNPwx2AKQzipzSZEHNaRuUdiphR1XxmmaFA7p098w63nK_wIvIShNClYLB2ii7AlrMr0v-IATommb1DIMwS)/cloud/3/xa0fwio/d/live-720.m3u8",
+      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RED UNO SCZ HD",
+      "url": "https://live2.eu-north-1b.cf.dmcdn.net/sec2(knWlyCWh4eNXGFB0snz1T_JSHVFofQ-Fp0f5MCR57lpqOm4Jdh3MWWDp-B0nOC_cREsijqOyTuqLQ3vCa-RImGIigMH-V_uMreaYtJ3LKoi7Z3usj11rEtaVBFsZQRgx)/cloud/3/x9n2qyk/d/live-720.m3u8",
+      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RED UNO LP",
+      "url": "https://live.eu-north-1b.cf.dmcdn.net/sec2(Ok1b4yYKGTEEmw5R1u4m7J5XBYLsUYRevDpaEOEwFxRwIkmeRX1IoM-s3omSkzdZ4TCFun-vPaNYDfpiLXvkPqigUh2PK1tcdSjDVjqU7gFHXd9sdXIY4vzzd5KRrrZ-)/dm/3/xa0fwio/d/live-720.m3u8",
+      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "UNITEL LP",
+      "url": "https://csc-axs-edge01.sensa.com.ar/live/eds/UnitelLPZ/live_dash_cld/UnitelLPZ.mpd",
+      "reason": "URL bloqueada pela regra 'sensa.com.ar' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "ATB BOLIVIA",
+      "url": "https://live.eu-north-1b.cf.dmcdn.net/sec2(u9pRL3xhCgRn6k3-mCCw4sAXZnjCQ2W-XNx_j5_BatoN-h7k-_8Ler5E59OB6OcUBNPf4tx4Xt5zMVrsyDGww6ulqCBGulIrheqppzuQLOtGezv0t2i-lOGGSfovep41)/dm/3/x84eirw/s/live-720.m3u8",
+      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "BOLIVISION LPZ HD",
+      "url": "https://d135ohnuotzzyo.cloudfront.net/_token/v1.1787727375.PDUTIlFIVlZVQSjtMoX5NINrS02yb3WAEsm8mSdAkmQ/index_2.m3u8",
+      "reason": "URL bloqueada pela regra '/_token/' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "BOLIVISION LPZ SD",
+      "url": "https://d135ohnuotzzyo.cloudfront.net/_token/v1.1787727375.PDUTIlFIVlZVQSjtMoX5NINrS02yb3WAEsm8mSdAkmQ/index_1.m3u8",
+      "reason": "URL bloqueada pela regra '/_token/' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "BOLIVISION SCZ HD",
+      "url": "https://d1mws3umreue1g.cloudfront.net/_token/v1.1787727494.dwRR3No2oNJkE_fhMtvoZt-nZpmLOvvPoiOJmeCvgvw/index_2.m3u8",
+      "reason": "URL bloqueada pela regra '/_token/' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "BOLIVISION SCZ SD",
+      "url": "https://d1mws3umreue1g.cloudfront.net/_token/v1.1787727494.dwRR3No2oNJkE_fhMtvoZt-nZpmLOvvPoiOJmeCvgvw/index_1.m3u8",
+      "reason": "URL bloqueada pela regra '/_token/' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "PAT SANTA CRUZ HD",
+      "url": "https://csc-axs-edge01.sensa.com.ar/bpk-tv/PAT/default/index.mpd",
+      "reason": "URL bloqueada pela regra 'sensa.com.ar' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RED UNO LPZ HD",
+      "url": "https://www.dailymotion.com/video/xa0fwio",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RED UNO CBBA HD",
+      "url": "https://www.dailymotion.com/video/xa0qka8",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RED UNO SCZ HD",
+      "url": "https://www.dailymotion.com/video/x9n2qyk",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "ATB BOLIVIA HD",
+      "url": "https://www.dailymotion.com/video/x84eirw",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "TELESUR HD",
+      "url": "https://www.dailymotion.com/video/x82ug5r",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "BTV 7.1 HD",
+      "url": "https://www.dailymotion.com/video/x9nzqpo",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "BTV 7.2 HD",
+      "url": "https://www.dailymotion.com/video/x9ny70y",
+      "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "GARAJE TV HD",
+      "url": "https://stream1.sersat.com/hls/garagetv.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "CGTN ES HD",
+      "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "ANIME STATION 01 HD",
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/livestreamingtv/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "ANIME STATION 02 HD",
+      "url": "https://live20.bozztv.com/giatv/giatv-livestreamingtv/livestreamingtv/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RETROMAGICO HD",
+      "url": "https://live20.bozztv.com/giatv/giatv-retromagico/retromagico/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "MAGICKIDS TV HD",
+      "url": "https://kiiroilabs.ddns.net/magickids/stream/stream.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "WOW PELICULAS HD",
+      "url": "https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "DW ESPAÑOL FHD",
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "DW ESPAÑOL HD",
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "DW ENGLISH HD",
+      "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RT NOTICIAS FHD",
+      "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RT NOTICIAS HD",
+      "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_2500Kb.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RT NOTICIAS SD",
+      "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_1600Kb.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "TELESUR FHD",
+      "url": "https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/chunklist.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "RED+ HD",
+      "url": "https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/06.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "HISPANTV HD",
+      "url": "https://live.presstv.ir/hls/hispantv_5_482/index.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "TVP ARGENTINA HD",
+      "url": "https://g2.mc-slo.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/c7_vivo01_dai_source-20001_720p.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "ECUADOR TV HD",
+      "url": "https://samson.streamerr.co:8081/shogun/tracks-v1a1/mono.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "ATV+ HD",
+      "url": "https://d2b5h5wyivfnfl.cloudfront.net/live/77eece7f-8de5-4406-9f7e-7be16d81f2ce/medialist_15609871089997455276_hls.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "ATV HD",
+      "url": "https://d2b5h5wyivfnfl.cloudfront.net/live/1dedd057-0bc1-44a7-a747-bd52e12166b3/medialist_15609871089997455276_hls.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "TELEMUNDO HD",
+      "url": "https://nbcu-telemundoflorida-firetv.amagi.tv/playlist1080.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "EL TORO TV HD",
+      "url": "https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/tracks-v1a1/mono.ts.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "EXITOSA TV HD",
+      "url": "https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.fmp4.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "TV PERU HD",
+      "url": "https://cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf7.m3u8",
+      "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "CANAL LUZ FHD",
+      "url": "https://g3.vxral-hor.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8",
+      "reason": "grupo fora do escopo: RELIGIOSOS"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "EWTN HD",
+      "url": "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/l4hjmzyf/720/chunklist.m3u8",
+      "reason": "grupo fora do escopo: RELIGIOSOS"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "K-POP HD",
+      "url": "https://newidco-newkid-1-eu.xiaomi.wurl.tv/2000.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "OLDIES HITS HD",
+      "url": "https://video07.logicahost.com.br/oldieshits/oldieshits/chunklist_w1787316660.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "SPIRIT TV HD",
+      "url": "https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.ts.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "PLANETA TV MUSIC HD",
+      "url": "https://tls-cl.cdnz.cl/planetatv/live/chunklist_w187229446.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "ALEGRIA CRISTIANA HD",
+      "url": "https://vdochile.com:3182/stream/play.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "DELTA TV HD",
+      "url": "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "gatojustiniano",
+      "title": "DRAGON BALL Z HD",
+      "url": "https://183.bozztv.com/giatv/giatv-dball/dball/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    }
+  ],
+  "offline_streams": [
+    {
+      "channel": "Abya Yala TV",
+      "url": "http://15.204.246.24:8080/AbyaYalaTvHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Alegria TV",
+      "url": "https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "ATB",
+      "url": "http://15.204.246.24:8080/ATBHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "ATB",
+      "url": "http://186.121.206.197/live/daniel/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Ayni TV",
+      "url": "http://15.204.246.24:8080/AyniTVHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Bolivia Mix TV",
+      "url": "https://live20.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/chunks.m3u8",
+      "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [getaddrinfo failed]",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Bolivia TV",
+      "url": "https://5fe2654d6127d.streamlock.net:443/boliviatv/videoboliviatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Bolivia TV 7.2",
+      "url": "https://5ca3e84a76d30.streamlock.net:443/boliviatv2/videoboliviatv2/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Bolivisión",
+      "url": "http://15.204.246.24:8080/BolivisionHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Bolivisión",
+      "url": "https://d135ohnuotzzyo.cloudfront.net/index.m3u8",
+      "error": "HTTP 403",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Bolivisión Santa Cruz",
+      "url": "https://d1mws3umreue1g.cloudfront.net/index.m3u8",
+      "error": "HTTP 403",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Bolivisión Santa Cruz",
+      "url": "https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8",
+      "error": "falha de rede: Cannot connect to host alba-bo-bolivision-upptv.stream.mediatiquestream.com:443 ssl:default [getaddrinfo failed]",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Canal 15 Teleor",
+      "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cinerama Television",
+      "url": "https://live.cineramatvbo.com/hls/stream.m3u8",
+      "error": "erro TLS/certificado: ClientConnectorCertificateError",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CTV Bolivia",
+      "url": "http://15.204.246.24:8080/CTVHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CTV Bolivia",
+      "url": "https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CTV Bolivia",
+      "url": "https://live.ctvbolivia.com/hls/ctv.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CVC",
+      "url": "http://15.204.246.24:8080/CVCHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "F10",
+      "url": "http://15.204.246.24:8080/F10HD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "FAP TV",
+      "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
+      "error": "playlist HLS inválida: sem segmentos (#EXTINF) nem variantes",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Gogoplay TV",
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
+      "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [getaddrinfo failed]",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Interactivo Television",
+      "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
+      "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [getaddrinfo failed]",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Interactivo Television",
+      "url": "https://mist01.homestream.fun/hls/interactivotv/index.m3u8",
+      "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [getaddrinfo failed]",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Palenque TV",
+      "url": "http://15.204.246.24:8080/PalenqueTVSD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "PAT La Paz",
+      "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "PAT La Paz",
+      "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
+      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "PAT Santa Cruz",
+      "url": "http://158.172.155.130:8000/play/a0e6/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Plus TLT",
+      "url": "http://15.204.246.24:8080/PlusTLTHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Poder de Dios TV",
+      "url": "http://15.204.246.24:8080/PoderdeDiosHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red ADvenir TV",
+      "url": "http://streamer1.streamhost.org:1935/salive/GMIredadvenirm/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red ADvenir TV",
+      "url": "https://streamer1.streamhost.org/salive/GMIredadvenirh/chunklist_w1940547209.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red CCTV",
+      "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
+      "error": "erro TLS/certificado: ClientConnectorCertificateError",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red DTV",
+      "url": "http://15.204.246.24:8080/DTVHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red Siglo XXI",
+      "url": "https://59d39900ebfb8.streamlock.net/sigloxxi/sigloxxi/chunklist_w1833611505.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red Uno",
+      "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Sol TV",
+      "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
+      "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "SPC Canal 15",
+      "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "TDT Multimedia",
+      "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
+      "error": "falha de rede: Connection timeout to host https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "TransMedia",
+      "url": "https://edge.enhdtv.com/8064/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "TV Culturas",
+      "url": "http://15.204.246.24:8080/TVCulturasSD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "TV Off",
+      "url": "https://s4.tvdatta.com:3449/live/tvofflive.m3u8",
+      "error": "falha de rede: Cannot connect to host s4.tvdatta.com:3449 ssl:default [Connect call failed ('192.99.42.223', 3449)]",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Unifranz TV",
+      "url": "https://edge.enhdtv.com/8192/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unifranz TV",
+      "url": "https://live.enhdtv.com:8081/8192/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unifranz TV",
+      "url": "https://live.enhdtv.com:8081/8192/tracks-v1a1/mono.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unitel Cochabamba",
+      "url": "https://lbgo.bozztv.com/ssh101/ssh101/tvjoaquiniana26/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unitel Cochabamba",
+      "url": "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
+      "error": "HTTP 403",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unitel La Paz",
+      "url": "https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8",
+      "error": "HTTP 403",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unitel La Paz",
+      "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unitel Santa Cruz",
+      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
+      "error": "HTTP 403",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Vos TV",
+      "url": "http://15.204.246.24:8080/VOSTVHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "VTV Canal 17",
+      "url": "https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8",
+      "error": "erro TLS/certificado: ClientConnectorCertificateError",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "VTV Canal 17",
+      "url": "https://ares.disfrutaenlared.com:1936/vtvcanal/vtvcanal/chunklist_w1413178975.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Wara TV",
+      "url": "https://s4.tvdatta.com:3355/live/redamericalive.m3u8",
+      "error": "falha de rede: Cannot connect to host s4.tvdatta.com:3355 ssl:default [Connect call failed ('192.99.42.223', 3355)]",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "XTO TV",
+      "url": "https://www.sccbolivia.com/dash/720p.mpd",
+      "error": "erro TLS/certificado: ClientConnectorCertificateError",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Zoy TV",
+      "url": "https://tv.zoymilton.com/ZoyPlus/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    }
+  ]
+}

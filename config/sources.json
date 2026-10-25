@@ -1,0 +1,72 @@
+{
+  "repository": "SEU_USUARIO/lista-iptv-bo",
+  "branch": "main",
+  "sources": [
+    {
+      "name": "iptv-org-bo",
+      "description": "iptv-org: lista por país (Bolívia), com logos e categorias",
+      "url": "https://iptv-org.github.io/iptv/countries/bo.m3u",
+      "use_tvg_id": true,
+      "require_tvg_id_suffix": ".bo",
+      "enabled": true
+    },
+    {
+      "name": "iptv-org-streams-bo",
+      "description": "iptv-org: arquivo bruto de streams bolivianos (inclui URLs alternativas)",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/bo.m3u",
+      "use_tvg_id": true,
+      "enabled": true
+    },
+    {
+      "name": "codemonchit0",
+      "description": "codemonchit0/canales-digitales-de-bolivia-iptv-hd (somente grupos bolivianos; tvg-id não confiável)",
+      "url": "https://raw.githubusercontent.com/codemonchit0/canales-digitales-de-bolivia-iptv-hd/main/canales%20de%20bolivia/canales%20de%20bolivia.m3u",
+      "use_tvg_id": false,
+      "include_groups": ["CANALES DE BOLIVIA", "VLC BOLIVIA"],
+      "enabled": true
+    },
+    {
+      "name": "gatojustiniano",
+      "description": "GatoJustiniano/M3U-Bolivia-SCZ (derivada de 12carloshc; somente grupos bolivianos)",
+      "url": "https://raw.githubusercontent.com/GatoJustiniano/M3U-Bolivia-SCZ/main/canales-bolivia.m3u",
+      "use_tvg_id": false,
+      "include_groups": ["CANALES DE BOLIVIA", "VLC BOLIVIA"],
+      "enabled": true
+    },
+    {
+      "name": "manual",
+      "description": "Streams curados manualmente a partir de sites oficiais das emissoras",
+      "path": "config/manual.m3u",
+      "use_tvg_id": true,
+      "enabled": true
+    }
+  ],
+  "rules": {
+    "exclude_labels": ["Geo-blocked"],
+    "url_block_patterns": [
+      "sec2(",
+      "/_token/",
+      "token=",
+      "hdnts=",
+      "wmsAuthSign",
+      "sensa.com.ar",
+      "dailymotion.com/video",
+      "youtube.com",
+      "youtu.be",
+      "facebook.com",
+      "twitch.tv"
+    ],
+    "retention_days": 7,
+    "grace_hours": 48,
+    "heartbeat_hours": 24
+  },
+  "validator": {
+    "concurrency": 12,
+    "per_host_limit": 3,
+    "timeout_seconds": 15,
+    "retries": 1,
+    "max_playlist_bytes": 2000000,
+    "segment_probe_bytes": 65536,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 VLC/3.0.20"
+  }
+}
