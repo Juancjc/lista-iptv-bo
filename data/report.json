@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T18:26:35+00:00",
-  "duration_seconds": 50.8,
+  "generated_at": "2026-10-25T19:01:53+00:00",
+  "duration_seconds": 40.6,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 54,
-    "channels_online": 54,
+    "channels_main": 55,
+    "channels_online": 55,
     "streams_total": 135,
-    "streams_online": 79
+    "streams_online": 80
   },
   "sources": [
     {
@@ -917,12 +917,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Bolivia Mix TV",
-      "url": "https://live20.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/chunks.m3u8",
-      "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [getaddrinfo failed]",
-      "error_kind": "transient"
-    },
-    {
       "channel": "Bolivia TV",
       "url": "https://5fe2654d6127d.streamlock.net:443/boliviatv/videoboliviatv/playlist.m3u8",
       "error": "HTTP 404",
@@ -955,7 +949,7 @@
     {
       "channel": "Bolivisión Santa Cruz",
       "url": "https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8",
-      "error": "falha de rede: Cannot connect to host alba-bo-bolivision-upptv.stream.mediatiquestream.com:443 ssl:default [getaddrinfo failed]",
+      "error": "falha de rede: Cannot connect to host alba-bo-bolivision-upptv.stream.mediatiquestream.com:443 ssl:default [Name or service not known]",
       "error_kind": "transient"
     },
     {
@@ -1013,21 +1007,15 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Gogoplay TV",
-      "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
-      "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [getaddrinfo failed]",
-      "error_kind": "transient"
-    },
-    {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
-      "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [getaddrinfo failed]",
+      "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [Name or service not known]",
       "error_kind": "transient"
     },
     {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv/index.m3u8",
-      "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [getaddrinfo failed]",
+      "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [Name or service not known]",
       "error_kind": "transient"
     },
     {
@@ -1063,6 +1051,12 @@
     {
       "channel": "Poder de Dios TV",
       "url": "http://15.204.246.24:8080/PoderdeDiosHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },

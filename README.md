@@ -12,10 +12,10 @@ Lista IPTV de canais de televisão da **Bolívia**, montada a partir de transmis
 | | |
 |---|---|
 | Canais encontrados | **81** |
-| Canais na lista principal | **54** |
-| Canais online na última verificação | **54** |
-| Streams online / total | **79 / 135** |
-| Última atualização | **25/10/2026 14:26 (horário da Bolívia, UTC−4)** |
+| Canais na lista principal | **55** |
+| Canais online na última verificação | **55** |
+| Streams online / total | **80 / 135** |
+| Última atualização | **25/10/2026 15:01 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -91,7 +91,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | ATB | Geral | La Paz | 🟢 Online | 1/3 |
 | Audiokiss | Música | — | 🟢 Online | 1/1 |
 | Ayni TV | Geral | — | 🟢 Online | 1/2 |
-| Bolivia Mix TV | Geral | — | 🔴 Offline | 0/1 |
+| Bolivia Mix TV | Geral | — | 🟢 Online | 1/1 |
 | Bolivia TV | TV Pública | La Paz | 🟢 Online | 2/3 |
 | Bolivia TV 7.2 | TV Pública | La Paz | 🔴 Offline | 0/1 |
 | Bolivisión | Geral | La Paz | 🔴 Offline | 0/2 |
@@ -114,7 +114,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Gigavisión | Geral | — | 🟢 Online | 2/2 |
 | Gigavisión La Paz | Geral | La Paz | 🟢 Online | 1/1 |
 | Gigavisión Santa Cruz | Geral | Santa Cruz | 🟢 Online | 2/2 |
-| Gogoplay TV | Geral | — | 🔴 Offline | 0/1 |
+| Gogoplay TV | Geral | — | 🟢 Online | 1/1 |
 | Imperial TV | Geral | — | 🟢 Online | 1/1 |
 | Interactivo Television | Geral | — | 🔴 Offline | 0/2 |
 | Palenque TV | Geral | — | 🟢 Online | 1/2 |
@@ -126,7 +126,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Radio Centro | Geral | — | 🟢 Online | 1/1 |
 | Radio Clasica TV | Música | — | 🟢 Online | 1/1 |
 | Radio Kollasuyo | Geral | — | 🟢 Online | 1/1 |
-| Radio Mega TV Amazonia | Geral | — | 🟢 Online | 1/1 |
+| Radio Mega TV Amazonia | Geral | — | 🔴 Offline | 0/1 |
 | Radio Universitaria San Andrés | Universitário | La Paz | 🟢 Online | 1/1 |
 | Red ADvenir TV | Religioso | — | 🔴 Offline | 0/2 |
 | Red America TV | Geral | — | 🟢 Online | 1/1 |
