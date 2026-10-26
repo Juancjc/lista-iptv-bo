@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T19:15:04+00:00",
-  "duration_seconds": 40.0,
+  "generated_at": "2026-10-26T04:53:45+00:00",
+  "duration_seconds": 36.9,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 56,
-    "channels_online": 55,
+    "channels_main": 50,
+    "channels_online": 50,
     "streams_total": 135,
-    "streams_online": 79
+    "streams_online": 74
   },
   "sources": [
     {
@@ -954,13 +954,37 @@
     },
     {
       "channel": "Cadena A",
+      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
       "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1004,6 +1028,12 @@
       "channel": "FAP TV",
       "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
       "error": "playlist HLS inválida: sem segmentos (#EXTINF) nem variantes",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Imperial TV",
+      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
+      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -1055,14 +1085,14 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Red ADvenir TV",
-      "url": "http://streamer1.streamhost.org:1935/salive/GMIredadvenirm/playlist.m3u8",
+      "channel": "Radio Clasica TV",
+      "url": "https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
-      "channel": "Red ADvenir TV",
-      "url": "https://streamer1.streamhost.org/salive/GMIredadvenirh/chunklist_w1940547209.m3u8",
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1079,14 +1109,14 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Red Siglo XXI",
-      "url": "https://59d39900ebfb8.streamlock.net/sigloxxi/sigloxxi/chunklist_w1833611505.m3u8",
+      "channel": "Red Uno",
+      "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
       "channel": "Red Uno",
-      "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
+      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1103,10 +1133,22 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Sucremanta TV",
+      "url": "https://lbgo.bozztv.com/ssh101/ssh101/ok2026/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "TDT Multimedia",
       "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "error_kind": "transient"
+    },
+    {
+      "channel": "Tele 6",
+      "url": "https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "TransMedia",
