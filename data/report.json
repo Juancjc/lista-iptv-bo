@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-27T12:19:03+00:00",
-  "duration_seconds": 35.3,
+  "generated_at": "2026-10-27T22:19:52+00:00",
+  "duration_seconds": 40.1,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
     "channels_main": 62,
-    "channels_online": 62,
+    "channels_online": 60,
     "streams_total": 135,
-    "streams_online": 91
+    "streams_online": 88
   },
   "sources": [
     {
@@ -917,12 +917,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Ayni TV",
-      "url": "https://59d39900ebfb8.streamlock.net/Aynitv/Aynitv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Bolivia TV",
       "url": "https://5fe2654d6127d.streamlock.net:443/boliviatv/videoboliviatv/playlist.m3u8",
       "error": "HTTP 404",
@@ -1037,6 +1031,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "PAT La Paz",
+      "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
+      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
+      "error_kind": "transient"
+    },
+    {
       "channel": "PAT Santa Cruz",
       "url": "http://158.172.155.130:8000/play/a0e6/index.m3u8",
       "error": "HTTP 404",
@@ -1051,6 +1051,12 @@
     {
       "channel": "Poder de Dios TV",
       "url": "http://15.204.246.24:8080/PoderdeDiosHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1119,6 +1125,18 @@
       "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",

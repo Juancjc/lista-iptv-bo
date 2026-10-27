@@ -12,9 +12,9 @@
 
 <br>
 
-![Canais online](https://img.shields.io/badge/canais_online-62-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canais online](https://img.shields.io/badge/canais_online-60-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canais encontrados](https://img.shields.io/badge/canais_encontrados-81-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams online](https://img.shields.io/badge/streams_online-91%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams online](https://img.shields.io/badge/streams_online-88%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -53,9 +53,9 @@ Canais abertos da **Bolívia** — redes nacionais, emissoras regionais, TVs uni
 |---|---|
 | Canais encontrados | **81** |
 | Canais na lista principal | **62** |
-| Canais online na última verificação | **62** |
-| Streams online / total | **91 / 135** |
-| Última atualização | **27/10/2026 08:19 (horário da Bolívia, UTC−4)** |
+| Canais online na última verificação | **60** |
+| Streams online / total | **88 / 135** |
+| Última atualização | **27/10/2026 18:19 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -130,7 +130,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | As Contenidos | Geral | — | 🟢 Online | 1/1 |
 | ATB | Geral | La Paz | 🟢 Online | 1/3 |
 | Audiokiss | Música | — | 🟢 Online | 1/1 |
-| Ayni TV | Geral | — | 🔴 Offline | 0/2 |
+| Ayni TV | Geral | — | 🟢 Online | 1/2 |
 | Bolivia Mix TV | Geral | — | 🟢 Online | 1/1 |
 | Bolivia TV | TV Pública | La Paz | 🟢 Online | 2/3 |
 | Bolivia TV 7.2 | TV Pública | La Paz | 🔴 Offline | 0/1 |
@@ -158,7 +158,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Imperial TV | Geral | — | 🟢 Online | 1/1 |
 | Interactivo Television | Geral | — | 🔴 Offline | 0/2 |
 | Palenque TV | Geral | — | 🟢 Online | 1/2 |
-| PAT La Paz | Geral | La Paz | 🟢 Online | 1/2 |
+| PAT La Paz | Geral | La Paz | 🟡 Instável | 0/2 |
 | PAT Santa Cruz | Geral | Santa Cruz | 🔴 Offline | 0/1 |
 | Plus TLT | Geral | — | 🔴 Offline | 0/1 |
 | Poder de Dios TV | Religioso | — | 🟢 Online | 1/2 |
@@ -166,7 +166,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Radio Centro | Geral | — | 🟢 Online | 1/1 |
 | Radio Clasica TV | Música | — | 🟢 Online | 1/1 |
 | Radio Kollasuyo | Geral | — | 🟢 Online | 1/1 |
-| Radio Mega TV Amazonia | Geral | — | 🟢 Online | 1/1 |
+| Radio Mega TV Amazonia | Geral | — | 🔴 Offline | 0/1 |
 | Radio Universitaria San Andrés | Universitário | La Paz | 🟢 Online | 1/1 |
 | Red ADvenir TV | Religioso | — | 🟢 Online | 2/2 |
 | Red America TV | Geral | — | 🟢 Online | 1/1 |
@@ -197,7 +197,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Unitel Cochabamba | Geral | Cochabamba | 🟢 Online | 1/2 |
 | Unitel La Paz | Geral | La Paz | 🟢 Online | 1/2 |
 | Unitel Santa Cruz | Geral | Santa Cruz | 🟢 Online | 2/2 |
-| Univalle TV | Universitário | Cochabamba | 🟢 Online | 2/2 |
+| Univalle TV | Universitário | Cochabamba | 🟡 Instável | 0/2 |
 | UPEA TV | Universitário | La Paz | 🟢 Online | 1/1 |
 | Vos TV | Geral | — | 🟢 Online | 2/3 |
 | VTV Canal 17 | Religioso | — | 🟢 Online | 1/2 |
