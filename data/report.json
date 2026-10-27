@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-27T05:11:45+00:00",
-  "duration_seconds": 35.8,
+  "generated_at": "2026-10-27T12:19:03+00:00",
+  "duration_seconds": 35.3,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 56,
-    "channels_online": 55,
+    "channels_main": 62,
+    "channels_online": 62,
     "streams_total": 135,
-    "streams_online": 76
+    "streams_online": 91
   },
   "sources": [
     {
@@ -960,37 +960,13 @@
     },
     {
       "channel": "Cadena A",
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
       "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1034,12 +1010,6 @@
       "channel": "FAP TV",
       "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
       "error": "playlist HLS inválida: sem segmentos (#EXTINF) nem variantes",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Imperial TV",
-      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
-      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -1103,36 +1073,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Red Uno",
-      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red Uno Santa Cruz",
-      "url": "http://190.181.18.82:4111/play/a006/index.m3u8",
-      "error": "falha de rede: Cannot connect to host 190.181.18.82:4111 ssl:default [Connect call failed ('190.181.18.82', 4111)]",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "RTP",
-      "url": "https://rtp.noxun.net/hls720/stream3.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "RTP",
-      "url": "https://rtp.noxun.net/hls480/stream2.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "RTP",
-      "url": "https://rtp.noxun.net/hls/stream.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
@@ -1175,40 +1115,10 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Unitel Cochabamba",
-      "url": "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Unitel La Paz",
-      "url": "https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Unitel La Paz",
       "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
-    },
-    {
-      "channel": "Unitel Santa Cruz",
-      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",
