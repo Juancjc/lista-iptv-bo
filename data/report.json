@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-28T13:01:21+00:00",
-  "duration_seconds": 36.7,
+  "generated_at": "2026-10-28T22:39:47+00:00",
+  "duration_seconds": 36.0,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 63,
-    "channels_online": 62,
+    "channels_main": 64,
+    "channels_online": 63,
     "streams_total": 135,
-    "streams_online": 87
+    "streams_online": 91
   },
   "sources": [
     {
@@ -918,12 +918,6 @@
     },
     {
       "channel": "Bolivia TV",
-      "url": "http://190.181.61.93:8000/play/a001/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Bolivia TV",
       "url": "https://5fe2654d6127d.streamlock.net:443/boliviatv/videoboliviatv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
@@ -1069,24 +1063,6 @@
     {
       "channel": "Red Uno",
       "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red Uno La Paz",
-      "url": "http://190.181.61.93:8000/play/a003/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red Uno Santa Cruz",
-      "url": "http://190.181.61.93:8000/play/a002/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "RTP",
-      "url": "http://190.181.61.93:8000/play/a00n/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
