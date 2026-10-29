@@ -12,9 +12,9 @@
 
 <br>
 
-![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-61-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-63-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canales encontrados](https://img.shields.io/badge/canales_encontrados-81-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-90%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-91%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -52,10 +52,10 @@ Canales abiertos de **Bolivia** — redes nacionales, canales regionales, TV uni
 | | |
 |---|---|
 | Canales encontrados | **81** |
-| Canales en la lista principal | **62** |
-| Canales en línea en la última verificación | **61** |
-| Streams en línea / total | **90 / 135** |
-| Última actualización | **29/10/2026 09:09 (hora de Bolivia, UTC−4)** |
+| Canales en la lista principal | **64** |
+| Canales en línea en la última verificación | **63** |
+| Streams en línea / total | **91 / 135** |
+| Última actualización | **29/10/2026 18:49 (hora de Bolivia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -157,7 +157,7 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Gogoplay TV | General | — | 🟢 En línea | 1/1 |
 | Imperial TV | General | — | 🟢 En línea | 1/1 |
 | Interactivo Television | General | — | 🔴 Fuera de línea | 0/2 |
-| Palenque TV | General | — | 🔴 Fuera de línea | 0/2 |
+| Palenque TV | General | — | 🟢 En línea | 1/2 |
 | PAT La Paz | General | La Paz | 🟡 Inestable | 0/2 |
 | PAT Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/1 |
 | Plus TLT | General | — | 🔴 Fuera de línea | 0/1 |
@@ -175,9 +175,9 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Red Rubi | General | — | 🟢 En línea | 1/1 |
 | Red Siglo XXI | General | — | 🟢 En línea | 1/1 |
 | Red TV Shop | Compras | — | 🟢 En línea | 1/1 |
-| Red Uno | General | — | 🔴 Fuera de línea | 0/2 |
+| Red Uno | General | — | 🟢 En línea | 1/2 |
 | Red Uno La Paz | General | La Paz | 🟢 En línea | 1/1 |
-| Red Uno Santa Cruz | General | Santa Cruz | 🟢 En línea | 2/2 |
+| Red Uno Santa Cruz | General | Santa Cruz | 🟢 En línea | 1/2 |
 | RTP | General | La Paz | 🟢 En línea | 4/4 |
 | Sol TV | General | — | 🔴 Fuera de línea | 0/1 |
 | SPC Canal 15 | General | — | 🟢 En línea | 1/1 |

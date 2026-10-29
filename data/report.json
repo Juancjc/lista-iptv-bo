@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-29T13:09:03+00:00",
-  "duration_seconds": 39.0,
+  "generated_at": "2026-10-29T22:49:15+00:00",
+  "duration_seconds": 37.7,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 62,
-    "channels_online": 61,
+    "channels_main": 64,
+    "channels_online": 63,
     "streams_total": 135,
-    "streams_online": 90
+    "streams_online": 91
   },
   "sources": [
     {
@@ -1025,12 +1025,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Palenque TV",
-      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "PAT La Paz",
       "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
       "error": "HTTP 404",
@@ -1079,8 +1073,8 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Red Uno",
-      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+      "channel": "Red Uno Santa Cruz",
+      "url": "http://190.181.18.82:4111/play/a006/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
