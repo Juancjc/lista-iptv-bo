@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-29T05:54:27+00:00",
-  "duration_seconds": 39.4,
+  "generated_at": "2026-10-29T13:09:03+00:00",
+  "duration_seconds": 39.0,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 56,
-    "channels_online": 55,
+    "channels_main": 62,
+    "channels_online": 61,
     "streams_total": 135,
-    "streams_online": 81
+    "streams_online": 90
   },
   "sources": [
     {
@@ -954,37 +954,13 @@
     },
     {
       "channel": "Cadena A",
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
       "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1031,12 +1007,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Imperial TV",
-      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
       "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [Name or service not known]",
@@ -1051,6 +1021,12 @@
     {
       "channel": "Palenque TV",
       "url": "http://15.204.246.24:8080/PalenqueTVSD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Palenque TV",
+      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1085,12 +1061,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Radio Mega TV Amazonia",
-      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Red CCTV",
       "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
       "error": "erro TLS/certificado: ClientConnectorCertificateError",
@@ -1119,12 +1089,6 @@
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error_kind": "transient"
-    },
-    {
-      "channel": "SPC Canal 15",
-      "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "TDT Multimedia",
@@ -1157,27 +1121,9 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Unitel Cochabamba",
-      "url": "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Unitel La Paz",
-      "url": "https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Unitel La Paz",
       "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
       "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Unitel Santa Cruz",
-      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
-      "error": "HTTP 403",
       "error_kind": "permanent"
     },
     {
