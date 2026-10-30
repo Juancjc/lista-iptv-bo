@@ -39,9 +39,9 @@ https://d135ohnuotzzyo.cloudfront.net/index.m3u8
 https://d1mws3umreue1g.cloudfront.net/index.m3u8
 #EXTINF:-1 tvg-id="BolivisionSantaCruz.bo" tvg-name="Bolivisión Santa Cruz" tvg-logo="https://i.imgur.com/U98Z5zn.png" group-title="Bolívia | Geral",Bolivisión Santa Cruz (Alt. 2) [Offline]
 https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8
-#EXTINF:-1 tvg-id="CadenaA.bo" tvg-name="Cadena A" tvg-logo="" group-title="Bolívia | Notícias",Cadena A [Offline]
+#EXTINF:-1 tvg-id="CadenaA.bo" tvg-name="Cadena A" tvg-logo="" group-title="Bolívia | Notícias",Cadena A
 https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8
-#EXTINF:-1 tvg-id="CadenaA.bo" tvg-name="Cadena A" tvg-logo="" group-title="Bolívia | Notícias",Cadena A (Alt. 2) [Offline]
+#EXTINF:-1 tvg-id="CadenaA.bo" tvg-name="Cadena A" tvg-logo="" group-title="Bolívia | Notícias",Cadena A (Alt. 2)
 https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8
 #EXTINF:-1 tvg-id="CadenaA.bo" tvg-name="Cadena A" tvg-logo="" group-title="Bolívia | Notícias",Cadena A (Alt. 3) [Offline]
 http://15.204.246.24:8080/CadenaAHD/index.m3u8
@@ -49,9 +49,9 @@ http://15.204.246.24:8080/CadenaAHD/index.m3u8
 https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal56QuieroTV.bo" tvg-name="Canal 56 Quiero TV" tvg-logo="https://i.imgur.com/l9kDNld.jpeg" group-title="Bolívia | Geral",Canal 56 Quiero TV
 http://45.5.118.152:8000/play/a08z/index.m3u8
-#EXTINF:-1 tvg-id="CEACOMTV.bo" tvg-name="CEACOM TV" tvg-logo="https://i.imgur.com/hutdRfk.png" group-title="Bolívia | Geral",CEACOM TV [Offline]
+#EXTINF:-1 tvg-id="CEACOMTV.bo" tvg-name="CEACOM TV" tvg-logo="https://i.imgur.com/hutdRfk.png" group-title="Bolívia | Geral",CEACOM TV
 https://eu1.servers10.com:8081/ceacom/index.m3u8
-#EXTINF:-1 tvg-id="CEACOMTV.bo" tvg-name="CEACOM TV" tvg-logo="https://i.imgur.com/hutdRfk.png" group-title="Bolívia | Geral",CEACOM TV (Alt. 2) [Offline]
+#EXTINF:-1 tvg-id="CEACOMTV.bo" tvg-name="CEACOM TV" tvg-logo="https://i.imgur.com/hutdRfk.png" group-title="Bolívia | Geral",CEACOM TV (Alt. 2)
 https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="CineramaTelevision.bo" tvg-name="Cinerama Television" tvg-logo="https://play-lh.googleusercontent.com/RJ49IeJve4VPALBXqrqJGeAYOEoLQIZZ4zWwtJhofisng6ZYwGemZ-VXCx9ZQ-u7fw" group-title="Bolívia | Entretenimento",Cinerama Television [Offline]
 https://live.cineramatvbo.com/hls/stream.m3u8
@@ -68,9 +68,9 @@ https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8
 #EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia (Alt. 2) [Offline]
 http://15.204.246.24:8080/CTVHD/index.m3u8
 #EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia (Alt. 3) [Offline]
-https://live.ctvbolivia.com/hls/ctv.m3u8
-#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia (Alt. 4) [Offline]
 https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8
+#EXTINF:-1 tvg-id="CTV.bo" tvg-name="CTV Bolivia" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="Bolívia | Geral",CTV Bolivia (Alt. 4) [Offline]
+https://live.ctvbolivia.com/hls/ctv.m3u8
 #EXTINF:-1 tvg-id="CVC.bo" tvg-name="CVC" tvg-logo="https://i.imgur.com/taGdzLe.png" group-title="Bolívia | Religioso",CVC [Offline]
 http://15.204.246.24:8080/CVCHD/index.m3u8
 #EXTINF:-1 tvg-id="DeltaTV.bo" tvg-name="Delta TV" tvg-logo="https://i.imgur.com/FcciYMD.png" group-title="Bolívia | Geral",Delta TV
@@ -103,7 +103,7 @@ https://tv.bitstreaming.net:3348/live/gigavisionlive.m3u8
 http://158.172.155.130:8000/play/a0e7/index.m3u8
 #EXTINF:-1 tvg-id="GogoplayTV.bo" tvg-name="Gogoplay TV" tvg-logo="https://i.postimg.cc/sxhdVLHw/Gogogo-Play-Bolivia23.jpg" group-title="Bolívia | Geral",Gogoplay TV
 https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8
-#EXTINF:-1 tvg-id="ImperialTV.bo" tvg-name="Imperial TV" tvg-logo="https://i.ibb.co/8XHSVWY/IMG-20210613-153444.png" group-title="Bolívia | Geral",Imperial TV [Offline]
+#EXTINF:-1 tvg-id="ImperialTV.bo" tvg-name="Imperial TV" tvg-logo="https://i.ibb.co/8XHSVWY/IMG-20210613-153444.png" group-title="Bolívia | Geral",Imperial TV
 https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8
 #EXTINF:-1 tvg-id="InteractivoTelevision.bo" tvg-name="Interactivo Television" tvg-logo="https://i.imgur.com/sGOSDo2.jpeg" group-title="Bolívia | Geral",Interactivo Television [Offline]
 https://mist01.homestream.fun/hls/interactivotv2/index.m3u8
@@ -135,7 +135,7 @@ https://streamlov.alsolnet.com/grupocentrobo/live/playlist.m3u8
 https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioKollasuyo.bo" tvg-name="Radio Kollasuyo" tvg-logo="https://kollasuyobucket.s3.amazonaws.com/wp_files/2022/08/01/rk-white-500.png" group-title="Bolívia | Geral",Radio Kollasuyo
 https://azura2.bitstreaming.net/hls/kollasuyo3/live.m3u8
-#EXTINF:-1 tvg-id="RadioMegaTVAmazonia.bo" tvg-name="Radio Mega TV Amazonia" tvg-logo="https://i.imgur.com/yzSNWZ3.png" group-title="Bolívia | Geral",Radio Mega TV Amazonia [Offline]
+#EXTINF:-1 tvg-id="RadioMegaTVAmazonia.bo" tvg-name="Radio Mega TV Amazonia" tvg-logo="https://i.imgur.com/yzSNWZ3.png" group-title="Bolívia | Geral",Radio Mega TV Amazonia
 https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioUniversitariaSanAndres.bo" tvg-name="Radio Universitaria San Andrés" tvg-logo="https://tvu.umsa.bo/documents/780216/0/LogoRUSA+%283%29.jpg" group-title="Bolívia | Universitário",Radio Universitaria San Andrés
 https://edge.enhdtv.com/8054/index.m3u8
@@ -159,7 +159,7 @@ https://59d39900ebfb8.streamlock.net/asiesmipueblo/asiesmipueblo/playlist.m3u8
 https://59d39900ebfb8.streamlock.net/sigloxxi/sigloxxi/chunklist_w1833611505.m3u8
 #EXTINF:-1 tvg-id="RedTVShop.bo" tvg-name="Red TV Shop" tvg-logo="https://i.imgur.com/I7yB176.png" group-title="Bolívia | Compras",Red TV Shop
 https://master.tucableip.com/redtvshop/index.m3u8
-#EXTINF:-1 tvg-id="RedUno.bo" tvg-name="Red Uno" tvg-logo="https://i.imgur.com/wfNaEV9.png" group-title="Bolívia | Geral",Red Uno [Offline]
+#EXTINF:-1 tvg-id="RedUno.bo" tvg-name="Red Uno" tvg-logo="https://i.imgur.com/wfNaEV9.png" group-title="Bolívia | Geral",Red Uno
 https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8
 #EXTINF:-1 tvg-id="RedUno.bo" tvg-name="Red Uno" tvg-logo="https://i.imgur.com/wfNaEV9.png" group-title="Bolívia | Geral",Red Uno (Alt. 2) [Offline]
 http://190.181.18.82:4111/play/a005/index.m3u8
@@ -170,16 +170,16 @@ http://190.181.18.82:4111/play/a006/index.m3u8
 #EXTINF:-1 tvg-id="RedUno.bo@SantaCruz" tvg-name="Red Uno Santa Cruz" tvg-logo="https://i.imgur.com/wfNaEV9.png" group-title="Bolívia | Geral",Red Uno Santa Cruz (Alt. 2)
 http://190.181.61.93:8000/play/a002/index.m3u8
 #EXTINF:-1 tvg-id="RTP.bo" tvg-name="RTP" tvg-logo="https://i.imgur.com/cECNvvr.png" group-title="Bolívia | Geral",RTP
-https://rtp.noxun.net/hls480/stream2.m3u8
-#EXTINF:-1 tvg-id="RTP.bo" tvg-name="RTP" tvg-logo="https://i.imgur.com/cECNvvr.png" group-title="Bolívia | Geral",RTP (Alt. 2)
 https://rtp.noxun.net/hls/stream.m3u8
+#EXTINF:-1 tvg-id="RTP.bo" tvg-name="RTP" tvg-logo="https://i.imgur.com/cECNvvr.png" group-title="Bolívia | Geral",RTP (Alt. 2)
+https://rtp.noxun.net/hls480/stream2.m3u8
 #EXTINF:-1 tvg-id="RTP.bo" tvg-name="RTP" tvg-logo="https://i.imgur.com/cECNvvr.png" group-title="Bolívia | Geral",RTP (Alt. 3)
 https://rtp.noxun.net/hls720/stream3.m3u8
 #EXTINF:-1 tvg-id="RTP.bo" tvg-name="RTP" tvg-logo="https://i.imgur.com/cECNvvr.png" group-title="Bolívia | Geral",RTP (Alt. 4)
 http://190.181.61.93:8000/play/a00n/index.m3u8
 #EXTINF:-1 tvg-id="SolTV.bo" tvg-name="Sol TV" tvg-logo="https://i.imgur.com/2m8PVpA.png" group-title="Bolívia | Geral",Sol TV [Offline]
 http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="SPCCanal15.bo" tvg-name="SPC Canal 15" tvg-logo="https://i.imgur.com/8GzjELt.jpeg" group-title="Bolívia | Geral",SPC Canal 15 [Offline]
+#EXTINF:-1 tvg-id="SPCCanal15.bo" tvg-name="SPC Canal 15" tvg-logo="https://i.imgur.com/8GzjELt.jpeg" group-title="Bolívia | Geral",SPC Canal 15
 https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8
 #EXTINF:-1 tvg-id="SucremantaTV.bo" tvg-name="Sucremanta TV" tvg-logo="https://i.imgur.com/noN0Yhe.png" group-title="Bolívia | Geral",Sucremanta TV
 https://lbgo.bozztv.com/ssh101/ssh101/ok2026/playlist.m3u8
@@ -232,18 +232,18 @@ https://edge.enhdtv.com/8192/index.m3u8
 https://live.enhdtv.com:8081/8192/index.m3u8
 #EXTINF:-1 tvg-id="Unifranz.bo" tvg-name="Unifranz TV" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="Bolívia | Universitário",Unifranz TV (Alt. 3)
 https://live.enhdtv.com:8081/8192/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="UnitelCochabamba.bo" tvg-name="Unitel Cochabamba" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel Cochabamba [Offline]
+#EXTINF:-1 tvg-id="UnitelCochabamba.bo" tvg-name="Unitel Cochabamba" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel Cochabamba
 https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8
 #EXTINF:-1 tvg-id="UnitelCochabamba.bo" tvg-name="Unitel Cochabamba" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel Cochabamba (Alt. 2) [Offline]
 https://lbgo.bozztv.com/ssh101/ssh101/tvjoaquiniana26/playlist.m3u8
-#EXTINF:-1 tvg-id="UnitelLaPaz.bo" tvg-name="Unitel La Paz" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel La Paz [Offline]
+#EXTINF:-1 tvg-id="UnitelLaPaz.bo" tvg-name="Unitel La Paz" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel La Paz
 https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8
 #EXTINF:-1 tvg-id="UnitelLaPaz.bo" tvg-name="Unitel La Paz" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel La Paz (Alt. 2) [Offline]
 http://190.60.39.195:8000/play/a01r/index.m3u8
 #EXTINF:-1 tvg-id="Unitel.bo@SantaCruz" tvg-name="Unitel Santa Cruz" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel Santa Cruz
-http://190.181.61.93:8000/play/1909/index.m3u8
-#EXTINF:-1 tvg-id="Unitel.bo@SantaCruz" tvg-name="Unitel Santa Cruz" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel Santa Cruz (Alt. 2) [Offline]
 https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8
+#EXTINF:-1 tvg-id="Unitel.bo@SantaCruz" tvg-name="Unitel Santa Cruz" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Bolívia | Geral",Unitel Santa Cruz (Alt. 2)
+http://190.181.61.93:8000/play/1909/index.m3u8
 #EXTINF:-1 tvg-id="UnivalleTelevision.bo" tvg-name="Univalle TV" tvg-logo="https://i.imgur.com/qgrWDIs.png" group-title="Bolívia | Universitário",Univalle TV
 https://master.tucableip.com/univalletv/playlist.m3u8
 #EXTINF:-1 tvg-id="UnivalleTelevision.bo" tvg-name="Univalle TV" tvg-logo="https://i.imgur.com/qgrWDIs.png" group-title="Bolívia | Universitário",Univalle TV (Alt. 2)
@@ -271,6 +271,6 @@ https://www.sccbolivia.com/dash/720p.mpd
 #EXTINF:-1 tvg-id="ZoyTV.bo" tvg-name="Zoy TV" tvg-logo="https://i.postimg.cc/TwjGWJG2/zoy-tv-hd-new.jpg" group-title="Bolívia | Geral",Zoy TV [Offline]
 https://tv.zoymilton.com/ZoyPlus/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ZuracaTV.bo" tvg-name="Zuraca TV" tvg-logo="https://i.imgur.com/NsNytWD.jpeg" group-title="Bolívia | Negócios",Zuraca TV
-https://tv3.bitstreaming.net:3680/live/zuracatvlive.m3u8
-#EXTINF:-1 tvg-id="ZuracaTV.bo" tvg-name="Zuraca TV" tvg-logo="https://i.imgur.com/NsNytWD.jpeg" group-title="Bolívia | Negócios",Zuraca TV (Alt. 2)
 https://tv3.bitstreaming.net:3680/zuracatvlive/zuracatvlive.m3u8
+#EXTINF:-1 tvg-id="ZuracaTV.bo" tvg-name="Zuraca TV" tvg-logo="https://i.imgur.com/NsNytWD.jpeg" group-title="Bolívia | Negócios",Zuraca TV (Alt. 2)
+https://tv3.bitstreaming.net:3680/live/zuracatvlive.m3u8
