@@ -52,10 +52,10 @@ Canales abiertos de **Bolivia** — redes nacionales, canales regionales, TV uni
 | | |
 |---|---|
 | Canales encontrados | **81** |
-| Canales en la lista principal | **59** |
+| Canales en la lista principal | **58** |
 | Canales en línea en la última verificación | **57** |
 | Streams en línea / total | **84 / 135** |
-| Última actualización | **31/10/2026 08:39 (hora de Bolivia, UTC−4)** |
+| Última actualización | **31/10/2026 17:40 (hora de Bolivia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -127,7 +127,7 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Abya Yala TV | General | La Paz | 🔴 Fuera de línea | 0/1 |
 | Alegria TV | Música | — | 🔴 Fuera de línea | 0/1 |
 | Amitel TV | General | — | 🟢 En línea | 2/2 |
-| As Contenidos | General | — | 🟢 En línea | 1/1 |
+| As Contenidos | General | — | 🔴 Fuera de línea | 0/1 |
 | ATB | General | La Paz | 🟢 En línea | 1/3 |
 | Audiokiss | Música | — | 🟢 En línea | 1/1 |
 | Ayni TV | General | — | 🟢 En línea | 1/2 |
@@ -155,10 +155,10 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Gigavisión La Paz | General | La Paz | 🟢 En línea | 1/1 |
 | Gigavisión Santa Cruz | General | Santa Cruz | 🟢 En línea | 2/2 |
 | Gogoplay TV | General | — | 🟢 En línea | 1/1 |
-| Imperial TV | General | — | 🟢 En línea | 1/1 |
+| Imperial TV | General | — | 🔴 Fuera de línea | 0/1 |
 | Interactivo Television | General | — | 🔴 Fuera de línea | 0/2 |
 | Palenque TV | General | — | 🟢 En línea | 1/2 |
-| PAT La Paz | General | La Paz | 🟡 Inestable | 0/2 |
+| PAT La Paz | General | La Paz | 🟢 En línea | 1/2 |
 | PAT Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/1 |
 | Plus TLT | General | — | 🔴 Fuera de línea | 0/1 |
 | Poder de Dios TV | Religioso | — | 🟢 En línea | 1/2 |
@@ -166,8 +166,8 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Radio Centro | General | — | 🟢 En línea | 1/1 |
 | Radio Clasica TV | Música | — | 🟢 En línea | 1/1 |
 | Radio Kollasuyo | General | — | 🟢 En línea | 1/1 |
-| Radio Mega TV Amazonia | General | — | 🔴 Fuera de línea | 0/1 |
-| Radio Universitaria San Andrés | Universitario | La Paz | 🟢 En línea | 1/1 |
+| Radio Mega TV Amazonia | General | — | 🟢 En línea | 1/1 |
+| Radio Universitaria San Andrés | Universitario | La Paz | 🔴 Fuera de línea | 0/1 |
 | Red ADvenir TV | Religioso | — | 🟢 En línea | 2/2 |
 | Red America TV | General | — | 🟢 En línea | 1/1 |
 | Red CCTV | General | — | 🟢 En línea | 2/3 |
@@ -180,7 +180,7 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Red Uno Santa Cruz | General | Santa Cruz | 🟢 En línea | 2/2 |
 | RTP | General | La Paz | 🟢 En línea | 4/4 |
 | Sol TV | General | — | 🔴 Fuera de línea | 0/1 |
-| SPC Canal 15 | General | — | 🔴 Fuera de línea | 0/1 |
+| SPC Canal 15 | General | — | 🟢 En línea | 1/1 |
 | Sucremanta TV | General | — | 🟢 En línea | 1/1 |
 | TDT Multimedia | General | — | 🟢 En línea | 1/2 |
 | Tele 6 | General | — | 🟢 En línea | 1/1 |

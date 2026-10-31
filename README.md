@@ -52,10 +52,10 @@ Canais abertos da **Bolívia** — redes nacionais, emissoras regionais, TVs uni
 | | |
 |---|---|
 | Canais encontrados | **81** |
-| Canais na lista principal | **59** |
+| Canais na lista principal | **58** |
 | Canais online na última verificação | **57** |
 | Streams online / total | **84 / 135** |
-| Última atualização | **31/10/2026 08:39 (horário da Bolívia, UTC−4)** |
+| Última atualização | **31/10/2026 17:40 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -127,7 +127,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Abya Yala TV | Geral | La Paz | 🔴 Offline | 0/1 |
 | Alegria TV | Música | — | 🔴 Offline | 0/1 |
 | Amitel TV | Geral | — | 🟢 Online | 2/2 |
-| As Contenidos | Geral | — | 🟢 Online | 1/1 |
+| As Contenidos | Geral | — | 🔴 Offline | 0/1 |
 | ATB | Geral | La Paz | 🟢 Online | 1/3 |
 | Audiokiss | Música | — | 🟢 Online | 1/1 |
 | Ayni TV | Geral | — | 🟢 Online | 1/2 |
@@ -155,10 +155,10 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Gigavisión La Paz | Geral | La Paz | 🟢 Online | 1/1 |
 | Gigavisión Santa Cruz | Geral | Santa Cruz | 🟢 Online | 2/2 |
 | Gogoplay TV | Geral | — | 🟢 Online | 1/1 |
-| Imperial TV | Geral | — | 🟢 Online | 1/1 |
+| Imperial TV | Geral | — | 🔴 Offline | 0/1 |
 | Interactivo Television | Geral | — | 🔴 Offline | 0/2 |
 | Palenque TV | Geral | — | 🟢 Online | 1/2 |
-| PAT La Paz | Geral | La Paz | 🟡 Instável | 0/2 |
+| PAT La Paz | Geral | La Paz | 🟢 Online | 1/2 |
 | PAT Santa Cruz | Geral | Santa Cruz | 🔴 Offline | 0/1 |
 | Plus TLT | Geral | — | 🔴 Offline | 0/1 |
 | Poder de Dios TV | Religioso | — | 🟢 Online | 1/2 |
@@ -166,8 +166,8 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Radio Centro | Geral | — | 🟢 Online | 1/1 |
 | Radio Clasica TV | Música | — | 🟢 Online | 1/1 |
 | Radio Kollasuyo | Geral | — | 🟢 Online | 1/1 |
-| Radio Mega TV Amazonia | Geral | — | 🔴 Offline | 0/1 |
-| Radio Universitaria San Andrés | Universitário | La Paz | 🟢 Online | 1/1 |
+| Radio Mega TV Amazonia | Geral | — | 🟢 Online | 1/1 |
+| Radio Universitaria San Andrés | Universitário | La Paz | 🔴 Offline | 0/1 |
 | Red ADvenir TV | Religioso | — | 🟢 Online | 2/2 |
 | Red America TV | Geral | — | 🟢 Online | 1/1 |
 | Red CCTV | Geral | — | 🟢 Online | 2/3 |
@@ -180,7 +180,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Red Uno Santa Cruz | Geral | Santa Cruz | 🟢 Online | 2/2 |
 | RTP | Geral | La Paz | 🟢 Online | 4/4 |
 | Sol TV | Geral | — | 🔴 Offline | 0/1 |
-| SPC Canal 15 | Geral | — | 🔴 Offline | 0/1 |
+| SPC Canal 15 | Geral | — | 🟢 Online | 1/1 |
 | Sucremanta TV | Geral | — | 🟢 Online | 1/1 |
 | TDT Multimedia | Geral | — | 🟢 Online | 1/2 |
 | Tele 6 | Geral | — | 🟢 Online | 1/1 |

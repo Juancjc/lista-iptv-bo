@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T12:39:38+00:00",
-  "duration_seconds": 38.4,
+  "generated_at": "2026-10-31T21:40:37+00:00",
+  "duration_seconds": 36.5,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 59,
+    "channels_main": 58,
     "channels_online": 57,
     "streams_total": 135,
     "streams_online": 84
@@ -899,6 +899,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "As Contenidos",
+      "url": "https://master.tucableip.com/ascontenido/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "ATB",
       "url": "http://15.204.246.24:8080/ATBHD/index.m3u8",
       "error": "HTTP 404",
@@ -973,7 +979,7 @@
     {
       "channel": "Cinerama Television",
       "url": "https://live.cineramatvbo.com/hls/stream.m3u8",
-      "error": "erro TLS/certificado: ClientConnectorCertificateError",
+      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -1013,6 +1019,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Imperial TV",
+      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
       "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [Name or service not known]",
@@ -1037,12 +1049,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "PAT La Paz",
-      "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
       "channel": "PAT Santa Cruz",
       "url": "http://158.172.155.130:8000/play/a0e6/index.m3u8",
       "error": "HTTP 404",
@@ -1061,8 +1067,8 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Radio Mega TV Amazonia",
-      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
+      "channel": "Radio Universitaria San Andrés",
+      "url": "https://edge.enhdtv.com/8054/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1089,12 +1095,6 @@
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error_kind": "transient"
-    },
-    {
-      "channel": "SPC Canal 15",
-      "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "TDT Multimedia",
