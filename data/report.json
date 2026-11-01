@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T06:13:57+00:00",
-  "duration_seconds": 36.5,
+  "generated_at": "2026-11-01T13:33:23+00:00",
+  "duration_seconds": 35.2,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 50,
-    "channels_online": 49,
+    "channels_main": 53,
+    "channels_online": 52,
     "streams_total": 135,
-    "streams_online": 74
+    "streams_online": 76
   },
   "sources": [
     {
@@ -972,19 +972,7 @@
     },
     {
       "channel": "Cadena A",
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
       "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1001,20 +989,14 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Cinerama Television",
       "url": "https://live.cineramatvbo.com/hls/stream.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cosmos TV",
+      "url": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1055,12 +1037,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Imperial TV",
-      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
       "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [Name or service not known]",
@@ -1085,12 +1061,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "PAT La Paz",
-      "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
       "channel": "PAT Santa Cruz",
       "url": "http://158.172.155.130:8000/play/a0e6/index.m3u8",
       "error": "HTTP 404",
@@ -1105,12 +1075,6 @@
     {
       "channel": "Poder de Dios TV",
       "url": "http://15.204.246.24:8080/PoderdeDiosHD/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Radio Clasica TV",
-      "url": "https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1141,12 +1105,6 @@
     {
       "channel": "Red Uno",
       "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red Uno",
-      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1205,6 +1163,30 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "UMSA TVU La Paz",
+      "url": "https://edge.enhdtv.com/8190/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "UMSA TVU La Paz",
+      "url": "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "UMSA TVU La Paz",
+      "url": "https://live.enhdtv.com:8081/8190/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "UMSA TVU La Paz",
+      "url": "https://edge.enhdtv.com/8190/tracks-v1a1/mono.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Unitel Cochabamba",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/tvjoaquiniana26/playlist.m3u8",
       "error": "HTTP 404",
@@ -1229,10 +1211,16 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Unitel Santa Cruz",
-      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",
