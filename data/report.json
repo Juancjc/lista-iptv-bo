@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T13:33:23+00:00",
-  "duration_seconds": 35.2,
+  "generated_at": "2026-11-01T22:06:44+00:00",
+  "duration_seconds": 38.7,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 53,
-    "channels_online": 52,
+    "channels_main": 58,
+    "channels_online": 57,
     "streams_total": 135,
-    "streams_online": 76
+    "streams_online": 84
   },
   "sources": [
     {
@@ -995,12 +995,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Cosmos TV",
-      "url": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "CTV Bolivia",
       "url": "http://15.204.246.24:8080/CTVHD/index.m3u8",
       "error": "HTTP 404",
@@ -1061,6 +1055,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "PAT La Paz",
+      "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
+      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
+      "error_kind": "transient"
+    },
+    {
       "channel": "PAT Santa Cruz",
       "url": "http://158.172.155.130:8000/play/a0e6/index.m3u8",
       "error": "HTTP 404",
@@ -1079,14 +1079,14 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Radio Mega TV Amazonia",
-      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "channel": "PTV Paceñísima",
+      "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/playlist.m3u8",
+      "error": "HTTP 502",
+      "error_kind": "transient"
     },
     {
-      "channel": "Radio Universitaria San Andrés",
-      "url": "https://edge.enhdtv.com/8054/index.m3u8",
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1145,48 +1145,6 @@
       "error_kind": "transient"
     },
     {
-      "channel": "TVU Sucre",
-      "url": "https://edge.enhdtv.com/8214/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "UMSA TVU Internacional",
-      "url": "https://edge.enhdtv.com/8026/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "UMSA TVU Internacional",
-      "url": "https://live.enhdtv.com:8081/8026/tracks-v1a1/mono.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "UMSA TVU La Paz",
-      "url": "https://edge.enhdtv.com/8190/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "UMSA TVU La Paz",
-      "url": "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "UMSA TVU La Paz",
-      "url": "https://live.enhdtv.com:8081/8190/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "UMSA TVU La Paz",
-      "url": "https://edge.enhdtv.com/8190/tracks-v1a1/mono.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Unitel Cochabamba",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/tvjoaquiniana26/playlist.m3u8",
       "error": "HTTP 404",
@@ -1211,16 +1169,10 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
+      "channel": "Unitel Santa Cruz",
+      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
+      "error": "HTTP 403",
+      "error_kind": "permanent"
     },
     {
       "channel": "Vos TV",
