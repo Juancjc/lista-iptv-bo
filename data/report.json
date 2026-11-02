@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T22:06:44+00:00",
-  "duration_seconds": 38.7,
+  "generated_at": "2026-11-02T06:14:39+00:00",
+  "duration_seconds": 35.6,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 58,
-    "channels_online": 57,
+    "channels_main": 55,
+    "channels_online": 55,
     "streams_total": 135,
-    "streams_online": 84
+    "streams_online": 81
   },
   "sources": [
     {
@@ -16,8 +16,8 @@
       "ok": true,
       "from_cache": false,
       "error": null,
-      "entries": 97,
-      "accepted": 65,
+      "entries": 96,
+      "accepted": 64,
       "rejected": 32
     },
     {
@@ -911,12 +911,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "As Contenidos",
-      "url": "https://master.tucableip.com/ascontenido/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "ATB",
       "url": "http://15.204.246.24:8080/ATBHD/index.m3u8",
       "error": "HTTP 404",
@@ -972,7 +966,19 @@
     },
     {
       "channel": "Cadena A",
+      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
       "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -985,6 +991,18 @@
     {
       "channel": "Canal 56 Quiero TV",
       "url": "http://45.5.118.152:8000/play/a08z/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1031,6 +1049,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Imperial TV",
+      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
       "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [Name or service not known]",
@@ -1055,12 +1079,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "PAT La Paz",
-      "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
       "channel": "PAT Santa Cruz",
       "url": "http://158.172.155.130:8000/play/a0e6/index.m3u8",
       "error": "HTTP 404",
@@ -1077,12 +1095,6 @@
       "url": "http://15.204.246.24:8080/PoderdeDiosHD/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
-    },
-    {
-      "channel": "PTV Paceñísima",
-      "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/playlist.m3u8",
-      "error": "HTTP 502",
-      "error_kind": "transient"
     },
     {
       "channel": "Radio Mega TV Amazonia",
@@ -1125,6 +1137,12 @@
       "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "error_kind": "transient"
+    },
+    {
+      "channel": "Tele 6",
+      "url": "https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "TransMedia",
