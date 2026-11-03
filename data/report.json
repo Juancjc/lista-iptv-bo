@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T01:02:42+00:00",
-  "duration_seconds": 39.0,
+  "generated_at": "2026-11-03T14:23:04+00:00",
+  "duration_seconds": 37.4,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
     "channels_main": 59,
-    "channels_online": 58,
+    "channels_online": 56,
     "streams_total": 135,
-    "streams_online": 87
+    "streams_online": 83
   },
   "sources": [
     {
@@ -1025,6 +1025,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Imperial TV",
+      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
+      "error": "falha de rede: Connection timeout to host https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
+      "error_kind": "transient"
+    },
+    {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
       "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [Name or service not known]",
@@ -1043,6 +1049,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Palenque TV",
+      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "PAT La Paz",
       "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
       "error": "HTTP 404",
@@ -1051,8 +1063,8 @@
     {
       "channel": "PAT La Paz",
       "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error_kind": "transient"
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "PAT Santa Cruz",
@@ -1079,6 +1091,18 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Red CCTV",
+      "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red CCTV",
+      "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/chunklist_w2098818106.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Red DTV",
       "url": "http://15.204.246.24:8080/DTVHD/index.m3u8",
       "error": "HTTP 404",
@@ -1091,6 +1115,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Red Uno",
+      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+      "error": "falha de rede: Connection timeout to host https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+      "error_kind": "transient"
+    },
+    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
@@ -1099,20 +1129,14 @@
     {
       "channel": "SPC Canal 15",
       "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Connection timeout to host https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
+      "error_kind": "transient"
     },
     {
       "channel": "TDT Multimedia",
       "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "error_kind": "transient"
-    },
-    {
-      "channel": "Tele 6",
-      "url": "https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "TransMedia",
@@ -1139,22 +1163,22 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Unitel Cochabamba",
-      "url": "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Unitel La Paz",
-      "url": "https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Unitel La Paz",
       "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",
