@@ -12,7 +12,7 @@
 
 <br>
 
-![Canais online](https://img.shields.io/badge/canais_online-59-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canais online](https://img.shields.io/badge/canais_online-58-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canais encontrados](https://img.shields.io/badge/canais_encontrados-81-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Streams online](https://img.shields.io/badge/streams_online-87%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
@@ -53,9 +53,9 @@ Canais abertos da **Bolívia** — redes nacionais, emissoras regionais, TVs uni
 |---|---|
 | Canais encontrados | **81** |
 | Canais na lista principal | **59** |
-| Canais online na última verificação | **59** |
+| Canais online na última verificação | **58** |
 | Streams online / total | **87 / 135** |
-| Última atualização | **02/11/2026 12:11 (horário da Bolívia, UTC−4)** |
+| Última atualização | **02/11/2026 21:02 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -158,7 +158,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Imperial TV | Geral | — | 🟢 Online | 1/1 |
 | Interactivo Television | Geral | — | 🔴 Offline | 0/2 |
 | Palenque TV | Geral | — | 🟢 Online | 1/2 |
-| PAT La Paz | Geral | La Paz | 🟢 Online | 1/2 |
+| PAT La Paz | Geral | La Paz | 🟡 Instável | 0/2 |
 | PAT Santa Cruz | Geral | Santa Cruz | 🔴 Offline | 0/1 |
 | Plus TLT | Geral | — | 🔴 Offline | 0/1 |
 | Poder de Dios TV | Religioso | — | 🟢 Online | 1/2 |
@@ -196,7 +196,7 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Unifranz TV | Universitário | — | 🟢 Online | 3/3 |
 | Unitel Cochabamba | Geral | Cochabamba | 🔴 Offline | 0/2 |
 | Unitel La Paz | Geral | La Paz | 🔴 Offline | 0/2 |
-| Unitel Santa Cruz | Geral | Santa Cruz | 🟢 Online | 1/2 |
+| Unitel Santa Cruz | Geral | Santa Cruz | 🟢 Online | 2/2 |
 | Univalle TV | Universitário | Cochabamba | 🟢 Online | 2/2 |
 | UPEA TV | Universitário | La Paz | 🟢 Online | 1/1 |
 | Vos TV | Geral | — | 🟢 Online | 2/3 |
