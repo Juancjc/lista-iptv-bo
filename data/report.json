@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T14:23:04+00:00",
-  "duration_seconds": 37.4,
+  "generated_at": "2026-11-03T23:27:35+00:00",
+  "duration_seconds": 39.5,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 59,
-    "channels_online": 56,
+    "channels_main": 61,
+    "channels_online": 57,
     "streams_total": 135,
-    "streams_online": 83
+    "streams_online": 85
   },
   "sources": [
     {
@@ -919,8 +919,14 @@
     {
       "channel": "ATB",
       "url": "http://186.121.206.197/live/daniel/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Connection timeout to host http://186.121.206.197/live/daniel/index.m3u8",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "ATB",
+      "url": "https://stream.atb.com.bo/live/daniel/index.m3u8",
+      "error": "falha de rede: Connection timeout to host https://stream.atb.com.bo/live/daniel/index.m3u8",
+      "error_kind": "transient"
     },
     {
       "channel": "Ayni TV",
@@ -1049,12 +1055,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Palenque TV",
-      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "PAT La Paz",
       "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
       "error": "HTTP 404",
@@ -1063,8 +1063,8 @@
     {
       "channel": "PAT La Paz",
       "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
+      "error_kind": "transient"
     },
     {
       "channel": "PAT Santa Cruz",
@@ -1167,18 +1167,6 @@
       "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",

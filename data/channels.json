@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T14:23:04+00:00",
+  "generated_at": "2026-11-03T23:27:35+00:00",
   "stats": {
     "channels_total": 81,
-    "channels_main": 59,
-    "channels_online": 56,
+    "channels_main": 61,
+    "channels_online": 57,
     "streams_total": 135,
-    "streams_online": 83
+    "streams_online": 85
   },
   "sources": [
     {
@@ -85,11 +85,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 8,
+          "response_ms": 79,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -118,11 +118,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 96,
+          "response_ms": 827,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -151,10 +151,10 @@
           "resolution": "1280x720",
           "bandwidth": 1425600,
           "segment_checked": true,
-          "response_ms": 427,
+          "response_ms": 597,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         },
         {
@@ -175,10 +175,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 422,
+          "response_ms": 594,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -206,12 +206,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 8120000,
+          "bandwidth": 8130000,
           "segment_checked": true,
-          "response_ms": 430,
+          "response_ms": 587,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -240,11 +240,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 40,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "http://186.121.206.197/live/daniel/index.m3u8",
@@ -260,18 +260,18 @@
             "Not 24/7"
           ],
           "status": "offline",
-          "error": "HTTP 404",
-          "error_kind": "permanent",
-          "http_status": 404,
+          "error": "falha de rede: Connection timeout to host http://186.121.206.197/live/daniel/index.m3u8",
+          "error_kind": "transient",
+          "http_status": null,
           "stream_type": null,
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 263,
+          "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:34+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://stream.atb.com.bo/live/daniel/index.m3u8",
@@ -282,19 +282,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "falha de rede: Connection timeout to host https://stream.atb.com.bo/live/daniel/index.m3u8",
+          "error_kind": "transient",
+          "http_status": null,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": null,
-          "segment_checked": true,
-          "response_ms": 621,
+          "segment_checked": false,
+          "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:34+00:00",
           "last_success": "2026-11-03T14:22:32+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         }
       ]
     },
@@ -321,12 +321,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 5110000,
+          "bandwidth": 4910000,
           "segment_checked": true,
-          "response_ms": 420,
+          "response_ms": 596,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -356,11 +356,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 6,
+          "response_ms": 82,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://59d39900ebfb8.streamlock.net/Aynitv/Aynitv/playlist.m3u8",
@@ -377,12 +377,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 2169606,
+          "bandwidth": 2176233,
           "segment_checked": true,
-          "response_ms": 46,
+          "response_ms": 322,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
-          "last_success": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
+          "last_success": "2026-11-03T23:26:56+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -412,10 +412,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 88,
+          "response_ms": 82,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
-          "last_success": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:03+00:00",
+          "last_success": "2026-11-03T23:27:03+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -443,12 +443,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 4992000,
+          "bandwidth": 5076000,
           "segment_checked": true,
-          "response_ms": 428,
+          "response_ms": 417,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:29+00:00",
-          "last_success": "2026-11-03T14:22:29+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         },
         {
@@ -470,10 +470,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 64,
+          "response_ms": 204,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
-          "last_success": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
+          "last_success": "2026-11-03T23:26:56+00:00",
           "consecutive_failures": 0
         },
         {
@@ -493,11 +493,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 266,
+          "response_ms": 224,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
           "last_success": null,
-          "consecutive_failures": 29
+          "consecutive_failures": 30
         }
       ]
     },
@@ -525,11 +525,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 269,
+          "response_ms": 112,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:03+00:00",
           "last_success": null,
-          "consecutive_failures": 29
+          "consecutive_failures": 30
         }
       ]
     },
@@ -557,11 +557,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 39,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://d135ohnuotzzyo.cloudfront.net/index.m3u8",
@@ -580,11 +580,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 149,
+          "response_ms": 129,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -612,11 +612,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 37,
+          "response_ms": 122,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8",
@@ -639,9 +639,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:03+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -669,12 +669,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1739591,
+          "bandwidth": 1722613,
           "segment_checked": true,
-          "response_ms": 52,
+          "response_ms": 34,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
-          "last_success": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         },
         {
@@ -694,11 +694,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 172,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:02+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
@@ -715,12 +715,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1737938,
+          "bandwidth": 1718256,
           "segment_checked": true,
-          "response_ms": 257,
+          "response_ms": 179,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
-          "last_success": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:02+00:00",
+          "last_success": "2026-11-03T23:27:02+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -750,11 +750,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 174,
+          "response_ms": 421,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -783,11 +783,11 @@
           "resolution": null,
           "bandwidth": 2138000,
           "segment_checked": false,
-          "response_ms": 116,
+          "response_ms": 121,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
           "last_success": "2026-10-30T13:00:43+00:00",
-          "consecutive_failures": 11
+          "consecutive_failures": 12
         }
       ]
     },
@@ -816,12 +816,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 3380000,
+          "bandwidth": 3650000,
           "segment_checked": true,
-          "response_ms": 534,
+          "response_ms": 670,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         },
         {
@@ -842,10 +842,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 457,
+          "response_ms": 526,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -875,11 +875,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 121,
+          "response_ms": 270,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -906,12 +906,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1470000,
+          "bandwidth": 1450000,
           "segment_checked": true,
-          "response_ms": 517,
+          "response_ms": 394,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         },
         {
@@ -931,10 +931,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 503,
+          "response_ms": 368,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         },
         {
@@ -955,10 +955,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 463,
+          "response_ms": 368,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -987,10 +987,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 448,
+          "response_ms": 475,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
-          "last_success": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:04+00:00",
+          "last_success": "2026-11-03T23:27:04+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1020,11 +1020,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 20,
+          "response_ms": 54,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:27+00:00",
+          "last_checked": "2026-11-03T23:26:56+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8",
@@ -1045,11 +1045,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 403,
+          "response_ms": 358,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://live.ctvbolivia.com/hls/ctv.m3u8",
@@ -1068,11 +1068,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 410,
+          "response_ms": 349,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8",
@@ -1089,12 +1089,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "854x480",
-          "bandwidth": 1418355,
+          "bandwidth": 1179402,
           "segment_checked": true,
-          "response_ms": 65,
+          "response_ms": 156,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1124,11 +1124,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 40,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -1157,10 +1157,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 166,
+          "response_ms": 309,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1188,12 +1188,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 2420000,
+          "bandwidth": 2560000,
           "segment_checked": true,
-          "response_ms": 249,
+          "response_ms": 114,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1223,10 +1223,10 @@
           "resolution": "1920x1080",
           "bandwidth": 4810000,
           "segment_checked": true,
-          "response_ms": 84,
+          "response_ms": 117,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1256,11 +1256,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 2,
+          "response_ms": 41,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://tv2.bitstreaming.net:3235/multi_live/play_720.m3u8",
@@ -1280,10 +1280,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 37,
+          "response_ms": 251,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1304,10 +1304,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 34,
+          "response_ms": 209,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1335,12 +1335,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 2340000,
+          "bandwidth": 1850000,
           "segment_checked": true,
-          "response_ms": 150,
+          "response_ms": 183,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1360,11 +1360,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 1691,
+          "response_ms": 1835,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:29+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -1391,12 +1391,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 2830000,
+          "bandwidth": 2840000,
           "segment_checked": true,
-          "response_ms": 88,
+          "response_ms": 362,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1425,10 +1425,10 @@
           "resolution": "1280x720",
           "bandwidth": 4096000,
           "segment_checked": true,
-          "response_ms": 18,
+          "response_ms": 179,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
-          "last_success": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:02+00:00",
+          "last_success": "2026-11-03T23:27:02+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1448,10 +1448,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 55,
+          "response_ms": 205,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
-          "last_success": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:02+00:00",
+          "last_success": "2026-11-03T23:27:02+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1481,10 +1481,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 14,
+          "response_ms": 125,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
-          "last_success": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:03+00:00",
+          "last_success": "2026-11-03T23:27:03+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1512,12 +1512,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 3433000,
+          "bandwidth": 3743000,
           "segment_checked": true,
-          "response_ms": 324,
+          "response_ms": 375,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:29+00:00",
-          "last_success": "2026-11-03T14:22:29+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1538,10 +1538,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 55,
+          "response_ms": 205,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1571,10 +1571,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 101,
+          "response_ms": 141,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
-          "last_success": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:03+00:00",
+          "last_success": "2026-11-03T23:27:03+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1606,9 +1606,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:23:00+00:00",
+          "last_checked": "2026-11-03T23:27:30+00:00",
           "last_success": "2026-11-03T01:02:05+00:00",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       ]
     },
@@ -1639,9 +1639,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://mist01.homestream.fun/hls/interactivotv/index.m3u8",
@@ -1662,9 +1662,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -1693,11 +1693,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 40,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
@@ -1710,19 +1710,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "offline",
-          "error": "HTTP 404",
-          "error_kind": "permanent",
-          "http_status": 404,
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": null,
-          "segment_checked": false,
-          "response_ms": 35,
+          "segment_checked": true,
+          "response_ms": 245,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T01:02:06+00:00",
-          "consecutive_failures": 1
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -1750,11 +1750,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 39,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:02+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
@@ -1766,18 +1766,18 @@
           "referrer": null,
           "labels": [],
           "status": "offline",
-          "error": "HTTP 404",
-          "error_kind": "permanent",
-          "http_status": 404,
+          "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
+          "error_kind": "transient",
+          "http_status": null,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": 4293000,
           "segment_checked": false,
-          "response_ms": 973,
+          "response_ms": null,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:35+00:00",
           "last_success": "2026-11-02T16:10:56+00:00",
-          "consecutive_failures": 2
+          "consecutive_failures": 3
         }
       ]
     },
@@ -1806,11 +1806,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 320,
+          "response_ms": 362,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -1839,11 +1839,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 39,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -1872,11 +1872,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 40,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://s3.tvdatta.com:3846/live/poderdedioslive.m3u8",
@@ -1895,10 +1895,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 107,
+          "response_ms": 249,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1926,12 +1926,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1217248,
+          "bandwidth": 1228034,
           "segment_checked": true,
-          "response_ms": 128,
+          "response_ms": 286,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1952,10 +1952,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 85,
+          "response_ms": 225,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:57+00:00",
+          "last_success": "2026-11-03T23:26:57+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1983,12 +1983,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 2252616,
+          "bandwidth": 2421816,
           "segment_checked": true,
-          "response_ms": 50,
+          "response_ms": 278,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2016,12 +2016,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "852x480",
-          "bandwidth": 844496,
+          "bandwidth": 895932,
           "segment_checked": true,
-          "response_ms": 17,
+          "response_ms": 49,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2051,10 +2051,10 @@
           "resolution": null,
           "bandwidth": 140800,
           "segment_checked": true,
-          "response_ms": 100,
+          "response_ms": 249,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2082,12 +2082,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "854x480",
-          "bandwidth": 1257681,
+          "bandwidth": 1253886,
           "segment_checked": true,
-          "response_ms": 82,
+          "response_ms": 226,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2115,12 +2115,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1420000,
+          "bandwidth": 1280000,
           "segment_checked": true,
-          "response_ms": 99,
+          "response_ms": 111,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2150,12 +2150,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "640x360",
-          "bandwidth": 928393,
+          "bandwidth": 610314,
           "segment_checked": true,
-          "response_ms": 638,
+          "response_ms": 733,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
+          "last_success": "2026-11-03T23:26:59+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2176,10 +2176,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 730,
+          "response_ms": 834,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:29+00:00",
-          "last_success": "2026-11-03T14:22:29+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
+          "last_success": "2026-11-03T23:26:59+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2207,12 +2207,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 2790000,
+          "bandwidth": 2660000,
           "segment_checked": true,
-          "response_ms": 96,
+          "response_ms": 121,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2244,9 +2244,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
@@ -2265,11 +2265,11 @@
           "resolution": "854x480",
           "bandwidth": 2258478,
           "segment_checked": false,
-          "response_ms": 16,
+          "response_ms": 49,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
           "last_success": "2026-11-03T01:02:06+00:00",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         },
         {
           "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/chunklist_w2098818106.m3u8",
@@ -2289,11 +2289,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 17,
+          "response_ms": 49,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
           "last_success": "2026-11-03T01:02:06+00:00",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       ]
     },
@@ -2322,11 +2322,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 39,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -2353,12 +2353,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1848068,
+          "bandwidth": 1857687,
           "segment_checked": true,
-          "response_ms": 8,
+          "response_ms": 69,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2388,10 +2388,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 8,
+          "response_ms": 71,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
-          "last_success": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:03+00:00",
+          "last_success": "2026-11-03T23:27:03+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2421,10 +2421,10 @@
           "resolution": "1280x720",
           "bandwidth": 2500000,
           "segment_checked": true,
-          "response_ms": 82,
+          "response_ms": 117,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:28+00:00",
-          "last_success": "2026-11-03T14:22:28+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2453,11 +2453,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 568,
+          "response_ms": 708,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:02+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
@@ -2478,9 +2478,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:23:04+00:00",
+          "last_checked": "2026-11-03T23:27:34+00:00",
           "last_success": "2026-11-03T01:02:10+00:00",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       ]
     },
@@ -2507,12 +2507,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 4659000,
+          "bandwidth": 5541000,
           "segment_checked": true,
-          "response_ms": 463,
+          "response_ms": 462,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2540,12 +2540,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 4660000,
+          "bandwidth": 4353000,
           "segment_checked": true,
-          "response_ms": 451,
+          "response_ms": 448,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2563,12 +2563,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 4631000,
+          "bandwidth": 4785000,
           "segment_checked": true,
-          "response_ms": 620,
+          "response_ms": 583,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2596,12 +2596,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 2827000,
+          "bandwidth": 2748000,
           "segment_checked": true,
-          "response_ms": 694,
+          "response_ms": 421,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2623,10 +2623,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 143,
+          "response_ms": 160,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:29+00:00",
-          "last_success": "2026-11-03T14:22:29+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2646,10 +2646,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 31,
+          "response_ms": 40,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:29+00:00",
-          "last_success": "2026-11-03T14:22:29+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2669,10 +2669,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 37,
+          "response_ms": 12,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:29+00:00",
-          "last_success": "2026-11-03T14:22:29+00:00",
+          "last_checked": "2026-11-03T23:26:58+00:00",
+          "last_success": "2026-11-03T23:26:58+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2704,9 +2704,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:23:01+00:00",
+          "last_checked": "2026-11-03T23:27:31+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -2737,9 +2737,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:23:01+00:00",
+          "last_checked": "2026-11-03T23:27:31+00:00",
           "last_success": "2026-10-31T21:40:05+00:00",
-          "consecutive_failures": 7
+          "consecutive_failures": 8
         }
       ]
     },
@@ -2766,12 +2766,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 2619519,
+          "bandwidth": 2024515,
           "segment_checked": true,
-          "response_ms": 21,
+          "response_ms": 74,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
+          "last_success": "2026-11-03T23:26:59+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2803,10 +2803,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 661,
+          "response_ms": 604,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2828,9 +2828,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:23:02+00:00",
+          "last_checked": "2026-11-03T23:27:31+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -2857,12 +2857,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "854x480",
-          "bandwidth": 1075084,
+          "bandwidth": 1263554,
           "segment_checked": true,
-          "response_ms": 58,
+          "response_ms": 68,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
+          "last_success": "2026-11-03T23:26:59+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2890,12 +2890,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1792918,
+          "bandwidth": 1784496,
           "segment_checked": true,
-          "response_ms": 8,
+          "response_ms": 292,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2916,10 +2916,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 7,
+          "response_ms": 297,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2947,12 +2947,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1470912,
+          "bandwidth": 1358112,
           "segment_checked": true,
-          "response_ms": 8,
+          "response_ms": 69,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
+          "last_success": "2026-11-03T23:26:59+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2982,11 +2982,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 95,
+          "response_ms": 108,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -3015,11 +3015,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 40,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:26:59+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -3048,10 +3048,10 @@
           "resolution": "1920x1080",
           "bandwidth": 2340800,
           "segment_checked": true,
-          "response_ms": 194,
+          "response_ms": 296,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3069,12 +3069,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 2950000,
+          "bandwidth": 3430000,
           "segment_checked": true,
-          "response_ms": 82,
+          "response_ms": 117,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3095,10 +3095,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 157,
+          "response_ms": 242,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3126,12 +3126,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 1600000,
+          "bandwidth": 2390000,
           "segment_checked": true,
-          "response_ms": 31,
+          "response_ms": 35,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3154,9 +3154,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -3183,12 +3183,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1040000,
+          "bandwidth": 1090000,
           "segment_checked": true,
-          "response_ms": 109,
+          "response_ms": 113,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3216,12 +3216,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1020000,
+          "bandwidth": 1160000,
           "segment_checked": true,
-          "response_ms": 97,
+          "response_ms": 114,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3241,10 +3241,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 257,
+          "response_ms": 441,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3272,12 +3272,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1860000,
+          "bandwidth": 2000000,
           "segment_checked": true,
-          "response_ms": 96,
+          "response_ms": 114,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3297,10 +3297,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 150,
+          "response_ms": 394,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3320,12 +3320,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1860000,
+          "bandwidth": 2000000,
           "segment_checked": true,
-          "response_ms": 234,
+          "response_ms": 462,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3346,10 +3346,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 95,
+          "response_ms": 105,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:30+00:00",
-          "last_success": "2026-11-03T14:22:30+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3377,12 +3377,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1060000,
+          "bandwidth": 1010000,
           "segment_checked": true,
-          "response_ms": 161,
+          "response_ms": 113,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:00+00:00",
+          "last_success": "2026-11-03T23:27:00+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3400,12 +3400,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1060000,
+          "bandwidth": 1010000,
           "segment_checked": true,
-          "response_ms": 162,
+          "response_ms": 324,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3426,10 +3426,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 266,
+          "response_ms": 333,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3458,11 +3458,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 19,
+          "response_ms": 30,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:02+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
@@ -3481,10 +3481,10 @@
           "resolution": "1280x720",
           "bandwidth": 2890800,
           "segment_checked": true,
-          "response_ms": 22,
+          "response_ms": 60,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
-          "last_success": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:02+00:00",
+          "last_success": "2026-11-03T23:27:02+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3513,10 +3513,10 @@
           "resolution": "1280x720",
           "bandwidth": 2890800,
           "segment_checked": true,
-          "response_ms": 68,
+          "response_ms": 104,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
-          "last_success": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:03+00:00",
+          "last_success": "2026-11-03T23:27:03+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3536,11 +3536,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 170,
+          "response_ms": 214,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:03+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -3567,12 +3567,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 5859000,
+          "bandwidth": 5980000,
           "segment_checked": true,
-          "response_ms": 407,
+          "response_ms": 454,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
-          "last_success": "2026-11-03T14:22:32+00:00",
+          "last_checked": "2026-11-03T23:27:02+00:00",
+          "last_success": "2026-11-03T23:27:02+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3592,10 +3592,10 @@
           "resolution": "1280x720",
           "bandwidth": 2890800,
           "segment_checked": true,
-          "response_ms": 103,
+          "response_ms": 186,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3617,19 +3617,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "offline",
-          "error": "HTTP 503",
-          "error_kind": "transient",
-          "http_status": 503,
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 2750000,
-          "segment_checked": false,
-          "response_ms": 89,
+          "bandwidth": 2600000,
+          "segment_checked": true,
+          "response_ms": 120,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
-          "last_success": "2026-11-03T01:02:08+00:00",
-          "consecutive_failures": 1
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
+          "consecutive_failures": 0
         },
         {
           "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
@@ -3641,19 +3641,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "offline",
-          "error": "HTTP 503",
-          "error_kind": "transient",
-          "http_status": 503,
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": null,
-          "segment_checked": false,
-          "response_ms": 82,
+          "segment_checked": true,
+          "response_ms": 113,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:32+00:00",
-          "last_success": "2026-11-03T01:02:09+00:00",
-          "consecutive_failures": 1
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -3684,10 +3684,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 2658,
+          "response_ms": 2839,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:34+00:00",
-          "last_success": "2026-11-03T14:22:34+00:00",
+          "last_checked": "2026-11-03T23:27:04+00:00",
+          "last_success": "2026-11-03T23:27:04+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3717,11 +3717,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 2,
+          "response_ms": 39,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://59d39900ebfb8.streamlock.net/vostv/vostv/playlist.m3u8",
@@ -3738,12 +3738,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1897804,
+          "bandwidth": 1869415,
           "segment_checked": true,
-          "response_ms": 8,
+          "response_ms": 71,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3764,10 +3764,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 7,
+          "response_ms": 69,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3801,9 +3801,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "https://ares.disfrutaenlared.com:1936/vtvcanal/vtvcanal/chunklist_w1413178975.m3u8",
@@ -3823,10 +3823,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 15,
+          "response_ms": 45,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3858,9 +3858,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:34+00:00",
+          "last_checked": "2026-11-03T23:27:05+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -3893,9 +3893,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         },
         {
           "url": "http://190.104.15.135/0.ts",
@@ -3916,10 +3916,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 308,
+          "response_ms": 340,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3949,11 +3949,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 562,
+          "response_ms": 493,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:33+00:00",
+          "last_checked": "2026-11-03T23:27:04+00:00",
           "last_success": null,
-          "consecutive_failures": 31
+          "consecutive_failures": 32
         }
       ]
     },
@@ -3983,10 +3983,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 68,
+          "response_ms": 176,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         },
         {
@@ -4006,10 +4006,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 12,
+          "response_ms": 126,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-03T14:22:31+00:00",
-          "last_success": "2026-11-03T14:22:31+00:00",
+          "last_checked": "2026-11-03T23:27:01+00:00",
+          "last_success": "2026-11-03T23:27:01+00:00",
           "consecutive_failures": 0
         }
       ]
