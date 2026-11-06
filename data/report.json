@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-06T06:54:08+00:00",
-  "duration_seconds": 38.6,
+  "generated_at": "2026-11-06T19:28:21+00:00",
+  "duration_seconds": 40.6,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 53,
-    "channels_online": 52,
+    "channels_main": 58,
+    "channels_online": 55,
     "streams_total": 135,
-    "streams_online": 76
+    "streams_online": 81
   },
   "sources": [
     {
@@ -918,9 +918,15 @@
     },
     {
       "channel": "ATB",
+      "url": "https://stream.atb.com.bo/live/daniel/index.m3u8",
+      "error": "falha de rede: Connection timeout to host https://stream.atb.com.bo/live/daniel/index.m3u8",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "ATB",
       "url": "http://186.121.206.197/live/daniel/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Connection timeout to host http://186.121.206.197/live/daniel/index.m3u8",
+      "error_kind": "transient"
     },
     {
       "channel": "Ayni TV",
@@ -971,32 +977,8 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Cadena A",
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1043,12 +1025,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Imperial TV",
-      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
       "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [No address associated with hostname]",
@@ -1064,6 +1040,12 @@
       "channel": "Palenque TV",
       "url": "http://15.204.246.24:8080/PalenqueTVSD/index.m3u8",
       "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Palenque TV",
+      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
+      "error": "HTTP 403",
       "error_kind": "permanent"
     },
     {
@@ -1097,24 +1079,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Radio Mega TV Amazonia",
-      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red ADvenir TV",
-      "url": "http://streamer1.streamhost.org:1935/salive/GMIredadvenirm/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red ADvenir TV",
-      "url": "https://streamer1.streamhost.org/salive/GMIredadvenirh/chunklist_w1940547209.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Red CCTV",
       "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
       "error": "erro TLS/certificado: ClientConnectorCertificateError",
@@ -1141,12 +1105,6 @@
     {
       "channel": "Red Uno",
       "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red Uno",
-      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1215,6 +1173,18 @@
       "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
       "error": "HTTP 403",
       "error_kind": "permanent"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",
