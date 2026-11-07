@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-06T19:28:21+00:00",
-  "duration_seconds": 40.6,
+  "generated_at": "2026-11-07T06:05:59+00:00",
+  "duration_seconds": 103.4,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 58,
-    "channels_online": 55,
+    "channels_main": 50,
+    "channels_online": 49,
     "streams_total": 135,
-    "streams_online": 81
+    "streams_online": 74
   },
   "sources": [
     {
@@ -197,7 +197,7 @@
     {
       "source": "iptv-org-bo",
       "title": "Nickelodeon Latin America (1080p)",
-      "url": "http://15.204.246.24:8080/NickHD/index.m3u8",
+      "url": "http://181.78.79.131:8000/play/a0qm",
       "reason": "canal não boliviano (tvg-id: NickelodeonLatinAmerica.us@Panregional)"
     },
     {
@@ -918,15 +918,9 @@
     },
     {
       "channel": "ATB",
-      "url": "https://stream.atb.com.bo/live/daniel/index.m3u8",
-      "error": "falha de rede: Connection timeout to host https://stream.atb.com.bo/live/daniel/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "ATB",
       "url": "http://186.121.206.197/live/daniel/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://186.121.206.197/live/daniel/index.m3u8",
-      "error_kind": "transient"
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "Ayni TV",
@@ -977,8 +971,38 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Cadena A",
+      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Canal 56 Quiero TV",
+      "url": "http://45.5.118.152:8000/play/a08z/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1021,7 +1045,13 @@
     {
       "channel": "FAP TV",
       "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
-      "error": "playlist HLS inválida: sem segmentos (#EXTINF) nem variantes",
+      "error": "falha de rede: Connection timeout to host https://nd106.republicaservers.com/hls/c7284/index.m3u8",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Imperial TV",
+      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
+      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -1057,8 +1087,8 @@
     {
       "channel": "PAT La Paz",
       "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error_kind": "transient"
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "PAT Santa Cruz",
@@ -1075,6 +1105,12 @@
     {
       "channel": "Poder de Dios TV",
       "url": "http://15.204.246.24:8080/PoderdeDiosHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1109,6 +1145,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Red Uno",
+      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
@@ -1125,6 +1167,12 @@
       "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "error_kind": "transient"
+    },
+    {
+      "channel": "Tele 6",
+      "url": "https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "TransMedia",
@@ -1175,15 +1223,9 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
-      "error": "HTTP 503",
+      "channel": "UPEA TV",
+      "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
+      "error": "falha de rede: Connection timeout to host https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
       "error_kind": "transient"
     },
     {
