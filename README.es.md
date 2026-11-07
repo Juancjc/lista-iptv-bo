@@ -12,9 +12,9 @@
 
 <br>
 
-![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-56-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-54-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canales encontrados](https://img.shields.io/badge/canales_encontrados-81-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-83%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-80%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -52,10 +52,10 @@ Canales abiertos de **Bolivia** — redes nacionales, canales regionales, TV uni
 | | |
 |---|---|
 | Canales encontrados | **81** |
-| Canales en la lista principal | **56** |
-| Canales en línea en la última verificación | **56** |
-| Streams en línea / total | **83 / 135** |
-| Última actualización | **07/11/2026 09:09 (hora de Bolivia, UTC−4)** |
+| Canales en la lista principal | **57** |
+| Canales en línea en la última verificación | **54** |
+| Streams en línea / total | **80 / 135** |
+| Última actualización | **07/11/2026 17:55 (hora de Bolivia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -127,7 +127,7 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Abya Yala TV | General | La Paz | 🔴 Fuera de línea | 0/1 |
 | Alegria TV | Música | — | 🔴 Fuera de línea | 0/1 |
 | Amitel TV | General | — | 🟢 En línea | 2/2 |
-| As Contenidos | General | — | 🟢 En línea | 1/1 |
+| As Contenidos | General | — | 🔴 Fuera de línea | 0/1 |
 | ATB | General | La Paz | 🟢 En línea | 1/3 |
 | Audiokiss | Música | — | 🟢 En línea | 1/1 |
 | Ayni TV | General | — | 🟢 En línea | 1/2 |
@@ -157,8 +157,8 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Gogoplay TV | General | — | 🟢 En línea | 1/1 |
 | Imperial TV | General | — | 🟢 En línea | 1/1 |
 | Interactivo Television | General | — | 🔴 Fuera de línea | 0/2 |
-| Palenque TV | General | — | 🔴 Fuera de línea | 0/2 |
-| PAT La Paz | General | La Paz | 🟢 En línea | 1/2 |
+| Palenque TV | General | — | 🟢 En línea | 1/2 |
+| PAT La Paz | General | La Paz | 🟡 Inestable | 0/2 |
 | PAT Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/1 |
 | Plus TLT | General | — | 🔴 Fuera de línea | 0/1 |
 | Poder de Dios TV | Religioso | — | 🟢 En línea | 1/2 |
@@ -183,7 +183,7 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | SPC Canal 15 | General | — | 🔴 Fuera de línea | 0/1 |
 | Sucremanta TV | General | — | 🟢 En línea | 1/1 |
 | TDT Multimedia | General | — | 🟢 En línea | 1/2 |
-| Tele 6 | General | — | 🔴 Fuera de línea | 0/1 |
+| Tele 6 | General | — | 🟢 En línea | 1/1 |
 | Tele Estrella | General | — | 🟢 En línea | 2/2 |
 | Tele Fe Bolivia | General | — | 🟢 En línea | 1/1 |
 | TransMedia | General | — | 🔴 Fuera de línea | 0/1 |
@@ -197,8 +197,8 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Unitel Cochabamba | General | Cochabamba | 🔴 Fuera de línea | 0/2 |
 | Unitel La Paz | General | La Paz | 🔴 Fuera de línea | 0/2 |
 | Unitel Santa Cruz | General | Santa Cruz | 🟢 En línea | 1/2 |
-| Univalle TV | Universitario | Cochabamba | 🟢 En línea | 2/2 |
-| UPEA TV | Universitario | La Paz | 🟢 En línea | 1/1 |
+| Univalle TV | Universitario | Cochabamba | 🟡 Inestable | 0/2 |
+| UPEA TV | Universitario | La Paz | 🟡 Inestable | 0/1 |
 | Vos TV | General | — | 🟢 En línea | 2/3 |
 | VTV Canal 17 | Religioso | — | 🔴 Fuera de línea | 0/2 |
 | Wara TV | General | — | 🔴 Fuera de línea | 0/1 |

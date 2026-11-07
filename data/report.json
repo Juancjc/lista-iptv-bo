@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-07T13:09:27+00:00",
-  "duration_seconds": 35.2,
+  "generated_at": "2026-11-07T21:55:35+00:00",
+  "duration_seconds": 38.4,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 56,
-    "channels_online": 56,
+    "channels_main": 57,
+    "channels_online": 54,
     "streams_total": 135,
-    "streams_online": 83
+    "streams_online": 80
   },
   "sources": [
     {
@@ -911,6 +911,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "As Contenidos",
+      "url": "https://master.tucableip.com/ascontenido/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "ATB",
       "url": "http://15.204.246.24:8080/ATBHD/index.m3u8",
       "error": "HTTP 404",
@@ -1043,16 +1049,16 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Palenque TV",
-      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "PAT La Paz",
       "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
+    },
+    {
+      "channel": "PAT La Paz",
+      "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
+      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
+      "error_kind": "transient"
     },
     {
       "channel": "PAT Santa Cruz",
@@ -1121,12 +1127,6 @@
       "error_kind": "transient"
     },
     {
-      "channel": "Tele 6",
-      "url": "https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "TransMedia",
       "url": "https://edge.enhdtv.com/8064/index.m3u8",
       "error": "HTTP 404",
@@ -1173,6 +1173,24 @@
       "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
       "error": "HTTP 403",
       "error_kind": "permanent"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "UPEA TV",
+      "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
+      "error": "falha de rede: Cannot connect to host tvstream.upea.bo:443 ssl:default [Connect call failed ('186.121.206.250', 443)]",
+      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",
