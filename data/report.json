@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-08T13:30:55+00:00",
-  "duration_seconds": 38.6,
+  "generated_at": "2026-11-08T22:11:29+00:00",
+  "duration_seconds": 37.8,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 53,
+    "channels_main": 57,
     "channels_online": 49,
     "streams_total": 135,
-    "streams_online": 76
+    "streams_online": 75
   },
   "sources": [
     {
@@ -907,8 +907,8 @@
     {
       "channel": "Alegria TV",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
+      "error_kind": "transient"
     },
     {
       "channel": "ATB",
@@ -918,15 +918,27 @@
     },
     {
       "channel": "ATB",
+      "url": "https://stream.atb.com.bo/live/daniel/index.m3u8",
+      "error": "falha de rede: Connection timeout to host https://stream.atb.com.bo/live/daniel/index.m3u8",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "ATB",
       "url": "http://186.121.206.197/live/daniel/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Connection timeout to host http://186.121.206.197/live/daniel/index.m3u8",
+      "error_kind": "transient"
     },
     {
       "channel": "Ayni TV",
       "url": "http://15.204.246.24:8080/AyniTVHD/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
+    },
+    {
+      "channel": "Bolivia Mix TV",
+      "url": "https://live20.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/chunks.m3u8",
+      "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [Name or service not known]",
+      "error_kind": "transient"
     },
     {
       "channel": "Bolivia TV",
@@ -977,12 +989,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Canal 56 Quiero TV",
-      "url": "http://45.5.118.152:8000/play/a08z/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Cinerama Television",
       "url": "https://live.cineramatvbo.com/hls/stream.m3u8",
       "error": "HTTP 404",
@@ -1027,8 +1033,8 @@
     {
       "channel": "Gogoplay TV",
       "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [Name or service not known]",
+      "error_kind": "transient"
     },
     {
       "channel": "Imperial TV",
@@ -1055,12 +1061,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Palenque TV",
-      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "PAT La Paz",
       "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
       "error": "HTTP 404",
@@ -1069,8 +1069,8 @@
     {
       "channel": "PAT La Paz",
       "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error": "falha de rede: Connection timeout to host https://www.redpat.tv:8000/play/12/index.m3u8",
-      "error_kind": "transient"
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "PAT Santa Cruz",
@@ -1089,6 +1089,18 @@
       "url": "http://15.204.246.24:8080/PoderdeDiosHD/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
+    },
+    {
+      "channel": "PTV Paceñísima",
+      "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/playlist.m3u8",
+      "error": "falha de rede: Cannot connect to host giatv.bozztv.com:443 ssl:default [Name or service not known]",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "PTV Paceñísima",
+      "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
+      "error": "falha de rede: Cannot connect to host giatv.bozztv.com:443 ssl:default [Name or service not known]",
+      "error_kind": "transient"
     },
     {
       "channel": "Radio Mega TV Amazonia",
@@ -1147,8 +1159,8 @@
     {
       "channel": "Sucremanta TV",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/ok2026/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
+      "error_kind": "transient"
     },
     {
       "channel": "TDT Multimedia",
@@ -1159,8 +1171,8 @@
     {
       "channel": "Tele 6",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
+      "error_kind": "transient"
     },
     {
       "channel": "TransMedia",
@@ -1183,8 +1195,8 @@
     {
       "channel": "Unitel Cochabamba",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/tvjoaquiniana26/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
+      "error_kind": "transient"
     },
     {
       "channel": "Unitel Cochabamba",
@@ -1205,16 +1217,10 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
+      "channel": "Unitel Santa Cruz",
+      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
+      "error": "HTTP 403",
+      "error_kind": "permanent"
     },
     {
       "channel": "Vos TV",
