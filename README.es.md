@@ -12,9 +12,9 @@
 
 <br>
 
-![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-49-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-46-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canales encontrados](https://img.shields.io/badge/canales_encontrados-81-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-75%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-68%2F135-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -52,10 +52,10 @@ Canales abiertos de **Bolivia** — redes nacionales, canales regionales, TV uni
 | | |
 |---|---|
 | Canales encontrados | **81** |
-| Canales en la lista principal | **57** |
-| Canales en línea en la última verificación | **49** |
-| Streams en línea / total | **75 / 135** |
-| Última actualización | **08/11/2026 18:11 (hora de Bolivia, UTC−4)** |
+| Canales en la lista principal | **54** |
+| Canales en línea en la última verificación | **46** |
+| Streams en línea / total | **68 / 135** |
+| Última actualización | **09/11/2026 02:42 (hora de Bolivia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -136,10 +136,10 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Bolivia TV 7.2 | TV Pública | La Paz | 🔴 Fuera de línea | 0/1 |
 | Bolivisión | General | La Paz | 🔴 Fuera de línea | 0/2 |
 | Bolivisión Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/2 |
-| Cadena A | Noticias | La Paz | 🟢 En línea | 2/3 |
+| Cadena A | Noticias | La Paz | 🔴 Fuera de línea | 0/3 |
 | Canal 15 Teleor | General | — | 🔴 Fuera de línea | 0/1 |
 | Canal 56 Quiero TV | General | — | 🟢 En línea | 1/1 |
-| CEACOM TV | General | — | 🟢 En línea | 2/2 |
+| CEACOM TV | General | — | 🔴 Fuera de línea | 0/2 |
 | Cinerama Television | Entretenimiento | — | 🔴 Fuera de línea | 0/1 |
 | Coral TV | General | — | 🟢 En línea | 3/3 |
 | Cosmos TV | General | — | 🟢 En línea | 1/1 |
@@ -188,7 +188,7 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Tele Fe Bolivia | General | — | 🟢 En línea | 1/1 |
 | TransMedia | General | — | 🔴 Fuera de línea | 0/1 |
 | TV Culturas | Cultural | — | 🔴 Fuera de línea | 0/1 |
-| TV Latina | General | — | 🟢 En línea | 3/3 |
+| TV Latina | General | — | 🔴 Fuera de línea | 0/3 |
 | TV Off | Viajes | — | 🟢 En línea | 1/2 |
 | TVU Sucre | Universitario | Chuquisaca | 🟢 En línea | 1/1 |
 | UMSA TVU Internacional | Universitario | La Paz | 🟢 En línea | 2/2 |

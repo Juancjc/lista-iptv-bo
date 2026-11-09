@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-08T22:11:29+00:00",
-  "duration_seconds": 37.8,
+  "generated_at": "2026-11-09T06:42:52+00:00",
+  "duration_seconds": 40.3,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 57,
-    "channels_online": 49,
+    "channels_main": 54,
+    "channels_online": 46,
     "streams_total": 135,
-    "streams_online": 75
+    "streams_online": 68
   },
   "sources": [
     {
@@ -983,8 +983,32 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Cadena A",
+      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1183,6 +1207,24 @@
     {
       "channel": "TV Culturas",
       "url": "http://15.204.246.24:8080/TVCulturasSD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "TV Latina",
+      "url": "https://castv10.plugstreaming.com:19360/redtv/redtv.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "TV Latina",
+      "url": "https://master.tucableip.com/tvlatina/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "TV Latina",
+      "url": "https://castv10.plugstreaming.com:19360/redtv/1080p.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
