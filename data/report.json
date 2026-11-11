@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-11T06:32:08+00:00",
-  "duration_seconds": 35.9,
+  "generated_at": "2026-11-11T19:39:45+00:00",
+  "duration_seconds": 37.3,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 47,
-    "channels_online": 47,
-    "streams_total": 135,
-    "streams_online": 69
+    "channels_main": 51,
+    "channels_online": 49,
+    "streams_total": 140,
+    "streams_online": 73
   },
   "sources": [
     {
@@ -298,18 +298,6 @@
     },
     {
       "source": "codemonchit0",
-      "title": "RED UNO SCZ HD",
-      "url": "https://live2.eu-north-1b.cf.dmcdn.net/sec2(knWlyCWh4eNXGFB0snz1T_JSHVFofQ-Fp0f5MCR57lpqOm4Jdh3MWWDp-B0nOC_cREsijqOyTuqLQ3vCa-RImGIigMH-V_uMreaYtJ3LKoi7Z3usj11rEtaVBFsZQRgx)/cloud/3/x9n2qyk/d/live-720.m3u8",
-      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
-    },
-    {
-      "source": "codemonchit0",
-      "title": "RED UNO LP",
-      "url": "https://live.eu-north-1b.cf.dmcdn.net/sec2(Ok1b4yYKGTEEmw5R1u4m7J5XBYLsUYRevDpaEOEwFxRwIkmeRX1IoM-s3omSkzdZ4TCFun-vPaNYDfpiLXvkPqigUh2PK1tcdSjDVjqU7gFHXd9sdXIY4vzzd5KRrrZ-)/dm/3/xa0fwio/d/live-720.m3u8",
-      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
-    },
-    {
-      "source": "codemonchit0",
       "title": "UNITEL LP",
       "url": "https://csc-axs-edge01.sensa.com.ar/live/eds/UnitelLPZ/live_dash_cld/UnitelLPZ.mpd",
       "reason": "URL bloqueada pela regra 'sensa.com.ar' (token/DRM/página/operadora)"
@@ -323,7 +311,7 @@
     {
       "source": "codemonchit0",
       "title": "BOLIVISION LPZ HD",
-      "url": "https://d135ohnuotzzyo.cloudfront.net/_token/v1.1790056588.nji8saooj4L1tbq7mfidDHdtnEaKU9-Igx3QHhVVgXc/index_2.m3u8",
+      "url": "https://d135ohnuotzzyo.cloudfront.net/_token/v1.1794377337.AqqmnOUsit9_5muLU715yS15N9sag9-nr2nFN12-blM/index_2.m3u8",
       "reason": "URL bloqueada pela regra '/_token/' (token/DRM/página/operadora)"
     },
     {
@@ -419,13 +407,13 @@
     {
       "source": "codemonchit0",
       "title": "RETROMAGICO HD",
-      "url": "https://live20.bozztv.com/giatv/giatv-retromagico/retromagico/chunks.m3u8",
+      "url": "https://183.giatvcdn.com/giatv/giatv-retromagicochnl/retromagicochnl/chunks.m3u8",
       "reason": "grupo fora do escopo: CANALES PREMIUM HD"
     },
     {
       "source": "codemonchit0",
       "title": "MAGICKIDS TV HD",
-      "url": "https://kiiroilabs.ddns.net/magickids/stream/stream.m3u8",
+      "url": "https://183.giatvcdn.com/giatv/giatv-magicplus/magicplus/chunks.m3u8",
       "reason": "grupo fora do escopo: CANALES PREMIUM HD"
     },
     {
@@ -437,19 +425,19 @@
     {
       "source": "codemonchit0",
       "title": "DW ESPAÑOL FHD",
-      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530-b/dwstream104/stream05/streamPlaylist.m3u8",
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8",
       "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
     },
     {
       "source": "codemonchit0",
       "title": "DW ESPAÑOL HD",
-      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530-b/dwstream104/stream04/streamPlaylist.m3u8",
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8",
       "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
     },
     {
       "source": "codemonchit0",
       "title": "DW ESPAÑOL SD",
-      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530-b/dwstream104/stream03/streamPlaylist.m3u8",
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream03/streamPlaylist.m3u8",
       "reason": "grupo fora do escopo: NOTICIAS Y DOCUMENTALES"
     },
     {
@@ -557,7 +545,7 @@
     {
       "source": "codemonchit0",
       "title": "K-POP HD",
-      "url": "https://newidco-newkid-1-eu.xiaomi.wurl.tv/2000.m3u8",
+      "url": "https://183.giatvcdn.com/giatv/giatv-kpoptvplay/kpoptvplay/chunks.m3u8",
       "reason": "grupo fora do escopo: MUSICALES"
     },
     {
@@ -593,7 +581,19 @@
     {
       "source": "codemonchit0",
       "title": "DRAGON BALL Z HD",
-      "url": "https://183.bozztv.com/giatv/giatv-dball/dball/chunks.m3u8",
+      "url": "https://183.giatvcdn.com/giatv/giatv-dball/dball/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "RETRO TOONS HD",
+      "url": "https://183.giatvcdn.com/giatv/giatv-Retrotoonstv/Retrotoonstv/chunks.m3u8",
+      "reason": "grupo fora do escopo: CANALES PREMIUM HD"
+    },
+    {
+      "source": "codemonchit0",
+      "title": "JETIX HD",
+      "url": "https://183.giatvcdn.com/giatv/giatv-MYJETIXRETRO/MYJETIXRETRO/chunks.m3u8",
       "reason": "grupo fora do escopo: CANALES PREMIUM HD"
     },
     {
@@ -918,13 +918,25 @@
     },
     {
       "channel": "ATB",
+      "url": "https://stream.atb.com.bo/live/daniel/index.m3u8",
+      "error": "falha de rede: Connection timeout to host https://stream.atb.com.bo/live/daniel/index.m3u8",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "ATB",
       "url": "http://186.121.206.197/live/daniel/index.m3u8",
+      "error": "falha de rede: Connection timeout to host http://186.121.206.197/live/daniel/index.m3u8",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Ayni TV",
+      "url": "http://15.204.246.24:8080/AyniTVHD/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
       "channel": "Ayni TV",
-      "url": "http://15.204.246.24:8080/AyniTVHD/index.m3u8",
+      "url": "https://59d39900ebfb8.streamlock.net/Aynitv/Aynitv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -977,38 +989,8 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Cadena A",
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Canal 56 Quiero TV",
-      "url": "http://45.5.118.152:8000/play/a08z/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1055,16 +1037,28 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Gigavisión",
+      "url": "https://tv.bitstreaming.net:3348/live/gigavisionlive.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Gigavisión Santa Cruz",
+      "url": "https://tv.bitstreaming.net:3348/live/gigavisionlive.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Gogoplay TV",
+      "url": "https://183.giatvcdn.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Gogoplay TV",
       "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
       "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [Connect call failed ('208.79.153.42', 443)]",
       "error_kind": "transient"
-    },
-    {
-      "channel": "Imperial TV",
-      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "Interactivo Television",
@@ -1121,12 +1115,6 @@
       "error_kind": "transient"
     },
     {
-      "channel": "Radio Mega TV Amazonia",
-      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Red CCTV",
       "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
       "error": "erro TLS/certificado: ClientConnectorCertificateError",
@@ -1151,14 +1139,20 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Red Uno",
-      "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
+      "channel": "Red Rubi",
+      "url": "https://59d39900ebfb8.streamlock.net/asiesmipueblo/asiesmipueblo/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red Siglo XXI",
+      "url": "https://59d39900ebfb8.streamlock.net/sigloxxi/sigloxxi/chunklist_w1833611505.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
       "channel": "Red Uno",
-      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+      "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1167,12 +1161,6 @@
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error_kind": "transient"
-    },
-    {
-      "channel": "SPC Canal 15",
-      "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "Sucremanta TV",
@@ -1193,6 +1181,24 @@
       "error_kind": "transient"
     },
     {
+      "channel": "Tele Estrella",
+      "url": "https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Tele Estrella",
+      "url": "https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/chunklist_w1410972879.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Tele Fe Bolivia",
+      "url": "https://59d39900ebfb8.streamlock.net/telefehd/telefehd/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "TransMedia",
       "url": "https://edge.enhdtv.com/8064/index.m3u8",
       "error": "HTTP 404",
@@ -1209,24 +1215,6 @@
       "url": "https://s4.tvdatta.com:3449/live/tvofflive.m3u8",
       "error": "falha de rede: Cannot connect to host s4.tvdatta.com:3449 ssl:default [Connect call failed ('192.99.42.223', 3449)]",
       "error_kind": "transient"
-    },
-    {
-      "channel": "Unifranz TV",
-      "url": "https://edge.enhdtv.com/8192/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Unifranz TV",
-      "url": "https://live.enhdtv.com:8081/8192/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Unifranz TV",
-      "url": "https://live.enhdtv.com:8081/8192/tracks-v1a1/mono.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "Unitel Cochabamba",
@@ -1253,14 +1241,32 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Unitel Santa Cruz",
-      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",
       "url": "http://15.204.246.24:8080/VOSTVHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Vos TV",
+      "url": "https://59d39900ebfb8.streamlock.net/vostv/vostv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Vos TV",
+      "url": "https://59d39900ebfb8.streamlock.net/vostv/vostv/chunklist_w1975291800.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
