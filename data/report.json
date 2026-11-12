@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-11T19:39:45+00:00",
-  "duration_seconds": 37.3,
+  "generated_at": "2026-11-12T07:17:20+00:00",
+  "duration_seconds": 35.5,
   "validation_skipped": false,
   "stats": {
     "channels_total": 81,
-    "channels_main": 51,
-    "channels_online": 49,
+    "channels_main": 46,
+    "channels_online": 45,
     "streams_total": 140,
-    "streams_online": 73
+    "streams_online": 67
   },
   "sources": [
     {
@@ -918,15 +918,9 @@
     },
     {
       "channel": "ATB",
-      "url": "https://stream.atb.com.bo/live/daniel/index.m3u8",
-      "error": "falha de rede: Connection timeout to host https://stream.atb.com.bo/live/daniel/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "ATB",
       "url": "http://186.121.206.197/live/daniel/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://186.121.206.197/live/daniel/index.m3u8",
-      "error_kind": "transient"
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "Ayni TV",
@@ -989,8 +983,38 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Cadena A",
+      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1037,28 +1061,16 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Gigavisión",
-      "url": "https://tv.bitstreaming.net:3348/live/gigavisionlive.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Gigavisión Santa Cruz",
-      "url": "https://tv.bitstreaming.net:3348/live/gigavisionlive.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Gogoplay TV",
-      "url": "https://183.giatvcdn.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Gogoplay TV",
       "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
       "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [Connect call failed ('208.79.153.42', 443)]",
       "error_kind": "transient"
+    },
+    {
+      "channel": "Imperial TV",
+      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "Interactivo Television",
@@ -1115,6 +1127,12 @@
       "error_kind": "transient"
     },
     {
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Red CCTV",
       "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
       "error": "erro TLS/certificado: ClientConnectorCertificateError",
@@ -1157,10 +1175,22 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Red Uno",
+      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error_kind": "transient"
+    },
+    {
+      "channel": "SPC Canal 15",
+      "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "Sucremanta TV",
@@ -1238,6 +1268,12 @@
       "channel": "Unitel La Paz",
       "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
       "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unitel Santa Cruz",
+      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
+      "error": "HTTP 403",
       "error_kind": "permanent"
     },
     {
