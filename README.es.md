@@ -12,9 +12,9 @@
 
 <br>
 
-![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-48-007934?style=for-the-badge&logo=livechat&logoColor=white)
-![Canales encontrados](https://img.shields.io/badge/canales_encontrados-81-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-75%2F140-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-47-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canales encontrados](https://img.shields.io/badge/canales_encontrados-82-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-72%2F144-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -51,11 +51,11 @@ Canales abiertos de **Bolivia** — redes nacionales, canales regionales, TV uni
 
 | | |
 |---|---|
-| Canales encontrados | **81** |
-| Canales en la lista principal | **49** |
-| Canales en línea en la última verificación | **48** |
-| Streams en línea / total | **75 / 140** |
-| Última actualización | **13/11/2026 15:47 (hora de Bolivia, UTC−4)** |
+| Canales encontrados | **82** |
+| Canales en la lista principal | **47** |
+| Canales en línea en la última verificación | **47** |
+| Streams en línea / total | **72 / 144** |
+| Última actualización | **14/11/2026 02:31 (hora de Bolivia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -115,7 +115,7 @@ Protecciones ante fallas temporales:
 | `iptv-org-bo` | ✅ OK | 64 | 32 |
 | `iptv-org-streams-bo` | ✅ OK | 105 | 6 |
 | `manual` | ✅ OK | 7 | 0 |
-| `codemonchit0` | ✅ OK | 31 | 51 |
+| `codemonchit0` | ✅ OK | 27 | 51 |
 | `gatojustiniano` | ✅ OK | 31 | 50 |
 
 Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-id`, `tvg-logo` y `group-title`) o agrega una nueva fuente en `config/sources.json`.
@@ -124,11 +124,12 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 
 | Canal | Categoría | Departamento | Estado | Streams en línea |
 |---|---|---|---|---|
+| Aby Ayala TV | General | — | 🔴 Fuera de línea | 0/1 |
 | Abya Yala TV | General | La Paz | 🔴 Fuera de línea | 0/1 |
 | Alegria TV | Música | — | 🔴 Fuera de línea | 0/1 |
 | Amitel TV | General | — | 🟢 En línea | 2/2 |
 | As Contenidos | General | — | 🟢 En línea | 1/1 |
-| ATB | General | La Paz | 🟡 Inestable | 0/3 |
+| ATB | General | La Paz | 🟢 En línea | 1/3 |
 | Audiokiss | Música | — | 🟢 En línea | 1/1 |
 | Ayni TV | General | — | 🔴 Fuera de línea | 0/2 |
 | Bolivia Mix TV | General | — | 🟢 En línea | 1/2 |
@@ -136,10 +137,10 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Bolivia TV 7.2 | TV Pública | La Paz | 🔴 Fuera de línea | 0/1 |
 | Bolivisión | General | La Paz | 🔴 Fuera de línea | 0/2 |
 | Bolivisión Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/2 |
-| Cadena A | Noticias | La Paz | 🟢 En línea | 3/4 |
+| Cadena A | Noticias | La Paz | 🔴 Fuera de línea | 0/4 |
 | Canal 15 Teleor | General | — | 🔴 Fuera de línea | 0/1 |
 | Canal 56 Quiero TV | General | — | 🟢 En línea | 1/1 |
-| CEACOM TV | General | — | 🟢 En línea | 2/2 |
+| CEACOM TV | General | — | 🔴 Fuera de línea | 0/2 |
 | Cinerama Television | Entretenimiento | — | 🔴 Fuera de línea | 0/1 |
 | Coral TV | General | — | 🟢 En línea | 3/3 |
 | Cosmos TV | General | — | 🟢 En línea | 1/1 |
@@ -154,21 +155,21 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Gigavisión | General | — | 🟢 En línea | 2/2 |
 | Gigavisión La Paz | General | La Paz | 🟢 En línea | 1/1 |
 | Gigavisión Santa Cruz | General | Santa Cruz | 🟢 En línea | 2/2 |
-| Gogoplay TV | General | — | 🟢 En línea | 1/2 |
-| Imperial TV | General | — | 🟢 En línea | 1/1 |
+| Gogoplay TV | General | — | 🟢 En línea | 2/3 |
+| Imperial TV | General | — | 🔴 Fuera de línea | 0/1 |
 | Interactivo Television | General | — | 🔴 Fuera de línea | 0/2 |
-| Palenque TV | General | — | 🔴 Fuera de línea | 0/2 |
-| PAT La Paz | General | La Paz | 🔴 Fuera de línea | 0/2 |
-| PAT Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/1 |
+| Palenque TV | General | — | 🟢 En línea | 1/2 |
+| PAT La Paz | General | La Paz | 🟢 En línea | 1/2 |
+| PAT Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/2 |
 | Plus TLT | General | — | 🔴 Fuera de línea | 0/1 |
 | Poder de Dios TV | Religioso | — | 🟢 En línea | 1/2 |
 | PTV Paceñísima | General | La Paz | 🟢 En línea | 1/3 |
 | Radio Centro | General | — | 🟢 En línea | 1/1 |
 | Radio Clasica TV | Música | — | 🔴 Fuera de línea | 0/1 |
 | Radio Kollasuyo | General | — | 🟢 En línea | 1/1 |
-| Radio Mega TV Amazonia | General | — | 🟢 En línea | 1/1 |
+| Radio Mega TV Amazonia | General | — | 🔴 Fuera de línea | 0/1 |
 | Radio Universitaria San Andrés | Universitario | La Paz | 🟢 En línea | 1/1 |
-| Red ADvenir TV | Religioso | — | 🟢 En línea | 2/2 |
+| Red ADvenir TV | Religioso | — | 🟢 En línea | 3/3 |
 | Red America TV | General | — | 🔴 Fuera de línea | 0/1 |
 | Red CCTV | General | — | 🔴 Fuera de línea | 0/3 |
 | Red DTV | General | — | 🔴 Fuera de línea | 0/1 |
@@ -196,7 +197,7 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Unifranz TV | Universitario | — | 🟢 En línea | 3/3 |
 | Unitel Cochabamba | General | Cochabamba | 🔴 Fuera de línea | 0/2 |
 | Unitel La Paz | General | La Paz | 🔴 Fuera de línea | 0/2 |
-| Unitel Santa Cruz | General | Santa Cruz | 🟢 En línea | 2/2 |
+| Unitel Santa Cruz | General | Santa Cruz | 🟢 En línea | 1/2 |
 | Univalle TV | Universitario | Cochabamba | 🟢 En línea | 2/2 |
 | UPEA TV | Universitario | La Paz | 🟢 En línea | 1/1 |
 | Vos TV | General | — | 🔴 Fuera de línea | 0/3 |
