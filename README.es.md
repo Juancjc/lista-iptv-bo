@@ -12,9 +12,9 @@
 
 <br>
 
-![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-48-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-49-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canales encontrados](https://img.shields.io/badge/canales_encontrados-82-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-78%2F146-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-80%2F146-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -52,10 +52,10 @@ Canales abiertos de **Bolivia** — redes nacionales, canales regionales, TV uni
 | | |
 |---|---|
 | Canales encontrados | **82** |
-| Canales en la lista principal | **49** |
-| Canales en línea en la última verificación | **48** |
-| Streams en línea / total | **78 / 146** |
-| Última actualización | **14/11/2026 14:10 (hora de Bolivia, UTC−4)** |
+| Canales en la lista principal | **51** |
+| Canales en línea en la última verificación | **49** |
+| Streams en línea / total | **80 / 146** |
+| Última actualización | **14/11/2026 18:30 (hora de Bolivia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -158,20 +158,20 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Gogoplay TV | General | — | 🟢 En línea | 2/3 |
 | Imperial TV | General | — | 🟢 En línea | 1/1 |
 | Interactivo Television | General | — | 🔴 Fuera de línea | 0/2 |
-| Palenque TV | General | — | 🔴 Fuera de línea | 0/2 |
+| Palenque TV | General | — | 🟢 En línea | 1/2 |
 | PAT La Paz | General | La Paz | 🟢 En línea | 1/2 |
 | PAT Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/2 |
 | Plus TLT | General | — | 🔴 Fuera de línea | 0/1 |
 | Poder de Dios TV | Religioso | — | 🟢 En línea | 1/2 |
 | PTV Paceñísima | General | La Paz | 🟢 En línea | 1/3 |
 | Radio Centro | General | — | 🟢 En línea | 1/1 |
-| Radio Clasica TV | Música | — | 🔴 Fuera de línea | 0/1 |
+| Radio Clasica TV | Música | — | 🟢 En línea | 1/1 |
 | Radio Kollasuyo | General | — | 🟢 En línea | 1/1 |
 | Radio Mega TV Amazonia | General | — | 🟢 En línea | 1/1 |
 | Radio Universitaria San Andrés | Universitario | La Paz | 🟢 En línea | 1/1 |
 | Red ADvenir TV | Religioso | — | 🟢 En línea | 3/3 |
 | Red America TV | General | — | 🔴 Fuera de línea | 0/1 |
-| Red CCTV | General | — | 🔴 Fuera de línea | 0/3 |
+| Red CCTV | General | — | 🟢 En línea | 2/3 |
 | Red DTV | General | — | 🔴 Fuera de línea | 0/1 |
 | Red Rubi | General | — | 🔴 Fuera de línea | 0/1 |
 | Red Siglo XXI | General | — | 🔴 Fuera de línea | 0/1 |
@@ -197,9 +197,9 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Unifranz TV | Universitario | — | 🟢 En línea | 3/3 |
 | Unitel Cochabamba | General | Cochabamba | 🔴 Fuera de línea | 0/2 |
 | Unitel La Paz | General | La Paz | 🔴 Fuera de línea | 0/2 |
-| Unitel Santa Cruz | General | Santa Cruz | 🟢 En línea | 1/2 |
-| Univalle TV | Universitario | Cochabamba | 🟢 En línea | 2/2 |
-| UPEA TV | Universitario | La Paz | 🟢 En línea | 1/1 |
+| Unitel Santa Cruz | General | Santa Cruz | 🟢 En línea | 2/2 |
+| Univalle TV | Universitario | Cochabamba | 🟡 Inestable | 0/2 |
+| UPEA TV | Universitario | La Paz | 🔴 Fuera de línea | 0/1 |
 | Vos TV | General | — | 🔴 Fuera de línea | 0/3 |
 | VTV Canal 17 | Religioso | — | 🟢 En línea | 1/2 |
 | Wara TV | General | — | 🔴 Fuera de línea | 0/1 |

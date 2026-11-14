@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T18:10:42+00:00",
-  "duration_seconds": 36.0,
+  "generated_at": "2026-11-14T22:30:23+00:00",
+  "duration_seconds": 35.2,
   "validation_skipped": false,
   "stats": {
     "channels_total": 82,
-    "channels_main": 49,
-    "channels_online": 48,
+    "channels_main": 51,
+    "channels_online": 49,
     "streams_total": 146,
-    "streams_online": 78
+    "streams_online": 80
   },
   "sources": [
     {
@@ -1067,12 +1067,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Palenque TV",
-      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "PAT La Paz",
       "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
       "error": "HTTP 404",
@@ -1115,12 +1109,6 @@
       "error_kind": "transient"
     },
     {
-      "channel": "Radio Clasica TV",
-      "url": "https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Red America TV",
       "url": "https://edge.enhdtv.com/redamerica/index.m3u8",
       "error": "HTTP 404",
@@ -1130,18 +1118,6 @@
       "channel": "Red CCTV",
       "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
       "error": "erro TLS/certificado: ClientConnectorCertificateError",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red CCTV",
-      "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red CCTV",
-      "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/chunklist_w2098818106.m3u8",
-      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -1253,9 +1229,21 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Unitel Santa Cruz",
-      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
-      "error": "HTTP 403",
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 503",
+      "error_kind": "transient"
+    },
+    {
+      "channel": "UPEA TV",
+      "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
+      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
