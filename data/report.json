@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T06:31:24+00:00",
-  "duration_seconds": 35.4,
+  "generated_at": "2026-11-14T18:10:42+00:00",
+  "duration_seconds": 36.0,
   "validation_skipped": false,
   "stats": {
     "channels_total": 82,
-    "channels_main": 47,
-    "channels_online": 47,
-    "streams_total": 144,
-    "streams_online": 72
+    "channels_main": 49,
+    "channels_online": 48,
+    "streams_total": 146,
+    "streams_online": 78
   },
   "sources": [
     {
@@ -46,9 +46,9 @@
       "ok": true,
       "from_cache": false,
       "error": null,
-      "entries": 78,
-      "accepted": 27,
-      "rejected": 51
+      "entries": 79,
+      "accepted": 29,
+      "rejected": 50
     },
     {
       "name": "gatojustiniano",
@@ -310,12 +310,6 @@
     },
     {
       "source": "codemonchit0",
-      "title": "BTV 7.1",
-      "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(_nYq7T6T3j3bJRTHJF1h0CSEQ9pxLiv9pMcjafySRjn14zDiXUx2ctKm0jX0YZluzp51w1DMjDTX9kPlYxemRpKYUEDWq5KVoBkzjSClH4e7FrLCqn7ReG9tSIhMaZte)/cloud/3/x9nzqpo/d/live-720.m3u8",
-      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
-    },
-    {
-      "source": "codemonchit0",
       "title": "RED UNO LPZ HD",
       "url": "https://www.dailymotion.com/video/xbrsofi",
       "reason": "URL bloqueada pela regra 'dailymotion.com/video' (token/DRM/página/operadora)"
@@ -377,7 +371,7 @@
     {
       "source": "codemonchit0",
       "title": "ENERGEEK HD",
-      "url": "https://cl-2.backend.energeek.cl/bkp/egretroweb/tracks-v1a1/mono.ts.m3u8",
+      "url": "https://183.giatvcdn.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
       "reason": "grupo fora do escopo: CANALES PREMIUM HD"
     },
     {
@@ -395,7 +389,7 @@
     {
       "source": "codemonchit0",
       "title": "WOW PELICULAS HD",
-      "url": "https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8",
+      "url": "https://183.giatvcdn.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8",
       "reason": "grupo fora do escopo: CANALES PREMIUM HD"
     },
     {
@@ -526,6 +520,12 @@
     },
     {
       "source": "codemonchit0",
+      "title": "TOP LATINO HD",
+      "url": "https://5cefcbf58ba2e.streamlock.net:543/webtltv/webtltv.stream/chunklist_w1714378785_tkd293emF0b2tlbnN0YXJ0dGltZT0xNzk0NjM2MzI2Jndvd3phdG9rZW5lbmR0aW1lPTE3OTQ2MzczMjYmd293emF0b2tlbmhhc2g9NEdWSHVEOTE5QmZveW91YTB3Q1R1Tm9EcDBsRDAxcHd2elJkZ2tIY0FpRT0=.m3u8",
+      "reason": "grupo fora do escopo: MUSICALES"
+    },
+    {
+      "source": "codemonchit0",
       "title": "OLDIES HITS HD",
       "url": "https://video07.logicahost.com.br/oldieshits/oldieshits/main_stream.m3u8",
       "reason": "grupo fora do escopo: MUSICALES"
@@ -552,12 +552,6 @@
       "source": "codemonchit0",
       "title": "ETERNAL METAL HD",
       "url": "https://stmv7.voxtvhd.com.br/eternaltv/eternaltv/playlist.m3u8",
-      "reason": "grupo fora do escopo: MUSICALES"
-    },
-    {
-      "source": "codemonchit0",
-      "title": "MUSIC TOP HD",
-      "url": "https://stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8",
       "reason": "grupo fora do escopo: MUSICALES"
     },
     {
@@ -989,38 +983,8 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Cadena A",
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1055,8 +1019,20 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Delta TV",
+      "url": "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+      "error": "falha de rede: Cannot connect to host st.deltaboliviainstitucion.org:3778 ssl:default [Connect call failed ('148.113.180.89', 3778)]",
+      "error_kind": "transient"
+    },
+    {
       "channel": "F10",
       "url": "http://15.204.246.24:8080/F10HD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "FAP TV",
+      "url": "https://edge.enhdtv.com/faptv/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1073,12 +1049,6 @@
       "error_kind": "transient"
     },
     {
-      "channel": "Imperial TV",
-      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
       "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [No address associated with hostname]",
@@ -1093,6 +1063,12 @@
     {
       "channel": "Palenque TV",
       "url": "http://15.204.246.24:8080/PalenqueTVSD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Palenque TV",
+      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1141,12 +1117,6 @@
     {
       "channel": "Radio Clasica TV",
       "url": "https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Radio Mega TV Amazonia",
-      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
