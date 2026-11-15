@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T22:30:23+00:00",
-  "duration_seconds": 35.2,
+  "generated_at": "2026-11-15T06:40:26+00:00",
+  "duration_seconds": 35.5,
   "validation_skipped": false,
   "stats": {
     "channels_total": 82,
-    "channels_main": 51,
-    "channels_online": 49,
+    "channels_main": 45,
+    "channels_online": 44,
     "streams_total": 146,
-    "streams_online": 80
+    "streams_online": 71
   },
   "sources": [
     {
@@ -16,9 +16,9 @@
       "ok": true,
       "from_cache": false,
       "error": null,
-      "entries": 96,
+      "entries": 95,
       "accepted": 64,
-      "rejected": 32
+      "rejected": 31
     },
     {
       "name": "iptv-org-streams-bo",
@@ -85,12 +85,6 @@
       "title": "Cinecanal Pacific (1080p)",
       "url": "http://138.121.15.230:9002/CINECANAL/index.m3u8",
       "reason": "canal não boliviano (tvg-id: Cinecanal.us@Pacific)"
-    },
-    {
-      "source": "iptv-org-bo",
-      "title": "Comedy Central Latin America (1080p)",
-      "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Comedy_Central/playlist.m3u8",
-      "reason": "canal não boliviano (tvg-id: ComedyCentralLatinAmerica.us@Panregional)"
     },
     {
       "source": "iptv-org-bo",
@@ -983,8 +977,38 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Cadena A",
+      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1049,6 +1073,12 @@
       "error_kind": "transient"
     },
     {
+      "channel": "Imperial TV",
+      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Interactivo Television",
       "url": "https://mist01.homestream.fun/hls/interactivotv2/index.m3u8",
       "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [No address associated with hostname]",
@@ -1109,6 +1139,12 @@
       "error_kind": "transient"
     },
     {
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Red America TV",
       "url": "https://edge.enhdtv.com/redamerica/index.m3u8",
       "error": "HTTP 404",
@@ -1118,6 +1154,18 @@
       "channel": "Red CCTV",
       "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
       "error": "erro TLS/certificado: ClientConnectorCertificateError",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red CCTV",
+      "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red CCTV",
+      "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/chunklist_w2098818106.m3u8",
+      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -1145,9 +1193,15 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Red Uno",
+      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
-      "error": "falha de rede: Cannot connect to host 190.211.140.91:8081 ssl:default [Connect call failed ('190.211.140.91', 8081)]",
+      "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error_kind": "transient"
     },
     {
@@ -1229,21 +1283,9 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
-      "error": "HTTP 503",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "UPEA TV",
-      "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
-      "error": "HTTP 404",
+      "channel": "Unitel Santa Cruz",
+      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
+      "error": "HTTP 403",
       "error_kind": "permanent"
     },
     {
@@ -1268,6 +1310,12 @@
       "channel": "VTV Canal 17",
       "url": "https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8",
       "error": "erro TLS/certificado: ClientConnectorCertificateError",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "VTV Canal 17",
+      "url": "https://ares.disfrutaenlared.com:1936/vtvcanal/vtvcanal/chunklist_w1413178975.m3u8",
+      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
