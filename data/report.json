@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-15T06:40:26+00:00",
-  "duration_seconds": 35.5,
+  "generated_at": "2026-11-15T18:54:55+00:00",
+  "duration_seconds": 36.8,
   "validation_skipped": false,
   "stats": {
     "channels_total": 82,
-    "channels_main": 45,
-    "channels_online": 44,
+    "channels_main": 48,
+    "channels_online": 46,
     "streams_total": 146,
-    "streams_online": 71
+    "streams_online": 75
   },
   "sources": [
     {
@@ -46,8 +46,8 @@
       "ok": true,
       "from_cache": false,
       "error": null,
-      "entries": 79,
-      "accepted": 29,
+      "entries": 77,
+      "accepted": 27,
       "rejected": 50
     },
     {
@@ -377,7 +377,7 @@
     {
       "source": "codemonchit0",
       "title": "MAGICKIDS TV HD",
-      "url": "https://183.giatvcdn.com/giatv/giatv-magicplus/magicplus/chunks.m3u8",
+      "url": "https://kiiroilabs.ddns.net/magickids/stream/stream.m3u8",
       "reason": "grupo fora do escopo: CANALES PREMIUM HD"
     },
     {
@@ -977,38 +977,8 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Cadena A",
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1071,12 +1041,6 @@
       "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
       "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [Connect call failed ('208.79.153.42', 443)]",
       "error_kind": "transient"
-    },
-    {
-      "channel": "Imperial TV",
-      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "Interactivo Television",
@@ -1193,12 +1157,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Red Uno",
-      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
@@ -1287,6 +1245,24 @@
       "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
       "error": "HTTP 403",
       "error_kind": "permanent"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Univalle TV",
+      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "UPEA TV",
+      "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
+      "error": "falha de rede: Cannot connect to host tvstream.upea.bo:443 ssl:default [Temporary failure in name resolution]",
+      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",
