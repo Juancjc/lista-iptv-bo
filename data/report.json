@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-16T06:38:10+00:00",
-  "duration_seconds": 36.2,
+  "generated_at": "2026-11-16T22:10:44+00:00",
+  "duration_seconds": 36.7,
   "validation_skipped": false,
   "stats": {
     "channels_total": 82,
-    "channels_main": 41,
-    "channels_online": 41,
+    "channels_main": 48,
+    "channels_online": 48,
     "streams_total": 146,
-    "streams_online": 67
+    "streams_online": 79
   },
   "sources": [
     {
@@ -46,8 +46,8 @@
       "ok": true,
       "from_cache": false,
       "error": null,
-      "entries": 77,
-      "accepted": 27,
+      "entries": 76,
+      "accepted": 26,
       "rejected": 50
     },
     {
@@ -977,24 +977,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Cadena A",
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
       "error": "HTTP 404",
@@ -1003,18 +985,6 @@
     {
       "channel": "Canal 56 Quiero TV",
       "url": "http://45.5.118.152:8000/play/a08z/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1056,12 +1026,6 @@
     },
     {
       "channel": "FAP TV",
-      "url": "https://edge.enhdtv.com/faptv/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "FAP TV",
       "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
       "error": "playlist HLS inválida: sem segmentos (#EXTINF) nem variantes",
       "error_kind": "permanent"
@@ -1071,12 +1035,6 @@
       "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
       "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [Connect call failed ('208.79.153.42', 443)]",
       "error_kind": "transient"
-    },
-    {
-      "channel": "Imperial TV",
-      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "Interactivo Television",
@@ -1093,6 +1051,12 @@
     {
       "channel": "Palenque TV",
       "url": "http://15.204.246.24:8080/PalenqueTVSD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Palenque TV",
+      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1134,6 +1098,12 @@
     },
     {
       "channel": "PTV Paceñísima",
+      "url": "https://183.giatvcdn.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "PTV Paceñísima",
       "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
       "error": "falha de rede: Cannot connect to host giatv.bozztv.com:443 ssl:default [Connect call failed ('208.79.153.42', 443)]",
       "error_kind": "transient"
@@ -1141,12 +1111,6 @@
     {
       "channel": "Radio Clasica TV",
       "url": "https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Radio Mega TV Amazonia",
-      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1199,15 +1163,9 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Red Uno",
-      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
-      "error": "falha de rede: Cannot connect to host 190.211.140.91:8081 ssl:default [Connect call failed ('190.211.140.91', 8081)]",
+      "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error_kind": "transient"
     },
     {
@@ -1277,38 +1235,8 @@
       "error_kind": "transient"
     },
     {
-      "channel": "Unitel Cochabamba",
-      "url": "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Unitel La Paz",
-      "url": "https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Unitel La Paz",
       "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Unitel Santa Cruz",
-      "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
-      "error": "HTTP 403",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Univalle TV",
-      "url": "https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1357,8 +1285,8 @@
     {
       "channel": "Zoy TV",
       "url": "https://tv.zoymilton.com/ZoyPlus/tracks-v1a1/mono.ts.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
+      "error": "HTTP 530",
+      "error_kind": "transient"
     }
   ]
 }
