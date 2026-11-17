@@ -14,7 +14,7 @@
 
 ![Canais online](https://img.shields.io/badge/canais_online-45-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canais encontrados](https://img.shields.io/badge/canais_encontrados-82-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams online](https://img.shields.io/badge/streams_online-72%2F147-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams online](https://img.shields.io/badge/streams_online-71%2F147-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -52,10 +52,10 @@ Canais abertos da **Bolívia** — redes nacionais, emissoras regionais, TVs uni
 | | |
 |---|---|
 | Canais encontrados | **82** |
-| Canais na lista principal | **45** |
+| Canais na lista principal | **46** |
 | Canais online na última verificação | **45** |
-| Streams online / total | **72 / 147** |
-| Última atualização | **17/11/2026 03:59 (horário da Bolívia, UTC−4)** |
+| Streams online / total | **71 / 147** |
+| Última atualização | **17/11/2026 16:59 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -132,15 +132,15 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | ATB | Geral | La Paz | 🟢 Online | 1/3 |
 | Audiokiss | Música | — | 🟢 Online | 1/1 |
 | Ayni TV | Geral | — | 🔴 Offline | 0/2 |
-| Bolivia Mix TV | Geral | — | 🟢 Online | 1/2 |
+| Bolivia Mix TV | Geral | — | 🔴 Offline | 0/2 |
 | Bolivia TV | TV Pública | La Paz | 🟢 Online | 2/3 |
 | Bolivia TV 7.2 | TV Pública | La Paz | 🔴 Offline | 0/1 |
 | Bolivisión | Geral | La Paz | 🔴 Offline | 0/2 |
 | Bolivisión Santa Cruz | Geral | Santa Cruz | 🔴 Offline | 0/2 |
-| Cadena A | Notícias | La Paz | 🔴 Offline | 0/4 |
+| Cadena A | Notícias | La Paz | 🟢 Online | 3/4 |
 | Canal 15 Teleor | Geral | — | 🔴 Offline | 0/1 |
 | Canal 56 Quiero TV | Geral | — | 🔴 Offline | 0/1 |
-| CEACOM TV | Geral | — | 🔴 Offline | 0/2 |
+| CEACOM TV | Geral | — | 🟡 Instável | 0/2 |
 | Cinerama Television | Entretenimento | — | 🔴 Offline | 0/1 |
 | Coral TV | Geral | — | 🟢 Online | 3/3 |
 | Cosmos TV | Geral | — | 🟢 Online | 1/1 |
@@ -152,22 +152,22 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | F10 | Geral | — | 🟢 Online | 2/3 |
 | FAP TV | Geral | — | 🟢 Online | 1/2 |
 | FTV | Esportes | — | 🟢 Online | 1/1 |
-| Gigavisión | Geral | — | 🟢 Online | 2/2 |
+| Gigavisión | Geral | — | 🟢 Online | 1/2 |
 | Gigavisión La Paz | Geral | La Paz | 🟢 Online | 1/1 |
-| Gigavisión Santa Cruz | Geral | Santa Cruz | 🟢 Online | 2/2 |
-| Gogoplay TV | Geral | — | 🟢 Online | 2/3 |
-| Imperial TV | Geral | — | 🔴 Offline | 0/1 |
+| Gigavisión Santa Cruz | Geral | Santa Cruz | 🟢 Online | 1/2 |
+| Gogoplay TV | Geral | — | 🔴 Offline | 0/3 |
+| Imperial TV | Geral | — | 🟢 Online | 1/1 |
 | Interactivo Television | Geral | — | 🔴 Offline | 0/2 |
 | Palenque TV | Geral | — | 🟢 Online | 1/2 |
 | PAT La Paz | Geral | La Paz | 🟢 Online | 1/2 |
 | PAT Santa Cruz | Geral | Santa Cruz | 🔴 Offline | 0/2 |
 | Plus TLT | Geral | — | 🔴 Offline | 0/1 |
 | Poder de Dios TV | Religioso | — | 🟢 Online | 1/2 |
-| PTV Paceñísima | Geral | La Paz | 🟢 Online | 1/4 |
+| PTV Paceñísima | Geral | La Paz | 🔴 Offline | 0/4 |
 | Radio Centro | Geral | — | 🟢 Online | 1/1 |
 | Radio Clasica TV | Música | — | 🟢 Online | 1/1 |
 | Radio Kollasuyo | Geral | — | 🟢 Online | 1/1 |
-| Radio Mega TV Amazonia | Geral | — | 🔴 Offline | 0/1 |
+| Radio Mega TV Amazonia | Geral | — | 🟢 Online | 1/1 |
 | Radio Universitaria San Andrés | Universitário | La Paz | 🟢 Online | 1/1 |
 | Red ADvenir TV | Religioso | — | 🟢 Online | 3/3 |
 | Red America TV | Geral | — | 🔴 Offline | 0/1 |
