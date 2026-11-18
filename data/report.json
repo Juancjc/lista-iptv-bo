@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-17T20:59:45+00:00",
+  "generated_at": "2026-11-18T07:35:34+00:00",
   "duration_seconds": 36.4,
   "validation_skipped": false,
   "stats": {
     "channels_total": 82,
-    "channels_main": 46,
-    "channels_online": 45,
+    "channels_main": 41,
+    "channels_online": 41,
     "streams_total": 147,
-    "streams_online": 71
+    "streams_online": 66
   },
   "sources": [
     {
@@ -989,6 +989,24 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Cadena A",
+      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Canal 15 Teleor",
       "url": "https://ares.disfrutaenlared.com:1936/activatv/activatv/playlist.m3u8",
       "error": "HTTP 404",
@@ -1003,14 +1021,14 @@
     {
       "channel": "CEACOM TV",
       "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "falha de rede: Cannot connect to host eu1.servers10.com:8081 ssl:default [Connect call failed ('51.254.199.196', 8081)]",
-      "error_kind": "transient"
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "CEACOM TV",
       "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
-      "error": "falha de rede: Cannot connect to host eu1.servers10.com:8081 ssl:default [Connect call failed ('51.254.199.196', 8081)]",
-      "error_kind": "transient"
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "Cinerama Television",
@@ -1056,7 +1074,19 @@
     },
     {
       "channel": "Gigavisión",
+      "url": "https://tv2.bitstreaming.net:3576/multi_live/play.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Gigavisión",
       "url": "https://tv.bitstreaming.net:3348/live/gigavisionlive.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Gigavisión La Paz",
+      "url": "https://tv2.bitstreaming.net:3576/live/gigavisionlplive.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1068,19 +1098,13 @@
     },
     {
       "channel": "Gogoplay TV",
-      "url": "https://183.giatvcdn.com/ssh101/ssh101/gogoplay/chunks.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Gogoplay TV",
       "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
       "error": "falha de rede: Cannot connect to host live20.bozztv.com:443 ssl:default [Connect call failed ('208.79.153.42', 443)]",
       "error_kind": "transient"
     },
     {
-      "channel": "Gogoplay TV",
-      "url": "https://183.giatvcdn.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8",
+      "channel": "Imperial TV",
+      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1140,12 +1164,6 @@
     },
     {
       "channel": "PTV Paceñísima",
-      "url": "https://tv3.bitstreaming.net/live/ptv-bolivia.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "PTV Paceñísima",
       "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
       "error": "falha de rede: Cannot connect to host giatv.bozztv.com:443 ssl:default [Connect call failed ('208.79.153.42', 443)]",
       "error_kind": "transient"
@@ -1153,6 +1171,12 @@
     {
       "channel": "PTV Paceñísima",
       "url": "https://183.giatvcdn.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1201,6 +1225,12 @@
     {
       "channel": "Red Uno",
       "url": "http://190.181.18.82:4111/play/a005/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Red Uno",
+      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
