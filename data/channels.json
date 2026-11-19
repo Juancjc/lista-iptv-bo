@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-18T20:37:29+00:00",
+  "generated_at": "2026-11-19T07:31:17+00:00",
   "stats": {
-    "channels_total": 82,
-    "channels_main": 47,
-    "channels_online": 47,
-    "streams_total": 147,
-    "streams_online": 75
+    "channels_total": 100,
+    "channels_main": 63,
+    "channels_online": 63,
+    "streams_total": 188,
+    "streams_online": 95
   },
   "sources": [
     {
@@ -14,8 +14,8 @@
       "ok": true,
       "from_cache": false,
       "error": null,
-      "entries": 96,
-      "accepted": 64,
+      "entries": 115,
+      "accepted": 83,
       "rejected": 32
     },
     {
@@ -24,8 +24,8 @@
       "ok": true,
       "from_cache": false,
       "error": null,
-      "entries": 111,
-      "accepted": 105,
+      "entries": 149,
+      "accepted": 143,
       "rejected": 6
     },
     {
@@ -84,11 +84,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 565,
+          "response_ms": 546,
           "first_seen": "2026-11-14T06:30:48+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
           "last_success": null,
-          "consecutive_failures": 11
+          "consecutive_failures": 12
         }
       ]
     },
@@ -117,11 +117,34 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 7,
+          "response_ms": 14,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:53+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a00m/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Abya Yala TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1021000,
+          "segment_checked": true,
+          "response_ms": 320,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
+          "last_success": "2026-11-19T07:30:40+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -143,18 +166,18 @@
           "referrer": null,
           "labels": [],
           "status": "offline",
-          "error": "HTTP 502",
+          "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
           "error_kind": "transient",
-          "http_status": 502,
+          "http_status": null,
           "stream_type": null,
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 22,
+          "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -183,10 +206,10 @@
           "resolution": "1280x720",
           "bandwidth": 1425600,
           "segment_checked": true,
-          "response_ms": 442,
+          "response_ms": 416,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
+          "last_success": "2026-11-19T07:30:39+00:00",
           "consecutive_failures": 0
         },
         {
@@ -206,10 +229,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 430,
+          "response_ms": 405,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
+          "last_success": "2026-11-19T07:30:39+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -237,12 +260,45 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 8130000,
+          "bandwidth": 8120000,
           "segment_checked": true,
-          "response_ms": 399,
+          "response_ms": 475,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
+          "last_success": "2026-11-19T07:30:40+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "AsiesmiPuebloTV.bo",
+      "name": "Asi es mi Pueblo TV",
+      "logo": "https://canales.asplurtv.com/logo_asitv.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a00g/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Asi es mi Pueblo TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1228000,
+          "segment_checked": true,
+          "response_ms": 319,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
+          "last_success": "2026-11-19T07:30:40+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -271,11 +327,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://stream.atb.com.bo/live/daniel/index.m3u8",
@@ -294,10 +350,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 890,
+          "response_ms": 606,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
-          "last_success": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
+          "last_success": "2026-11-19T07:30:52+00:00",
           "consecutive_failures": 0
         },
         {
@@ -320,11 +376,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 258,
+          "response_ms": 257,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -351,12 +407,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 5240000,
+          "bandwidth": 5110000,
           "segment_checked": true,
-          "response_ms": 448,
+          "response_ms": 485,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
+          "last_success": "2026-11-19T07:30:40+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -386,11 +442,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 6,
+          "response_ms": 13,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:53+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://59d39900ebfb8.streamlock.net/Aynitv/Aynitv/playlist.m3u8",
@@ -409,11 +465,11 @@
           "resolution": "1280x720",
           "bandwidth": 2172945,
           "segment_checked": false,
-          "response_ms": 102,
+          "response_ms": 93,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:53+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
           "last_success": "2026-11-11T06:31:33+00:00",
-          "consecutive_failures": 16
+          "consecutive_failures": 17
         }
       ]
     },
@@ -441,11 +497,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 18,
+          "response_ms": 55,
           "first_seen": "2026-11-11T19:39:08+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
           "last_success": "2026-11-17T07:59:20+00:00",
-          "consecutive_failures": 3
+          "consecutive_failures": 4
         },
         {
           "url": "https://live20.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/chunks.m3u8",
@@ -466,9 +522,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:37:01+00:00",
+          "last_checked": "2026-11-19T07:30:54+00:00",
           "last_success": "2026-11-08T13:30:23+00:00",
-          "consecutive_failures": 22
+          "consecutive_failures": 23
         }
       ]
     },
@@ -495,12 +551,35 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 4933000,
+          "bandwidth": 5049000,
           "segment_checked": true,
-          "response_ms": 406,
+          "response_ms": 319,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
+          "last_success": "2026-11-19T07:30:40+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a00u/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Bolivia TV (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 2489000,
+          "segment_checked": true,
+          "response_ms": 1577,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         },
         {
@@ -522,10 +601,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 53,
+          "response_ms": 63,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:53+00:00",
-          "last_success": "2026-11-18T20:36:53+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
+          "last_success": "2026-11-19T07:30:39+00:00",
           "consecutive_failures": 0
         },
         {
@@ -545,11 +624,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 201,
+          "response_ms": 200,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-18T20:36:53+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
           "last_success": null,
-          "consecutive_failures": 63
+          "consecutive_failures": 64
         }
       ]
     },
@@ -577,11 +656,44 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 225,
+          "response_ms": 278,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
           "last_success": null,
-          "consecutive_failures": 63
+          "consecutive_failures": 64
+        }
+      ]
+    },
+    {
+      "id": "Bolivision.bo@LaPaz",
+      "name": "Bolivision",
+      "logo": "https://i.imgur.com/U98Z5zn.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a00j/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Bolivision (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 5388000,
+          "segment_checked": true,
+          "response_ms": 1487,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -609,11 +721,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://d135ohnuotzzyo.cloudfront.net/index.m3u8",
@@ -632,11 +744,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 81,
+          "response_ms": 181,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -664,11 +776,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 130,
+          "response_ms": 61,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8",
@@ -691,16 +803,72 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:37:00+00:00",
+          "last_checked": "2026-11-19T07:30:53+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        }
+      ]
+    },
+    {
+      "id": "CadenaA.bo@LaPaz",
+      "name": "Cadena A",
+      "logo": "https://i.imgur.com/BxQPPAA.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a00k/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Cadena A (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 1498,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        },
+        {
+          "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
+          "sources": [
+            "codemonchit0"
+          ],
+          "title": "CADENA A HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 228,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
         }
       ]
     },
     {
       "id": "CadenaA.bo",
       "name": "Cadena A",
-      "logo": "https://i.ibb.co/d664F5t/CADENA-A-HD.jpg",
+      "logo": "https://i.imgur.com/BxQPPAA.png",
       "category": "Notícias",
       "region": "La Paz",
       "streams": [
@@ -721,11 +889,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
@@ -738,19 +906,19 @@
           "labels": [
             "Not 24/7"
           ],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
           "stream_type": "hls",
           "resolution": "1280x720",
           "bandwidth": 1736502,
-          "segment_checked": true,
-          "response_ms": 64,
+          "segment_checked": false,
+          "response_ms": 63,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": "2026-11-18T20:36:59+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         },
         {
           "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
@@ -761,19 +929,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
           "stream_type": "hls",
           "resolution": "1280x720",
           "bandwidth": 1733882,
-          "segment_checked": true,
-          "response_ms": 234,
+          "segment_checked": false,
+          "response_ms": 59,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": "2026-11-18T20:36:59+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         },
         {
           "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
@@ -781,6 +949,39 @@
             "codemonchit0"
           ],
           "title": "CADENA A HD",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 228,
+          "first_seen": "2026-11-11T19:39:08+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
+          "last_success": "2026-11-18T20:36:59+00:00",
+          "consecutive_failures": 1
+        }
+      ]
+    },
+    {
+      "id": "Canal14ValleAltoTelevision.bo",
+      "name": "Canal 14 Valle Alto Television",
+      "logo": "https://i.imgur.com/I1eVjLs.jpeg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://stmv1.voxtvhd.com.br/vavizacli/vavizacli/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Canal 14 Valle Alto Television (720p)",
           "user_agent": null,
           "referrer": null,
           "labels": [],
@@ -792,10 +993,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 202,
-          "first_seen": "2026-11-11T19:39:08+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
-          "last_success": "2026-11-18T20:36:59+00:00",
+          "response_ms": 166,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
+          "last_success": "2026-11-19T07:30:39+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -825,11 +1026,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 144,
+          "response_ms": 203,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:53+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -858,11 +1059,44 @@
           "resolution": null,
           "bandwidth": 2702000,
           "segment_checked": false,
-          "response_ms": 160,
+          "response_ms": 104,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:53+00:00",
+          "last_checked": "2026-11-19T07:30:39+00:00",
           "last_success": "2026-11-15T18:54:20+00:00",
-          "consecutive_failures": 6
+          "consecutive_failures": 7
+        }
+      ]
+    },
+    {
+      "id": "CanalGuiaABE.bo",
+      "name": "Canal Guia ABE",
+      "logo": "https://i.imgur.com/NAvMyZK.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a00q/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Canal Guia ABE (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 3397000,
+          "segment_checked": true,
+          "response_ms": 1294,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
+          "last_success": "2026-11-19T07:30:42+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -885,19 +1119,19 @@
           "labels": [
             "Not 24/7"
           ],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
           "stream_type": "hls",
           "resolution": "1920x1080",
           "bandwidth": 3390000,
-          "segment_checked": true,
-          "response_ms": 502,
+          "segment_checked": false,
+          "response_ms": 498,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
           "last_success": "2026-11-18T20:36:54+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         },
         {
           "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
@@ -909,19 +1143,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": null,
-          "segment_checked": true,
-          "response_ms": 444,
+          "segment_checked": false,
+          "response_ms": 468,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
           "last_success": "2026-11-18T20:36:54+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         }
       ]
     },
@@ -950,11 +1184,34 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 309,
+          "response_ms": 137,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        },
+        {
+          "url": "https://tv.cineramatvbo.com/hls/stream.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Cinerama Television (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "640x360",
+          "bandwidth": 994400,
+          "segment_checked": true,
+          "response_ms": 520,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -981,12 +1238,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1380000,
+          "bandwidth": 1200000,
           "segment_checked": true,
-          "response_ms": 322,
+          "response_ms": 552,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1006,10 +1263,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 302,
+          "response_ms": 360,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1030,10 +1287,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 288,
+          "response_ms": 431,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
+          "last_success": "2026-11-19T07:30:42+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1062,10 +1319,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 437,
+          "response_ms": 391,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
-          "last_success": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
+          "last_success": "2026-11-19T07:30:52+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1095,11 +1352,34 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 2,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:40+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a005/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "CTV (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 2340000,
+          "segment_checked": true,
+          "response_ms": 1520,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
+          "last_success": "2026-11-19T07:30:42+00:00",
+          "consecutive_failures": 0
         },
         {
           "url": "https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8",
@@ -1117,12 +1397,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "854x480",
-          "bandwidth": 942865,
+          "bandwidth": 1162528,
           "segment_checked": true,
-          "response_ms": 351,
+          "response_ms": 552,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1143,11 +1423,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 212,
+          "response_ms": 541,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://live.ctvbolivia.com/hls/ctv.m3u8",
@@ -1166,11 +1446,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 370,
+          "response_ms": 416,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://streaming.ctvbolivia.com/app/ctv/medialist_16850150997075983627_hls.m3u8",
@@ -1189,10 +1469,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 272,
+          "response_ms": 405,
           "first_seen": "2026-11-11T19:39:08+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1222,11 +1502,34 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a00p/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "CVC (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1671000,
+          "segment_checked": true,
+          "response_ms": 992,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
+          "last_success": "2026-11-19T07:30:42+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -1255,10 +1558,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 282,
+          "response_ms": 343,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1286,12 +1589,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 2550000,
+          "bandwidth": 2470000,
           "segment_checked": true,
-          "response_ms": 84,
+          "response_ms": 91,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1319,12 +1622,45 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 4810000,
+          "bandwidth": 4800000,
           "segment_checked": true,
-          "response_ms": 295,
+          "response_ms": 96,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "EnVivoTV.bo",
+      "name": "En Vivo TV",
+      "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/d3971ef0-0005-4a40-a152-390ce681a7a7-profile_image-150x150.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/1520/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "En Vivo TV (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 5729000,
+          "segment_checked": true,
+          "response_ms": 1129,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": "2026-11-19T07:30:43+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1354,11 +1690,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 2,
+          "response_ms": 7,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://tv2.bitstreaming.net:3235/multi_live/play_720.m3u8",
@@ -1378,10 +1714,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 121,
+          "response_ms": 63,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1402,10 +1738,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 122,
+          "response_ms": 29,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1433,12 +1769,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 2700000,
+          "bandwidth": 2900000,
           "segment_checked": true,
-          "response_ms": 157,
+          "response_ms": 150,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1458,11 +1794,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 1777,
+          "response_ms": 1768,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -1489,12 +1825,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 2850000,
+          "bandwidth": 2840000,
           "segment_checked": true,
-          "response_ms": 84,
+          "response_ms": 91,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1502,7 +1838,7 @@
     {
       "id": "Gigavision.bo",
       "name": "Gigavisión",
-      "logo": "https://i.postimg.cc/VNCqJJcv/Gigvlpz01.jpg",
+      "logo": "https://i.imgur.com/fE3BkcT.png",
       "category": "Geral",
       "region": "",
       "streams": [
@@ -1521,12 +1857,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 3295001,
+          "bandwidth": 3552016,
           "segment_checked": true,
-          "response_ms": 24,
+          "response_ms": 75,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
+          "last_success": "2026-11-19T07:30:51+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1546,21 +1882,45 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": false,
-          "response_ms": 71,
+          "response_ms": 87,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": "2026-11-17T07:59:18+00:00",
-          "consecutive_failures": 3
+          "consecutive_failures": 4
         }
       ]
     },
     {
       "id": "Gigavision.bo@LaPaz",
       "name": "Gigavisión La Paz",
-      "logo": "https://i.postimg.cc/VNCqJJcv/Gigvlpz01.jpg",
+      "logo": "https://i.imgur.com/fE3BkcT.png",
       "category": "Geral",
       "region": "La Paz",
       "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a00i/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Gigavision La Paz (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 3391000,
+          "segment_checked": true,
+          "response_ms": 1680,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": "2026-11-19T07:30:44+00:00",
+          "consecutive_failures": 0
+        },
         {
           "url": "https://tv2.bitstreaming.net:3576/live/gigavisionlplive.m3u8",
           "sources": [
@@ -1579,10 +1939,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 14,
+          "response_ms": 41,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
-          "last_success": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": "2026-11-19T07:30:41+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1610,12 +1970,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 3757000,
+          "bandwidth": 3325000,
           "segment_checked": true,
-          "response_ms": 320,
+          "response_ms": 323,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
-          "last_success": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
+          "last_success": "2026-11-19T07:30:42+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1636,11 +1996,11 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": false,
-          "response_ms": 71,
+          "response_ms": 87,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
           "last_success": "2026-11-17T07:59:12+00:00",
-          "consecutive_failures": 3
+          "consecutive_failures": 4
         }
       ]
     },
@@ -1668,10 +2028,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 59,
+          "response_ms": 67,
           "first_seen": "2026-11-14T06:30:48+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
-          "last_success": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
+          "last_success": "2026-11-19T07:30:52+00:00",
           "consecutive_failures": 0
         },
         {
@@ -1693,9 +2053,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:37:01+00:00",
+          "last_checked": "2026-11-19T07:30:54+00:00",
           "last_success": "2026-11-08T06:08:26+00:00",
-          "consecutive_failures": 23
+          "consecutive_failures": 24
         },
         {
           "url": "https://183.giatvcdn.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8",
@@ -1716,8 +2076,41 @@
           "segment_checked": true,
           "response_ms": 59,
           "first_seen": "2026-11-11T19:39:08+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
-          "last_success": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
+          "last_success": "2026-11-19T07:30:52+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "GoGoPlayTV.bo",
+      "name": "GoGoPlayTV",
+      "logo": "",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a00d/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "GoGoPlayTV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 826000,
+          "segment_checked": true,
+          "response_ms": 1648,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": "2026-11-19T07:30:44+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1739,19 +2132,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": null,
-          "segment_checked": true,
-          "response_ms": 94,
+          "segment_checked": false,
+          "response_ms": 102,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
           "last_success": "2026-11-18T20:36:54+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         }
       ]
     },
@@ -1782,9 +2175,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://mist01.homestream.fun/hls/interactivotv/index.m3u8",
@@ -1805,9 +2198,42 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        }
+      ]
+    },
+    {
+      "id": "LaExitosaTVRiberalta.bo",
+      "name": "La Exitosa TV Riberalta",
+      "logo": "https://i.imgur.com/LnF0zWB.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://ares.disfrutaenlared.com:1936/exitosa/exitosa/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "La Exitosa TV Riberalta (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 20,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
         }
       ]
     },
@@ -1836,11 +2262,34 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:41+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a009/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Palenque TV (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1357000,
+          "segment_checked": true,
+          "response_ms": 1806,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": "2026-11-19T07:30:44+00:00",
+          "consecutive_failures": 0
         },
         {
           "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
@@ -1861,10 +2310,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 33,
+          "response_ms": 65,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
-          "last_success": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
+          "last_success": "2026-11-19T07:30:42+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -1893,11 +2342,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 2,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
@@ -1908,19 +2357,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": 4331000,
-          "segment_checked": true,
-          "response_ms": 631,
+          "segment_checked": false,
+          "response_ms": 589,
           "first_seen": "2026-10-25T18:25:45+00:00",
-          "last_checked": "2026-11-18T20:37:01+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
           "last_success": "2026-11-18T20:37:01+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         }
       ]
     },
@@ -1949,11 +2398,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 310,
+          "response_ms": 326,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://www.redpat.tv:8000/play/12/75504503.m3u8",
@@ -1972,11 +2421,44 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 993,
+          "response_ms": 965,
           "first_seen": "2026-11-14T06:30:48+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": null,
-          "consecutive_failures": 11
+          "consecutive_failures": 12
+        }
+      ]
+    },
+    {
+      "id": "PIMEDIATV.bo",
+      "name": "Pi Media TV",
+      "logo": "https://pimediatv.weebly.com/uploads/1/2/8/7/12877343/published/pigran.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://183.giatvcdn.com/ssh101/ssh101/bolivianews/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "PI MEDIA TV (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 2219925,
+          "segment_checked": true,
+          "response_ms": 132,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
+          "last_success": "2026-11-19T07:30:42+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -2005,11 +2487,34 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 2,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a007/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Plus TLT (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1152000,
+          "segment_checked": true,
+          "response_ms": 1927,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:45+00:00",
+          "last_success": "2026-11-19T07:30:45+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -2038,11 +2543,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 7,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:54+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://s3.tvdatta.com:3846/live/poderdedioslive.m3u8",
@@ -2061,10 +2566,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 99,
+          "response_ms": 109,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:42+00:00",
+          "last_success": "2026-11-19T07:30:42+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2096,9 +2601,32 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
           "last_success": "2026-11-08T13:30:18+00:00",
-          "consecutive_failures": 22
+          "consecutive_failures": 23
+        },
+        {
+          "url": "https://tv3.bitstreaming.net/hls/ptv-bolivia.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "PTV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1400000,
+          "segment_checked": true,
+          "response_ms": 80,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": "2026-11-19T07:30:43+00:00",
+          "consecutive_failures": 0
         },
         {
           "url": "https://tv3.bitstreaming.net/live/ptv-bolivia.m3u8",
@@ -2109,19 +2637,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "offline",
-          "error": "HTTP 404",
-          "error_kind": "permanent",
-          "http_status": 404,
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": 1,
-          "segment_checked": false,
-          "response_ms": 112,
+          "segment_checked": true,
+          "response_ms": 69,
           "first_seen": "2026-11-17T07:59:09+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T07:34:59+00:00",
-          "consecutive_failures": 1
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": "2026-11-19T07:30:43+00:00",
+          "consecutive_failures": 0
         },
         {
           "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
@@ -2142,9 +2670,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
           "last_success": "2026-11-08T13:30:18+00:00",
-          "consecutive_failures": 22
+          "consecutive_failures": 23
         },
         {
           "url": "https://183.giatvcdn.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
@@ -2163,11 +2691,44 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 103,
+          "response_ms": 22,
           "first_seen": "2026-11-11T19:39:08+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": "2026-11-17T07:59:12+00:00",
-          "consecutive_failures": 3
+          "consecutive_failures": 4
+        }
+      ]
+    },
+    {
+      "id": "RATelevision.bo",
+      "name": "RA Television",
+      "logo": "https://i.imgur.com/dDg3jbh.jpeg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://183.giatvcdn.com/ssh101/ssh101/ratvbol/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "RA Television (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 18,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
         }
       ]
     },
@@ -2194,12 +2755,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 2230432,
+          "bandwidth": 2247352,
           "segment_checked": true,
-          "response_ms": 64,
+          "response_ms": 93,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": "2026-11-19T07:30:43+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2227,12 +2788,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "852x480",
-          "bandwidth": 852119,
+          "bandwidth": 824643,
           "segment_checked": true,
-          "response_ms": 15,
+          "response_ms": 20,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": "2026-11-19T07:30:43+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2262,10 +2823,10 @@
           "resolution": null,
           "bandwidth": 140800,
           "segment_checked": true,
-          "response_ms": 28,
+          "response_ms": 124,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": "2026-11-19T07:30:43+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2287,19 +2848,52 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
           "stream_type": "hls",
           "resolution": "854x480",
           "bandwidth": 1268033,
-          "segment_checked": true,
-          "response_ms": 73,
+          "segment_checked": false,
+          "response_ms": 20,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": "2026-11-18T20:36:55+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
+        }
+      ]
+    },
+    {
+      "id": "RadioTVMega.bo",
+      "name": "Radio TV Mega",
+      "logo": "https://i.imgur.com/pwRhOHB.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://183.giatvcdn.com/ssh101/ssh101/radiotvmega26/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Radio TV Mega (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 25,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
         }
       ]
     },
@@ -2326,12 +2920,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1330000,
+          "bandwidth": 1270000,
           "segment_checked": true,
-          "response_ms": 90,
+          "response_ms": 113,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": "2026-11-19T07:30:43+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2361,12 +2955,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "640x360",
-          "bandwidth": 710831,
+          "bandwidth": 870997,
           "segment_checked": true,
-          "response_ms": 713,
+          "response_ms": 579,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
-          "last_success": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": "2026-11-19T07:30:44+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2386,10 +2980,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 604,
+          "response_ms": 581,
           "first_seen": "2026-11-14T06:30:48+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
-          "last_success": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": "2026-11-19T07:30:44+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2409,10 +3003,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 392,
+          "response_ms": 373,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": "2026-11-19T07:30:44+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2442,11 +3036,11 @@
           "resolution": "1920x1080",
           "bandwidth": 2490000,
           "segment_checked": false,
-          "response_ms": 10126,
+          "response_ms": 10125,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:37:05+00:00",
+          "last_checked": "2026-11-19T07:30:53+00:00",
           "last_success": "2026-11-13T06:50:44+00:00",
-          "consecutive_failures": 12
+          "consecutive_failures": 13
         }
       ]
     },
@@ -2477,9 +3071,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
@@ -2498,11 +3092,11 @@
           "resolution": "1280x720",
           "bandwidth": 1238809,
           "segment_checked": false,
-          "response_ms": 15,
+          "response_ms": 20,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": "2026-11-14T22:29:49+00:00",
-          "consecutive_failures": 8
+          "consecutive_failures": 9
         },
         {
           "url": "https://ares.disfrutaenlared.com:1936/redcctv/redcctv/chunklist_w2098818106.m3u8",
@@ -2522,11 +3116,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 15,
+          "response_ms": 20,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": "2026-11-14T22:29:49+00:00",
-          "consecutive_failures": 8
+          "consecutive_failures": 9
         }
       ]
     },
@@ -2555,11 +3149,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 2,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -2588,11 +3182,11 @@
           "resolution": "1280x720",
           "bandwidth": 1874112,
           "segment_checked": false,
-          "response_ms": 7,
+          "response_ms": 13,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
           "last_success": "2026-11-11T06:31:34+00:00",
-          "consecutive_failures": 16
+          "consecutive_failures": 17
         }
       ]
     },
@@ -2620,11 +3214,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 7,
+          "response_ms": 13,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
           "last_success": "2026-11-11T06:31:38+00:00",
-          "consecutive_failures": 16
+          "consecutive_failures": 17
         }
       ]
     },
@@ -2651,12 +3245,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 2490000,
+          "bandwidth": 2500000,
           "segment_checked": true,
-          "response_ms": 100,
+          "response_ms": 96,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": "2026-11-19T07:30:43+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2676,10 +3270,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 83,
+          "response_ms": 90,
           "first_seen": "2026-11-14T18:10:06+00:00",
-          "last_checked": "2026-11-18T20:36:55+00:00",
-          "last_success": "2026-11-18T20:36:55+00:00",
+          "last_checked": "2026-11-19T07:30:43+00:00",
+          "last_success": "2026-11-19T07:30:43+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2708,11 +3302,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 269,
+          "response_ms": 268,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
@@ -2723,19 +3317,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": null,
-          "segment_checked": true,
-          "response_ms": 16,
+          "segment_checked": false,
+          "response_ms": 21,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
           "last_success": "2026-11-18T20:36:59+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         }
       ]
     },
@@ -2762,12 +3356,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 5483000,
+          "bandwidth": 4847000,
           "segment_checked": true,
-          "response_ms": 473,
+          "response_ms": 1355,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:45+00:00",
+          "last_success": "2026-11-19T07:30:45+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2795,12 +3389,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 4373000,
+          "bandwidth": 4459000,
           "segment_checked": true,
-          "response_ms": 438,
+          "response_ms": 1192,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:45+00:00",
+          "last_success": "2026-11-19T07:30:45+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2818,12 +3412,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 4390000,
+          "bandwidth": 4865000,
           "segment_checked": true,
-          "response_ms": 280,
+          "response_ms": 271,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
-          "last_success": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": "2026-11-19T07:30:44+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2851,12 +3445,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 2778000,
+          "bandwidth": 2763000,
           "segment_checked": true,
-          "response_ms": 430,
+          "response_ms": 1687,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
+          "last_success": "2026-11-19T07:30:46+00:00",
           "consecutive_failures": 0
         },
         {
@@ -2870,19 +3464,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "falha de rede: Connection timeout to host https://rtp.noxun.net/hls720/stream3.m3u8",
+          "error_kind": "transient",
+          "http_status": null,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": null,
-          "segment_checked": true,
-          "response_ms": 146,
+          "segment_checked": false,
+          "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:31:16+00:00",
           "last_success": "2026-11-18T20:36:56+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         },
         {
           "url": "https://rtp.noxun.net/hls480/stream2.m3u8",
@@ -2893,19 +3487,19 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
-          "status": "online",
-          "error": null,
-          "error_kind": null,
-          "http_status": 200,
+          "status": "offline",
+          "error": "falha de rede: Connection timeout to host https://rtp.noxun.net/hls480/stream2.m3u8",
+          "error_kind": "transient",
+          "http_status": null,
           "stream_type": "hls",
           "resolution": null,
           "bandwidth": null,
-          "segment_checked": true,
-          "response_ms": 147,
+          "segment_checked": false,
+          "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:31:16+00:00",
           "last_success": "2026-11-18T20:36:56+00:00",
-          "consecutive_failures": 0
+          "consecutive_failures": 1
         },
         {
           "url": "https://rtp.noxun.net/hls/stream.m3u8",
@@ -2916,18 +3510,84 @@
           "user_agent": null,
           "referrer": null,
           "labels": [],
+          "status": "offline",
+          "error": "falha de rede: Connection timeout to host https://rtp.noxun.net/hls/stream.m3u8",
+          "error_kind": "transient",
+          "http_status": null,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": null,
+          "first_seen": "2026-10-25T17:52:30+00:00",
+          "last_checked": "2026-11-19T07:31:16+00:00",
+          "last_success": "2026-11-18T20:36:56+00:00",
+          "consecutive_failures": 1
+        }
+      ]
+    },
+    {
+      "id": "SABCOVision.bo",
+      "name": "SABCO Vision",
+      "logo": "https://i.imgur.com/1psliIs.jpeg",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "SABCO Vision (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "640x360",
+          "bandwidth": 944005,
+          "segment_checked": true,
+          "response_ms": 13,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": "2026-11-19T07:30:44+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "SigloXXITV.bo",
+      "name": "Siglo XXI TV",
+      "logo": "https://i.imgur.com/d1N2WzD.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a00b/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Siglo XXI TV (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
           "status": "online",
           "error": null,
           "error_kind": null,
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": null,
+          "bandwidth": 1258000,
           "segment_checked": true,
-          "response_ms": 101,
-          "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
-          "last_success": "2026-11-18T20:36:56+00:00",
+          "response_ms": 1320,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
+          "last_success": "2026-11-19T07:30:46+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -2959,9 +3619,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:37:28+00:00",
+          "last_checked": "2026-11-19T07:31:16+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -2973,9 +3633,32 @@
       "region": "",
       "streams": [
         {
-          "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
+          "url": "https://183.giatvcdn.com/giatv/giatv-1762252013SPC/1762252013SPC/playlist.m3u8",
           "sources": [
             "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "SPC Canal 15 (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 18,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        },
+        {
+          "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
+          "sources": [
             "iptv-org-streams-bo"
           ],
           "title": "SPC Canal 15 (720p)",
@@ -2990,11 +3673,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 17,
+          "response_ms": 21,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
           "last_success": "2026-11-15T18:54:23+00:00",
-          "consecutive_failures": 6
+          "consecutive_failures": 7
         }
       ]
     },
@@ -3006,9 +3689,32 @@
       "region": "",
       "streams": [
         {
-          "url": "https://lbgo.bozztv.com/ssh101/ssh101/ok2026/playlist.m3u8",
+          "url": "https://183.giatvcdn.com/ssh101/ssh101/ok2026/playlist.m3u8",
           "sources": [
             "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Sucremanta TV (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 34,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:44+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        },
+        {
+          "url": "https://lbgo.bozztv.com/ssh101/ssh101/ok2026/playlist.m3u8",
+          "sources": [
             "iptv-org-streams-bo"
           ],
           "title": "Sucremanta TV (720p)",
@@ -3016,18 +3722,18 @@
           "referrer": null,
           "labels": [],
           "status": "offline",
-          "error": "HTTP 502",
+          "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
           "error_kind": "transient",
-          "http_status": 502,
+          "http_status": null,
           "stream_type": "hls",
           "resolution": "1280x720",
           "bandwidth": 161053,
           "segment_checked": false,
-          "response_ms": 20,
+          "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
           "last_success": "2026-11-07T21:55:04+00:00",
-          "consecutive_failures": 24
+          "consecutive_failures": 25
         }
       ]
     },
@@ -3058,10 +3764,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 499,
+          "response_ms": 541,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:45+00:00",
+          "last_success": "2026-11-19T07:30:45+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3083,9 +3789,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:37:29+00:00",
+          "last_checked": "2026-11-19T07:31:17+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -3097,9 +3803,32 @@
       "region": "",
       "streams": [
         {
-          "url": "https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8",
+          "url": "https://183.giatvcdn.com/ssh101/ssh101/tele6/playlist.m3u8",
           "sources": [
             "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TELE 6 (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 22,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:45+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        },
+        {
+          "url": "https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8",
+          "sources": [
             "iptv-org-streams-bo"
           ],
           "title": "TELE 6 (720p)",
@@ -3107,18 +3836,18 @@
           "referrer": null,
           "labels": [],
           "status": "offline",
-          "error": "HTTP 502",
+          "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
           "error_kind": "transient",
-          "http_status": 502,
+          "http_status": null,
           "stream_type": "hls",
           "resolution": "854x480",
           "bandwidth": 1210420,
           "segment_checked": false,
-          "response_ms": 22,
+          "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:47+00:00",
           "last_success": "2026-11-07T21:55:04+00:00",
-          "consecutive_failures": 24
+          "consecutive_failures": 25
         }
       ]
     },
@@ -3130,9 +3859,32 @@
       "region": "",
       "streams": [
         {
-          "url": "https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/playlist.m3u8",
+          "url": "http://190.181.61.93:8000/play/a004/index.m3u8",
           "sources": [
             "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TL Estrella (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1301000,
+          "segment_checked": true,
+          "response_ms": 611,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:47+00:00",
+          "last_success": "2026-11-19T07:30:47+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/playlist.m3u8",
+          "sources": [
             "iptv-org-streams-bo"
           ],
           "title": "TL Estrella (720p)",
@@ -3147,11 +3899,11 @@
           "resolution": "1280x720",
           "bandwidth": 1332243,
           "segment_checked": false,
-          "response_ms": 7,
+          "response_ms": 13,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:45+00:00",
           "last_success": "2026-11-11T06:31:36+00:00",
-          "consecutive_failures": 16
+          "consecutive_failures": 17
         },
         {
           "url": "https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/chunklist_w1410972879.m3u8",
@@ -3170,11 +3922,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 7,
+          "response_ms": 13,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:45+00:00",
           "last_success": "2026-11-11T06:31:36+00:00",
-          "consecutive_failures": 16
+          "consecutive_failures": 17
         }
       ]
     },
@@ -3203,11 +3955,11 @@
           "resolution": "1280x720",
           "bandwidth": 1043024,
           "segment_checked": false,
-          "response_ms": 7,
+          "response_ms": 13,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:45+00:00",
           "last_success": "2026-11-11T06:31:36+00:00",
-          "consecutive_failures": 16
+          "consecutive_failures": 17
         }
       ]
     },
@@ -3236,11 +3988,44 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 94,
+          "response_ms": 108,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        }
+      ]
+    },
+    {
+      "id": "TvCarigso.bo",
+      "name": "Tv Carigso",
+      "logo": "https://i.imgur.com/nhg1uM9.png",
+      "category": "Música",
+      "region": "",
+      "streams": [
+        {
+          "url": "https://183.giatvcdn.com/ssh101/ssh101/carigsotv2026/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Tv Carigso (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1594740,
+          "segment_checked": true,
+          "response_ms": 60,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
+          "last_success": "2026-11-19T07:30:46+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -3269,11 +4054,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 3,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:56+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -3302,10 +4087,10 @@
           "resolution": "1920x1080",
           "bandwidth": 2340800,
           "segment_checked": true,
-          "response_ms": 225,
+          "response_ms": 266,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
+          "last_success": "2026-11-19T07:30:46+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3323,12 +4108,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 3290000,
+          "bandwidth": 2730000,
           "segment_checked": true,
-          "response_ms": 98,
+          "response_ms": 96,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
+          "last_success": "2026-11-19T07:30:46+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3349,10 +4134,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 146,
+          "response_ms": 59,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
+          "last_success": "2026-11-19T07:30:46+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3380,12 +4165,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 3210000,
+          "bandwidth": 3050000,
           "segment_checked": true,
-          "response_ms": 31,
+          "response_ms": 35,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
+          "last_success": "2026-11-19T07:30:46+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3405,10 +4190,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 96,
+          "response_ms": 106,
           "first_seen": "2026-11-14T18:10:06+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:46+00:00",
+          "last_success": "2026-11-19T07:30:46+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3430,9 +4215,75 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        }
+      ]
+    },
+    {
+      "id": "TVShowOruro.bo",
+      "name": "TV Show Oruro",
+      "logo": "https://i.ibb.co/nnsYJCq/IMG-20210731-094609.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://tv.istbolivia.com:1935/tvshow/tvshow/playlist.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TV Show Oruro (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "854x480",
+          "bandwidth": 898497,
+          "segment_checked": true,
+          "response_ms": 153,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:47+00:00",
+          "last_success": "2026-11-19T07:30:47+00:00",
+          "consecutive_failures": 0
+        }
+      ]
+    },
+    {
+      "id": "TVUniversitaria.bo",
+      "name": "TV Universitaria",
+      "logo": "https://i.imgur.com/p5IqKnB.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/a006/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "TV Universitaria (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1215000,
+          "segment_checked": true,
+          "response_ms": 317,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
+          "last_success": "2026-11-19T07:30:48+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -3444,7 +4295,7 @@
       "region": "Chuquisaca",
       "streams": [
         {
-          "url": "https://edge.enhdtv.com/8214/index.m3u8",
+          "url": "http://190.181.61.93:8000/play/a008/index.m3u8",
           "sources": [
             "iptv-org-bo",
             "iptv-org-streams-bo"
@@ -3458,13 +4309,36 @@
           "error_kind": null,
           "http_status": 200,
           "stream_type": "hls",
-          "resolution": "1280x720",
-          "bandwidth": 1160000,
+          "resolution": null,
+          "bandwidth": 2673000,
           "segment_checked": true,
-          "response_ms": 144,
+          "response_ms": 312,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
+          "last_success": "2026-11-19T07:30:48+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://edge.enhdtv.com/8214/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "TVU Sucre (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": "1280x720",
+          "bandwidth": 1170000,
+          "segment_checked": true,
+          "response_ms": 109,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:47+00:00",
+          "last_success": "2026-11-19T07:30:47+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3492,12 +4366,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 1080000,
+          "bandwidth": 1110000,
           "segment_checked": true,
-          "response_ms": 183,
+          "response_ms": 109,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:47+00:00",
+          "last_success": "2026-11-19T07:30:47+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3517,10 +4391,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 386,
+          "response_ms": 252,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:47+00:00",
+          "last_success": "2026-11-19T07:30:47+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3548,12 +4422,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 2010000,
+          "bandwidth": 1650000,
           "segment_checked": true,
-          "response_ms": 236,
+          "response_ms": 180,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:57+00:00",
-          "last_success": "2026-11-18T20:36:57+00:00",
+          "last_checked": "2026-11-19T07:30:47+00:00",
+          "last_success": "2026-11-19T07:30:47+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3573,10 +4447,33 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 377,
+          "response_ms": 269,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:47+00:00",
+          "last_success": "2026-11-19T07:30:47+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a00s/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "UMSA TVU LP (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 791000,
+          "segment_checked": true,
+          "response_ms": 280,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
+          "last_success": "2026-11-19T07:30:48+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3596,12 +4493,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 2010000,
+          "bandwidth": 1650000,
           "segment_checked": true,
-          "response_ms": 430,
+          "response_ms": 131,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:47+00:00",
+          "last_success": "2026-11-19T07:30:47+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3622,10 +4519,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 390,
+          "response_ms": 107,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
+          "last_success": "2026-11-19T07:30:48+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3653,12 +4550,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 940000,
+          "bandwidth": 1140000,
           "segment_checked": true,
-          "response_ms": 438,
+          "response_ms": 106,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
+          "last_success": "2026-11-19T07:30:48+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3676,12 +4573,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1280x720",
-          "bandwidth": 940000,
+          "bandwidth": 1140000,
           "segment_checked": true,
-          "response_ms": 345,
+          "response_ms": 130,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
+          "last_success": "2026-11-19T07:30:48+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3702,21 +4599,45 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 484,
+          "response_ms": 206,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
+          "last_success": "2026-11-19T07:30:48+00:00",
           "consecutive_failures": 0
         }
       ]
     },
     {
-      "id": "UnitelCochabamba.bo",
+      "id": "Unitel.bo@Cochabamba",
       "name": "Unitel Cochabamba",
       "logo": "https://i.imgur.com/B9wg1zj.png",
       "category": "Geral",
-      "region": "Cochabamba",
+      "region": "",
       "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/1913/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel (Bolivia) Cochabamba (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 4587000,
+          "segment_checked": true,
+          "response_ms": 880,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:50+00:00",
+          "last_success": "2026-11-19T07:30:50+00:00",
+          "consecutive_failures": 0
+        },
         {
           "url": "https://lbgo.bozztv.com/ssh101/ssh101/tvjoaquiniana26/playlist.m3u8",
           "sources": [
@@ -3727,19 +4648,51 @@
           "referrer": null,
           "labels": [],
           "status": "offline",
-          "error": "HTTP 502",
+          "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
           "error_kind": "transient",
-          "http_status": 502,
+          "http_status": null,
           "stream_type": null,
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 22,
-          "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:37:00+00:00",
+          "response_ms": null,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:50+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 1
         },
+        {
+          "url": "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel Cochabamba (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 403",
+          "error_kind": "permanent",
+          "http_status": 403,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 15,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        }
+      ]
+    },
+    {
+      "id": "UnitelCochabamba.bo",
+      "name": "Unitel Cochabamba",
+      "logo": "https://i.imgur.com/B9wg1zj.png",
+      "category": "Geral",
+      "region": "Cochabamba",
+      "streams": [
         {
           "url": "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
           "sources": [
@@ -3757,11 +4710,113 @@
           "resolution": "1280x720",
           "bandwidth": 2890800,
           "segment_checked": false,
-          "response_ms": 21,
+          "response_ms": 15,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
           "last_success": "2026-11-16T22:10:16+00:00",
-          "consecutive_failures": 4
+          "consecutive_failures": 5
+        }
+      ]
+    },
+    {
+      "id": "Unitel.bo@LaPaz",
+      "name": "Unitel La Paz",
+      "logo": "https://i.imgur.com/B9wg1zj.png",
+      "category": "Geral",
+      "region": "",
+      "streams": [
+        {
+          "url": "http://190.181.61.93:8000/play/1910/index.m3u8",
+          "sources": [
+            "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel (Bolivia) La Paz (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 4460000,
+          "segment_checked": true,
+          "response_ms": 1351,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:50+00:00",
+          "last_success": "2026-11-19T07:30:50+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel La Paz (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 403",
+          "error_kind": "permanent",
+          "http_status": 403,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 21,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        },
+        {
+          "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel La Paz (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "offline",
+          "error": "HTTP 404",
+          "error_kind": "permanent",
+          "http_status": 404,
+          "stream_type": null,
+          "resolution": null,
+          "bandwidth": null,
+          "segment_checked": false,
+          "response_ms": 161,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:49+00:00",
+          "last_success": null,
+          "consecutive_failures": 1
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a00t/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel La Paz (576p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1916000,
+          "segment_checked": true,
+          "response_ms": 781,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:50+00:00",
+          "last_success": "2026-11-19T07:30:50+00:00",
+          "consecutive_failures": 0
         }
       ]
     },
@@ -3789,34 +4844,11 @@
           "resolution": "1280x720",
           "bandwidth": 2890800,
           "segment_checked": false,
-          "response_ms": 19,
+          "response_ms": 21,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
           "last_success": "2026-11-16T22:10:16+00:00",
-          "consecutive_failures": 4
-        },
-        {
-          "url": "http://190.60.39.195:8000/play/a01r/index.m3u8",
-          "sources": [
-            "iptv-org-streams-bo"
-          ],
-          "title": "Unitel La Paz (576p)",
-          "user_agent": null,
-          "referrer": null,
-          "labels": [],
-          "status": "offline",
-          "error": "HTTP 404",
-          "error_kind": "permanent",
-          "http_status": 404,
-          "stream_type": null,
-          "resolution": null,
-          "bandwidth": null,
-          "segment_checked": false,
-          "response_ms": 173,
-          "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
-          "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 5
         }
       ]
     },
@@ -3843,12 +4875,35 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": null,
-          "bandwidth": 5830000,
+          "bandwidth": 5848000,
           "segment_checked": true,
-          "response_ms": 470,
+          "response_ms": 363,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
-          "last_success": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:49+00:00",
+          "last_success": "2026-11-19T07:30:49+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a00r/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Unitel (1080p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1246000,
+          "segment_checked": true,
+          "response_ms": 354,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:49+00:00",
+          "last_success": "2026-11-19T07:30:49+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3868,11 +4923,11 @@
           "resolution": "1280x720",
           "bandwidth": 2890800,
           "segment_checked": false,
-          "response_ms": 95,
+          "response_ms": 125,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:48+00:00",
           "last_success": "2026-11-16T22:10:15+00:00",
-          "consecutive_failures": 4
+          "consecutive_failures": 5
         }
       ]
     },
@@ -3899,12 +4954,12 @@
           "http_status": 200,
           "stream_type": "hls",
           "resolution": "1920x1080",
-          "bandwidth": 2810000,
+          "bandwidth": 130000,
           "segment_checked": true,
-          "response_ms": 98,
+          "response_ms": 91,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:49+00:00",
+          "last_success": "2026-11-19T07:30:49+00:00",
           "consecutive_failures": 0
         },
         {
@@ -3924,10 +4979,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 100,
+          "response_ms": 95,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:49+00:00",
+          "last_success": "2026-11-19T07:30:49+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3940,9 +4995,32 @@
       "region": "La Paz",
       "streams": [
         {
-          "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
+          "url": "http://190.181.61.93:8000/play/a00h/index.m3u8",
           "sources": [
             "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "UPEA TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1096000,
+          "segment_checked": true,
+          "response_ms": 749,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
+          "last_success": "2026-11-19T07:30:51+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
+          "sources": [
             "iptv-org-streams-bo",
             "codemonchit0",
             "gatojustiniano"
@@ -3959,10 +5037,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 675,
+          "response_ms": 2070,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:59+00:00",
-          "last_success": "2026-11-18T20:36:59+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
+          "last_success": "2026-11-19T07:30:52+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -3992,11 +5070,34 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 2,
+          "response_ms": 6,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:50+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
+        },
+        {
+          "url": "http://190.181.61.93:8000/play/a00a/index.m3u8",
+          "sources": [
+            "iptv-org-streams-bo"
+          ],
+          "title": "Vos TV (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1151000,
+          "segment_checked": true,
+          "response_ms": 1005,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
+          "last_success": "2026-11-19T07:30:52+00:00",
+          "consecutive_failures": 0
         },
         {
           "url": "https://59d39900ebfb8.streamlock.net/vostv/vostv/playlist.m3u8",
@@ -4015,11 +5116,11 @@
           "resolution": "1280x720",
           "bandwidth": 1869276,
           "segment_checked": false,
-          "response_ms": 7,
+          "response_ms": 13,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:50+00:00",
           "last_success": "2026-11-11T06:31:37+00:00",
-          "consecutive_failures": 16
+          "consecutive_failures": 17
         },
         {
           "url": "https://59d39900ebfb8.streamlock.net/vostv/vostv/chunklist_w1975291800.m3u8",
@@ -4038,11 +5139,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 7,
+          "response_ms": 13,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:50+00:00",
           "last_success": "2026-11-11T06:31:37+00:00",
-          "consecutive_failures": 16
+          "consecutive_failures": 17
         }
       ]
     },
@@ -4054,9 +5155,32 @@
       "region": "",
       "streams": [
         {
-          "url": "https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8",
+          "url": "http://190.181.61.93:8000/play/a00f/index.m3u8",
           "sources": [
             "iptv-org-bo",
+            "iptv-org-streams-bo"
+          ],
+          "title": "VTV Canal 17 (720p)",
+          "user_agent": null,
+          "referrer": null,
+          "labels": [],
+          "status": "online",
+          "error": null,
+          "error_kind": null,
+          "http_status": 200,
+          "stream_type": "hls",
+          "resolution": null,
+          "bandwidth": 1359000,
+          "segment_checked": true,
+          "response_ms": 887,
+          "first_seen": "2026-11-19T07:30:39+00:00",
+          "last_checked": "2026-11-19T07:30:52+00:00",
+          "last_success": "2026-11-19T07:30:52+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "url": "https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8",
+          "sources": [
             "iptv-org-streams-bo"
           ],
           "title": "VTV Canal 17 (720p) [Not 24/7]",
@@ -4075,9 +5199,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:50+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "https://ares.disfrutaenlared.com:1936/vtvcanal/vtvcanal/chunklist_w1413178975.m3u8",
@@ -4096,11 +5220,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 15,
+          "response_ms": 20,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:50+00:00",
           "last_success": "2026-11-14T22:29:52+00:00",
-          "consecutive_failures": 8
+          "consecutive_failures": 9
         }
       ]
     },
@@ -4130,9 +5254,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:37:01+00:00",
+          "last_checked": "2026-11-19T07:30:54+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -4165,9 +5289,9 @@
           "segment_checked": false,
           "response_ms": null,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         },
         {
           "url": "http://190.104.15.135/0.ts",
@@ -4188,10 +5312,10 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": true,
-          "response_ms": 320,
+          "response_ms": 279,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
+          "last_success": "2026-11-19T07:30:51+00:00",
           "consecutive_failures": 0
         }
       ]
@@ -4220,11 +5344,11 @@
           "resolution": null,
           "bandwidth": null,
           "segment_checked": false,
-          "response_ms": 1019,
+          "response_ms": 612,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:37:00+00:00",
+          "last_checked": "2026-11-19T07:30:53+00:00",
           "last_success": null,
-          "consecutive_failures": 65
+          "consecutive_failures": 66
         }
       ]
     },
@@ -4254,10 +5378,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 57,
+          "response_ms": 58,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
+          "last_success": "2026-11-19T07:30:51+00:00",
           "consecutive_failures": 0
         },
         {
@@ -4277,10 +5401,10 @@
           "resolution": null,
           "bandwidth": 1,
           "segment_checked": true,
-          "response_ms": 13,
+          "response_ms": 23,
           "first_seen": "2026-10-25T17:52:30+00:00",
-          "last_checked": "2026-11-18T20:36:58+00:00",
-          "last_success": "2026-11-18T20:36:58+00:00",
+          "last_checked": "2026-11-19T07:30:51+00:00",
+          "last_success": "2026-11-19T07:30:51+00:00",
           "consecutive_failures": 0
         }
       ]
