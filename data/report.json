@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-19T20:42:29+00:00",
-  "duration_seconds": 39.5,
+  "generated_at": "2026-11-20T07:23:00+00:00",
+  "duration_seconds": 37.9,
   "validation_skipped": false,
   "stats": {
     "channels_total": 100,
-    "channels_main": 71,
-    "channels_online": 71,
+    "channels_main": 65,
+    "channels_online": 65,
     "streams_total": 188,
-    "streams_online": 111
+    "streams_online": 101
   },
   "sources": [
     {
@@ -984,7 +984,37 @@
     },
     {
       "channel": "Cadena A",
+      "url": "http://190.181.61.93:8000/play/a00k/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
       "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -997,6 +1027,18 @@
     {
       "channel": "Canal 56 Quiero TV",
       "url": "http://45.5.118.152:8000/play/a08z/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1027,12 +1069,6 @@
     {
       "channel": "CVC",
       "url": "http://15.204.246.24:8080/CVCHD/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Dmoda Channel",
-      "url": "https://master.tucableip.com/dmoda/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1071,12 +1107,6 @@
       "url": "https://mist01.homestream.fun/hls/interactivotv/index.m3u8",
       "error": "falha de rede: Cannot connect to host mist01.homestream.fun:443 ssl:default [No address associated with hostname]",
       "error_kind": "transient"
-    },
-    {
-      "channel": "La Exitosa TV Riberalta",
-      "url": "https://ares.disfrutaenlared.com:1936/exitosa/exitosa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "Palenque TV",
@@ -1151,6 +1181,18 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Radio TV Mega",
+      "url": "https://183.giatvcdn.com/ssh101/ssh101/radiotvmega26/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Red CCTV",
       "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
       "error": "erro TLS/certificado: ClientConnectorCertificateError",
@@ -1193,6 +1235,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Red Uno",
+      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
@@ -1200,7 +1248,19 @@
     },
     {
       "channel": "SPC Canal 15",
+      "url": "https://183.giatvcdn.com/giatv/giatv-1762252013SPC/1762252013SPC/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "SPC Canal 15",
       "url": "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Sucremanta TV",
+      "url": "https://183.giatvcdn.com/ssh101/ssh101/ok2026/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1215,6 +1275,12 @@
       "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "error": "falha de rede: Cannot connect to host video01.kshost.com.br:4443 ssl:default [Name or service not known]",
       "error_kind": "transient"
+    },
+    {
+      "channel": "Tele 6",
+      "url": "https://183.giatvcdn.com/ssh101/ssh101/tele6/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "Tele 6",
@@ -1257,12 +1323,6 @@
       "url": "https://s4.tvdatta.com:3449/live/tvofflive.m3u8",
       "error": "falha de rede: Cannot connect to host s4.tvdatta.com:3449 ssl:default [Connect call failed ('192.99.42.223', 3449)]",
       "error_kind": "transient"
-    },
-    {
-      "channel": "TV Show Oruro",
-      "url": "http://tv.istbolivia.com:1935/tvshow/tvshow/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "Unitel Cochabamba",
