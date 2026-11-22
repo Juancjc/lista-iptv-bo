@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-21T19:21:22+00:00",
-  "duration_seconds": 15.8,
+  "generated_at": "2026-11-22T06:56:43+00:00",
+  "duration_seconds": 38.1,
   "validation_skipped": false,
   "stats": {
     "channels_total": 100,
-    "channels_main": 71,
-    "channels_online": 71,
+    "channels_main": 66,
+    "channels_online": 66,
     "streams_total": 188,
-    "streams_online": 112
+    "streams_online": 99
   },
   "sources": [
     {
@@ -16,9 +16,9 @@
       "ok": true,
       "from_cache": false,
       "error": null,
-      "entries": 115,
+      "entries": 117,
       "accepted": 83,
-      "rejected": 32
+      "rejected": 34
     },
     {
       "name": "iptv-org-streams-bo",
@@ -178,6 +178,12 @@
     },
     {
       "source": "iptv-org-bo",
+      "title": "HGTV Latin America (1080p)",
+      "url": "http://38.87.224.19:2220/play/a01p/index.m3u8",
+      "reason": "canal não boliviano (tvg-id: HGTVLatinAmerica.us@Panregional)"
+    },
+    {
+      "source": "iptv-org-bo",
       "title": "History Latin America (1080p)",
       "url": "http://15.204.246.24:8080/HistoryHD/index.m3u8",
       "reason": "canal não boliviano (tvg-id: HistoryLatinAmerica.us@Panregional)"
@@ -247,6 +253,12 @@
       "title": "TNT Sports (Argentina) SD (576p)",
       "url": "http://181.78.79.131:8000/play/a0mo",
       "reason": "canal não boliviano (tvg-id: TNTSports.ar@SD)"
+    },
+    {
+      "source": "iptv-org-bo",
+      "title": "Tooncast (1080p)",
+      "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8",
+      "reason": "canal não boliviano (tvg-id: Tooncast.us@Panregional)"
     },
     {
       "source": "iptv-org-bo",
@@ -911,12 +923,6 @@
       "error_kind": "transient"
     },
     {
-      "channel": "As Contenidos",
-      "url": "https://master.tucableip.com/ascontenido/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "ATB",
       "url": "http://15.204.246.24:8080/ATBHD/index.m3u8",
       "error": "HTTP 404",
@@ -942,14 +948,14 @@
     },
     {
       "channel": "Bolivia Mix TV",
-      "url": "https://183.giatvcdn.com/giatv/giatv-NEOMIXHD/NEOMIXHD/chunks.m3u8",
-      "error": "HTTP 404",
+      "url": "https://live20.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/chunks.m3u8",
+      "error": "erro TLS/certificado: ClientConnectorSSLError",
       "error_kind": "permanent"
     },
     {
-      "channel": "Bolivia Mix TV",
-      "url": "https://live20.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/chunks.m3u8",
-      "error": "erro TLS/certificado: ClientConnectorSSLError",
+      "channel": "Bolivia TV",
+      "url": "http://190.181.61.93:8000/play/a00u/index.m3u8",
+      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -990,7 +996,37 @@
     },
     {
       "channel": "Cadena A",
+      "url": "http://190.181.61.93:8000/play/a00k/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
       "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Cadena A",
+      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1003,6 +1039,18 @@
     {
       "channel": "Canal 56 Quiero TV",
       "url": "http://45.5.118.152:8000/play/a08z/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "CEACOM TV",
+      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1044,20 +1092,26 @@
     },
     {
       "channel": "FAP TV",
-      "url": "https://edge.enhdtv.com/faptv/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "FAP TV",
       "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
       "error": "playlist HLS inválida: sem segmentos (#EXTINF) nem variantes",
       "error_kind": "permanent"
     },
     {
       "channel": "Gogoplay TV",
+      "url": "https://183.giatvcdn.com/ssh101/ssh101/gogoplay/chunks.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Gogoplay TV",
       "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
       "error": "erro TLS/certificado: ClientConnectorSSLError",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Gogoplay TV",
+      "url": "https://183.giatvcdn.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8",
+      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -1139,6 +1193,12 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "PTV Paceñísima",
+      "url": "https://183.giatvcdn.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "RA Television",
       "url": "https://183.giatvcdn.com/ssh101/ssh101/ratvbol/playlist.m3u8",
       "error": "HTTP 404",
@@ -1147,6 +1207,18 @@
     {
       "channel": "Radio Clasica TV",
       "url": "https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Radio Mega TV Amazonia",
+      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Radio TV Mega",
+      "url": "https://183.giatvcdn.com/ssh101/ssh101/radiotvmega26/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1193,10 +1265,22 @@
       "error_kind": "permanent"
     },
     {
+      "channel": "Red Uno",
+      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
-      "error": "falha de rede: Cannot connect to host 190.211.140.91:8081 ssl:default [Connect call failed ('190.211.140.91', 8081)]",
+      "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error_kind": "transient"
+    },
+    {
+      "channel": "SPC Canal 15",
+      "url": "https://183.giatvcdn.com/giatv/giatv-1762252013SPC/1762252013SPC/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "SPC Canal 15",
@@ -1247,12 +1331,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Tv Carigso",
-      "url": "https://183.giatvcdn.com/ssh101/ssh101/carigsotv2026/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "TV Culturas",
       "url": "http://15.204.246.24:8080/TVCulturasSD/index.m3u8",
       "error": "HTTP 404",
@@ -1296,8 +1374,20 @@
     },
     {
       "channel": "Unitel La Paz",
+      "url": "http://190.181.61.93:8000/play/a00t/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unitel La Paz",
       "url": "https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8",
       "error": "HTTP 403",
+      "error_kind": "permanent"
+    },
+    {
+      "channel": "Unitel Santa Cruz",
+      "url": "http://190.181.61.93:8000/play/a00r/index.m3u8",
+      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
