@@ -12,9 +12,9 @@
 
 <br>
 
-![Canais online](https://img.shields.io/badge/canais_online-56-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canais online](https://img.shields.io/badge/canais_online-78-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canais encontrados](https://img.shields.io/badge/canais_encontrados-100-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams online](https://img.shields.io/badge/streams_online-80%2F191-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams online](https://img.shields.io/badge/streams_online-117%2F192-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -52,10 +52,10 @@ Canais abertos da **Bolívia** — redes nacionais, emissoras regionais, TVs uni
 | | |
 |---|---|
 | Canais encontrados | **100** |
-| Canais na lista principal | **72** |
-| Canais online na última verificação | **56** |
-| Streams online / total | **80 / 191** |
-| Última atualização | **26/11/2026 04:31 (horário da Bolívia, UTC−4)** |
+| Canais na lista principal | **78** |
+| Canais online na última verificação | **78** |
+| Streams online / total | **117 / 192** |
+| Última atualização | **26/11/2026 17:39 (horário da Bolívia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -115,7 +115,7 @@ Proteções contra falhas temporárias:
 | `iptv-org-bo` | ✅ OK | 83 | 36 |
 | `iptv-org-streams-bo` | ✅ OK | 146 | 6 |
 | `manual` | ✅ OK | 7 | 0 |
-| `codemonchit0` | ✅ OK | 29 | 57 |
+| `codemonchit0` | ✅ OK | 30 | 56 |
 | `gatojustiniano` | ✅ OK | 31 | 50 |
 
 Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-id`, `tvg-logo` e `group-title`) ou uma nova fonte em `config/sources.json`.
@@ -125,62 +125,62 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Canal | Categoria | Departamento | Situação | Streams online |
 |---|---|---|---|---|
 | Aby Ayala TV | Geral | — | 🔴 Offline | 0/1 |
-| Abya Yala TV | Geral | La Paz | 🟡 Instável | 0/2 |
+| Abya Yala TV | Geral | La Paz | 🟢 Online | 1/2 |
 | Alegria TV | Música | — | 🔴 Offline | 0/1 |
 | Amitel TV | Geral | — | 🟢 Online | 2/2 |
 | As Contenidos | Geral | — | 🟢 Online | 1/1 |
-| Asi es mi Pueblo TV | Geral | — | 🟡 Instável | 0/1 |
+| Asi es mi Pueblo TV | Geral | — | 🟢 Online | 1/1 |
 | ATB | Geral | La Paz | 🟢 Online | 1/3 |
 | Audiokiss | Música | — | 🟢 Online | 1/1 |
 | Ayni TV | Geral | — | 🟢 Online | 1/3 |
 | Bolivia Mix TV | Geral | — | 🔴 Offline | 0/2 |
-| Bolivia TV | TV Pública | La Paz | 🟢 Online | 1/4 |
+| Bolivia TV | TV Pública | La Paz | 🟢 Online | 2/4 |
 | Bolivia TV 7.2 | TV Pública | La Paz | 🔴 Offline | 0/1 |
-| Bolivision | Geral | — | 🟡 Instável | 0/1 |
+| Bolivision | Geral | — | 🟢 Online | 1/1 |
 | Bolivisión | Geral | La Paz | 🔴 Offline | 0/2 |
 | Bolivisión Santa Cruz | Geral | Santa Cruz | 🔴 Offline | 0/2 |
-| Cadena A | Geral | — | 🟡 Instável | 0/2 |
-| Cadena A | Notícias | La Paz | 🔴 Offline | 0/4 |
+| Cadena A | Geral | — | 🟢 Online | 2/2 |
+| Cadena A | Notícias | La Paz | 🟢 Online | 3/4 |
 | Canal 14 Valle Alto Television | Geral | — | 🟢 Online | 1/1 |
 | Canal 15 Teleor | Geral | — | 🔴 Offline | 0/1 |
 | Canal 56 Quiero TV | Geral | — | 🔴 Offline | 0/1 |
-| Canal Guia ABE | Geral | — | 🟡 Instável | 0/1 |
-| CEACOM TV | Geral | — | 🔴 Offline | 0/2 |
+| Canal Guia ABE | Geral | — | 🟢 Online | 1/1 |
+| CEACOM TV | Geral | — | 🟢 Online | 2/2 |
 | Cinerama Television | Entretenimento | — | 🟢 Online | 1/2 |
 | Coral TV | Geral | — | 🟢 Online | 3/3 |
 | Cosmos TV | Geral | — | 🟢 Online | 1/1 |
-| CTV Bolivia | Geral | — | 🟢 Online | 2/6 |
-| CVC | Religioso | — | 🟡 Instável | 0/2 |
+| CTV Bolivia | Geral | — | 🟢 Online | 3/6 |
+| CVC | Religioso | — | 🟢 Online | 1/2 |
 | Delta TV | Geral | — | 🟢 Online | 1/1 |
 | Dmoda Channel | Geral | — | 🟢 Online | 1/1 |
 | El Deber TV | Notícias | Santa Cruz | 🟢 Online | 2/2 |
-| En Vivo TV | Geral | — | 🟡 Instável | 0/1 |
+| En Vivo TV | Geral | — | 🟢 Online | 1/1 |
 | F10 | Geral | — | 🟢 Online | 2/3 |
 | Facetas Deportivas | Geral | — | 🟢 Online | 1/1 |
 | FAP TV | Geral | — | 🟢 Online | 1/2 |
 | FTV | Esportes | — | 🟢 Online | 1/1 |
 | Gigavisión | Geral | — | 🟢 Online | 2/2 |
-| Gigavisión La Paz | Geral | La Paz | 🟢 Online | 1/2 |
+| Gigavisión La Paz | Geral | La Paz | 🟢 Online | 2/2 |
 | Gigavisión Santa Cruz | Geral | Santa Cruz | 🟢 Online | 1/2 |
 | Gogoplay TV | Geral | — | 🟢 Online | 2/3 |
-| GoGoPlayTV | Geral | — | 🟡 Instável | 0/1 |
-| Imperial TV | Geral | — | 🔴 Offline | 0/1 |
+| GoGoPlayTV | Geral | — | 🟢 Online | 1/1 |
+| Imperial TV | Geral | — | 🟢 Online | 1/1 |
 | Interactivo Television | Geral | — | 🔴 Offline | 0/2 |
 | La Exitosa TV Riberalta | Geral | — | 🟢 Online | 1/1 |
-| Palenque TV | Geral | — | 🟢 Online | 1/3 |
-| PAT La Paz | Geral | La Paz | 🟢 Online | 1/2 |
-| PAT Santa Cruz | Geral | Santa Cruz | 🟢 Online | 1/2 |
+| Palenque TV | Geral | — | 🟢 Online | 2/3 |
+| PAT La Paz | Geral | La Paz | 🔴 Offline | 0/2 |
+| PAT Santa Cruz | Geral | Santa Cruz | 🔴 Offline | 0/2 |
 | Pi Media TV | Geral | — | 🟢 Online | 1/1 |
-| Plus TLT | Geral | — | 🟡 Instável | 0/2 |
+| Plus TLT | Geral | — | 🟢 Online | 1/2 |
 | Poder De Dios | Geral | — | 🟢 Online | 1/1 |
 | Poder de Dios TV | Religioso | — | 🟢 Online | 1/2 |
 | PTV Paceñísima | Geral | La Paz | 🟢 Online | 1/4 |
-| RA Television | Geral | — | 🔴 Offline | 0/1 |
+| RA Television | Geral | — | 🟢 Online | 1/1 |
 | Radio Centro | Geral | — | 🟢 Online | 1/1 |
 | Radio Clasica TV | Música | — | 🟢 Online | 1/1 |
 | Radio Kollasuyo | Geral | — | 🟢 Online | 1/1 |
-| Radio Mega TV Amazonia | Geral | — | 🔴 Offline | 0/1 |
-| Radio TV Mega | Geral | — | 🔴 Offline | 0/1 |
+| Radio Mega TV Amazonia | Geral | — | 🟢 Online | 1/1 |
+| Radio TV Mega | Geral | — | 🟢 Online | 1/1 |
 | Radio Universitaria San Andrés | Universitário | La Paz | 🟢 Online | 1/1 |
 | Red ADvenir TV | Religioso | — | 🟢 Online | 3/3 |
 | Red America TV | Geral | — | 🟢 Online | 1/1 |
@@ -189,16 +189,16 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | Red Rubi | Geral | — | 🔴 Offline | 0/1 |
 | Red Siglo XXI | Geral | — | 🔴 Offline | 0/1 |
 | Red TV Shop | Compras | — | 🔴 Offline | 0/2 |
-| Red Uno | Geral | — | 🔴 Offline | 0/2 |
-| Red Uno La Paz | Geral | La Paz | 🟡 Instável | 0/1 |
-| Red Uno Santa Cruz | Geral | Santa Cruz | 🟢 Online | 1/2 |
-| RTP | Geral | La Paz | 🟢 Online | 3/4 |
+| Red Uno | Geral | — | 🟢 Online | 1/2 |
+| Red Uno La Paz | Geral | La Paz | 🟢 Online | 2/2 |
+| Red Uno Santa Cruz | Geral | Santa Cruz | 🟢 Online | 2/2 |
+| RTP | Geral | La Paz | 🟢 Online | 4/4 |
 | SABCO Vision | Geral | — | 🟢 Online | 1/1 |
-| Siglo XXI TV | Geral | — | 🟡 Instável | 0/1 |
+| Siglo XXI TV | Geral | — | 🟢 Online | 1/1 |
 | Sol TV | Geral | — | 🟢 Online | 1/2 |
-| SPC Canal 15 | Geral | — | 🔴 Offline | 0/2 |
-| Sucremanta TV | Geral | — | 🔴 Offline | 0/2 |
-| TDT Multimedia | Geral | — | 🔴 Offline | 0/2 |
+| SPC Canal 15 | Geral | — | 🟢 Online | 1/2 |
+| Sucremanta TV | Geral | — | 🟢 Online | 1/2 |
+| TDT Multimedia | Geral | — | 🟢 Online | 1/2 |
 | Tele 6 | Geral | — | 🟢 Online | 1/2 |
 | Tele Estrella | Geral | — | 🟢 Online | 1/4 |
 | Tele Fe Bolivia | Geral | — | 🔴 Offline | 0/1 |
@@ -207,19 +207,19 @@ Para adicionar um canal, inclua a URL pública em `config/manual.m3u` (com `tvg-
 | TV Culturas | Cultural | — | 🔴 Offline | 0/1 |
 | TV Latina | Geral | — | 🟢 Online | 3/3 |
 | TV Off | Viagens | — | 🟢 Online | 2/3 |
-| TV Show Oruro | Geral | — | 🟢 Online | 1/1 |
-| TV Universitaria | Geral | — | 🟡 Instável | 0/1 |
-| TVU Sucre | Universitário | Chuquisaca | 🟢 Online | 1/2 |
+| TV Show Oruro | Geral | — | 🔴 Offline | 0/1 |
+| TV Universitaria | Geral | — | 🟢 Online | 1/1 |
+| TVU Sucre | Universitário | Chuquisaca | 🟢 Online | 2/2 |
 | UMSA TVU Internacional | Universitário | La Paz | 🟢 Online | 2/2 |
-| UMSA TVU La Paz | Universitário | La Paz | 🟢 Online | 4/5 |
-| Unifranz TV | Universitário | — | 🟢 Online | 3/3 |
-| Unitel Cochabamba | Geral | — | 🟡 Instável | 0/3 |
-| Unitel La Paz | Geral | — | 🟡 Instável | 0/4 |
-| Unitel Santa Cruz | Geral | Santa Cruz | 🟡 Instável | 0/3 |
+| UMSA TVU La Paz | Universitário | La Paz | 🟢 Online | 5/5 |
+| Unifranz TV | Universitário | — | 🔴 Offline | 0/3 |
+| Unitel Cochabamba | Geral | — | 🟢 Online | 1/3 |
+| Unitel La Paz | Geral | — | 🟢 Online | 2/4 |
+| Unitel Santa Cruz | Geral | Santa Cruz | 🟢 Online | 2/3 |
 | Univalle TV | Universitário | Cochabamba | 🟢 Online | 2/2 |
-| UPEA TV | Universitário | La Paz | 🟢 Online | 1/2 |
-| Vos TV | Geral | — | 🟡 Instável | 0/4 |
-| VTV Canal 17 | Religioso | — | 🟢 Online | 1/3 |
+| UPEA TV | Universitário | La Paz | 🟢 Online | 2/2 |
+| Vos TV | Geral | — | 🟢 Online | 1/4 |
+| VTV Canal 17 | Religioso | — | 🟢 Online | 2/3 |
 | Wara TV | Geral | — | 🔴 Offline | 0/1 |
 | XTO TV | Geral | — | 🟢 Online | 1/2 |
 | Zoy TV | Geral | — | 🔴 Offline | 0/1 |

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-26T08:31:59+00:00",
-  "duration_seconds": 310.2,
+  "generated_at": "2026-11-26T21:39:05+00:00",
+  "duration_seconds": 42.3,
   "validation_skipped": false,
   "stats": {
     "channels_total": 100,
-    "channels_main": 72,
-    "channels_online": 56,
-    "streams_total": 191,
-    "streams_online": 80
+    "channels_main": 78,
+    "channels_online": 78,
+    "streams_total": 192,
+    "streams_online": 117
   },
   "sources": [
     {
@@ -47,8 +47,8 @@
       "from_cache": false,
       "error": null,
       "entries": 86,
-      "accepted": 29,
-      "rejected": 57
+      "accepted": 30,
+      "rejected": 56
     },
     {
       "name": "gatojustiniano",
@@ -313,12 +313,6 @@
       "title": "Tigo Sports (720p) [Geo-blocked]",
       "url": "https://dipdxjic51jcl.cloudfront.net/out/v1/81f769d780694be488d85811331c8a4f/index.m3u8",
       "reason": "rótulo excluído: Geo-blocked"
-    },
-    {
-      "source": "codemonchit0",
-      "title": "RED UNO LPZ",
-      "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(YucRwcNCZKto58AA2-5YS03E-zejaoT1AZ1KaWQHsdkPF04E4f3DHUlS2SR7OnKwVkrBhJtbPt3y3-AnSA318mqh7rLDSTwC1Sx8ch1bVJYhp6wiBoR3bc5JOlu6qT3ecaV-ksQhtej8wP152V2Dlyz-LVCNWi_BuTZCg8LMquSu8dMh77bO7J6LyR5C9ChV)/cloud/3/xbrsofi/d/live-aac-128.m3u8",
-      "reason": "URL bloqueada pela regra 'sec2(' (token/DRM/página/operadora)"
     },
     {
       "source": "codemonchit0",
@@ -971,21 +965,9 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Abya Yala TV",
-      "url": "http://190.181.61.93:8000/play/a00m/index.m3u8",
-      "error": "tempo esgotado na verificação",
-      "error_kind": "transient"
-    },
-    {
       "channel": "Alegria TV",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8",
       "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Asi es mi Pueblo TV",
-      "url": "http://190.181.61.93:8000/play/a00g/index.m3u8",
-      "error": "tempo esgotado na verificação",
       "error_kind": "transient"
     },
     {
@@ -1026,14 +1008,8 @@
     },
     {
       "channel": "Bolivia TV",
-      "url": "http://190.181.61.93:8000/play/a001/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a001/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Bolivia TV",
-      "url": "http://190.181.61.93:8000/play/a00u/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00u/index.m3u8",
+      "url": "https://hls.tvabierta.net/hls/boliviatv.m3u8",
+      "error": "HTTP 502",
       "error_kind": "transient"
     },
     {
@@ -1047,12 +1023,6 @@
       "url": "https://5ca3e84a76d30.streamlock.net:443/boliviatv2/videoboliviatv2/playlist.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
-    },
-    {
-      "channel": "Bolivision",
-      "url": "http://190.181.61.93:8000/play/a00j/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00j/index.m3u8",
-      "error_kind": "transient"
     },
     {
       "channel": "Bolivisión",
@@ -1080,37 +1050,7 @@
     },
     {
       "channel": "Cadena A",
-      "url": "http://190.181.61.93:8000/play/a00k/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00k/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
       "url": "http://15.204.246.24:8080/CadenaAHD/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net:443/cadenaa/videocadenaa/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Cadena A",
-      "url": "https://5e50264bd6766.streamlock.net/cadenaa/videocadenaa/chunklist_w512943640.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1127,24 +1067,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Canal Guia ABE",
-      "url": "http://190.181.61.93:8000/play/a00q/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00q/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "CEACOM TV",
-      "url": "https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
       "channel": "Cinerama Television",
       "url": "https://live.cineramatvbo.com/hls/stream.m3u8",
       "error": "HTTP 404",
@@ -1155,12 +1077,6 @@
       "url": "http://15.204.246.24:8080/CTVHD/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
-    },
-    {
-      "channel": "CTV Bolivia",
-      "url": "http://190.181.61.93:8000/play/a005/index.m3u8",
-      "error": "tempo esgotado na verificação",
-      "error_kind": "transient"
     },
     {
       "channel": "CTV Bolivia",
@@ -1181,18 +1097,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "CVC",
-      "url": "http://190.181.61.93:8000/play/a00p/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00p/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "En Vivo TV",
-      "url": "http://190.181.61.93:8000/play/1520/index.m3u8",
-      "error": "tempo esgotado na verificação",
-      "error_kind": "transient"
-    },
-    {
       "channel": "F10",
       "url": "http://15.204.246.24:8080/F10HD/index.m3u8",
       "error": "HTTP 404",
@@ -1205,12 +1109,6 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Gigavisión La Paz",
-      "url": "http://190.181.61.93:8000/play/a00i/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00i/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
       "channel": "Gigavisión Santa Cruz",
       "url": "http://158.172.155.130:8000/play/a0e7/index.m3u8",
       "error": "falha de rede: Connection timeout to host http://158.172.155.130:8000/play/a0e7/index.m3u8",
@@ -1220,18 +1118,6 @@
       "channel": "Gogoplay TV",
       "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
       "error": "erro TLS/certificado: ClientConnectorSSLError",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "GoGoPlayTV",
-      "url": "http://190.181.61.93:8000/play/a00d/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00d/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Imperial TV",
-      "url": "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8",
-      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -1253,14 +1139,14 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Palenque TV",
-      "url": "http://190.181.61.93:8000/play/a009/index.m3u8",
-      "error": "tempo esgotado na verificação",
-      "error_kind": "transient"
+      "channel": "PAT La Paz",
+      "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "PAT La Paz",
-      "url": "http://15.204.246.24:8080/PATSD/index.m3u8",
+      "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
@@ -1271,16 +1157,16 @@
       "error_kind": "transient"
     },
     {
-      "channel": "Plus TLT",
-      "url": "http://15.204.246.24:8080/PlusTLTHD/index.m3u8",
+      "channel": "PAT Santa Cruz",
+      "url": "https://www.redpat.tv:8000/play/12/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
       "channel": "Plus TLT",
-      "url": "http://190.181.61.93:8000/play/a007/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a007/index.m3u8",
-      "error_kind": "transient"
+      "url": "http://15.204.246.24:8080/PlusTLTHD/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "Poder de Dios TV",
@@ -1304,24 +1190,6 @@
       "channel": "PTV Paceñísima",
       "url": "https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/chunks.m3u8",
       "error": "erro TLS/certificado: ClientConnectorSSLError",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "RA Television",
-      "url": "https://183.giatvcdn.com/ssh101/ssh101/ratvbol/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Radio Mega TV Amazonia",
-      "url": "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Radio TV Mega",
-      "url": "https://183.giatvcdn.com/ssh101/ssh101/radiotvmega26/playlist.m3u8",
-      "error": "HTTP 404",
       "error_kind": "permanent"
     },
     {
@@ -1367,46 +1235,10 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Red Uno",
-      "url": "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Red Uno La Paz",
-      "url": "http://190.181.61.93:8000/play/a003/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a003/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Red Uno Santa Cruz",
-      "url": "http://190.181.61.93:8000/play/a002/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a002/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "RTP",
-      "url": "http://190.181.61.93:8000/play/a00n/index.m3u8",
-      "error": "tempo esgotado na verificação",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Siglo XXI TV",
-      "url": "http://190.181.61.93:8000/play/a00b/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00b/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
       "channel": "Sol TV",
       "url": "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error": "falha de rede: Connection timeout to host http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
       "error_kind": "transient"
-    },
-    {
-      "channel": "SPC Canal 15",
-      "url": "https://183.giatvcdn.com/giatv/giatv-1762252013SPC/1762252013SPC/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "SPC Canal 15",
@@ -1416,21 +1248,9 @@
     },
     {
       "channel": "Sucremanta TV",
-      "url": "https://183.giatvcdn.com/ssh101/ssh101/ok2026/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
-    },
-    {
-      "channel": "Sucremanta TV",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/ok2026/playlist.m3u8",
       "error": "falha de rede: Cannot connect to host lbgo.bozztv.com:443 ssl:default [Name or service not known]",
       "error_kind": "transient"
-    },
-    {
-      "channel": "TDT Multimedia",
-      "url": "https://video01.brascast.com/juan6318/juan6318/playlist.m3u8",
-      "error": "HTTP 404",
-      "error_kind": "permanent"
     },
     {
       "channel": "TDT Multimedia",
@@ -1447,8 +1267,8 @@
     {
       "channel": "Tele Estrella",
       "url": "http://190.181.61.93:8000/play/a004/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a004/index.m3u8",
-      "error_kind": "transient"
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "Tele Estrella",
@@ -1487,28 +1307,28 @@
       "error_kind": "transient"
     },
     {
-      "channel": "TV Universitaria",
-      "url": "http://190.181.61.93:8000/play/a006/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a006/index.m3u8",
-      "error_kind": "transient"
+      "channel": "TV Show Oruro",
+      "url": "http://tv.istbolivia.com:1935/tvshow/tvshow/playlist.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
-      "channel": "TVU Sucre",
-      "url": "http://190.181.61.93:8000/play/a008/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a008/index.m3u8",
-      "error_kind": "transient"
+      "channel": "Unifranz TV",
+      "url": "https://edge.enhdtv.com/8192/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
-      "channel": "UMSA TVU La Paz",
-      "url": "http://190.181.61.93:8000/play/a00s/index.m3u8",
-      "error": "tempo esgotado na verificação",
-      "error_kind": "transient"
+      "channel": "Unifranz TV",
+      "url": "https://live.enhdtv.com:8081/8192/index.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
-      "channel": "Unitel Cochabamba",
-      "url": "http://190.181.61.93:8000/play/1913/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/1913/index.m3u8",
-      "error_kind": "transient"
+      "channel": "Unifranz TV",
+      "url": "https://live.enhdtv.com:8081/8192/tracks-v1a1/mono.m3u8",
+      "error": "HTTP 404",
+      "error_kind": "permanent"
     },
     {
       "channel": "Unitel Cochabamba",
@@ -1524,12 +1344,6 @@
     },
     {
       "channel": "Unitel La Paz",
-      "url": "http://190.181.61.93:8000/play/1910/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/1910/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Unitel La Paz",
       "url": "https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8",
       "error": "HTTP 403",
       "error_kind": "permanent"
@@ -1541,46 +1355,16 @@
       "error_kind": "permanent"
     },
     {
-      "channel": "Unitel La Paz",
-      "url": "http://190.181.61.93:8000/play/a00t/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00t/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Unitel Santa Cruz",
-      "url": "http://190.181.61.93:8000/play/1909/index.m3u8",
-      "error": "tempo esgotado na verificação",
-      "error_kind": "transient"
-    },
-    {
-      "channel": "Unitel Santa Cruz",
-      "url": "http://190.181.61.93:8000/play/a00r/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00r/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
       "channel": "Unitel Santa Cruz",
       "url": "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8",
       "error": "HTTP 403",
       "error_kind": "permanent"
     },
     {
-      "channel": "UPEA TV",
-      "url": "http://190.181.61.93:8000/play/a00h/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00h/index.m3u8",
-      "error_kind": "transient"
-    },
-    {
       "channel": "Vos TV",
       "url": "http://15.204.246.24:8080/VOSTVHD/index.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
-    },
-    {
-      "channel": "Vos TV",
-      "url": "http://190.181.61.93:8000/play/a00a/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00a/index.m3u8",
-      "error_kind": "transient"
     },
     {
       "channel": "Vos TV",
@@ -1593,12 +1377,6 @@
       "url": "https://59d39900ebfb8.streamlock.net/vostv/vostv/chunklist_w1975291800.m3u8",
       "error": "HTTP 404",
       "error_kind": "permanent"
-    },
-    {
-      "channel": "VTV Canal 17",
-      "url": "http://190.181.61.93:8000/play/a00f/index.m3u8",
-      "error": "falha de rede: Connection timeout to host http://190.181.61.93:8000/play/a00f/index.m3u8",
-      "error_kind": "transient"
     },
     {
       "channel": "VTV Canal 17",
