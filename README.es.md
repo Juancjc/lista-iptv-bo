@@ -12,9 +12,9 @@
 
 <br>
 
-![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-68-007934?style=for-the-badge&logo=livechat&logoColor=white)
+![Canales en línea](https://img.shields.io/badge/canales_en_l%C3%ADnea-80-007934?style=for-the-badge&logo=livechat&logoColor=white)
 ![Canales encontrados](https://img.shields.io/badge/canales_encontrados-100-D52B1E?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-106%2F195-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
+![Streams en línea](https://img.shields.io/badge/streams_en_l%C3%ADnea-125%2F195-F9E300?style=for-the-badge&logo=youtubetv&logoColor=black&labelColor=555555)
 
 [![Atualizar lista IPTV](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/update-iptv.yml)
 [![Testes](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml/badge.svg)](https://github.com/Juancjc/lista-iptv-bo/actions/workflows/tests.yml)
@@ -52,10 +52,10 @@ Canales abiertos de **Bolivia** — redes nacionales, canales regionales, TV uni
 | | |
 |---|---|
 | Canales encontrados | **100** |
-| Canales en la lista principal | **69** |
-| Canales en línea en la última verificación | **68** |
-| Streams en línea / total | **106 / 195** |
-| Última actualización | **27/11/2026 04:41 (hora de Bolivia, UTC−4)** |
+| Canales en la lista principal | **82** |
+| Canales en línea en la última verificación | **80** |
+| Streams en línea / total | **125 / 195** |
+| Última actualización | **27/11/2026 17:23 (hora de Bolivia, UTC−4)** |
 
 ## 📺 Listas M3U
 
@@ -139,13 +139,13 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Bolivision | General | — | 🟢 En línea | 1/1 |
 | Bolivisión | General | La Paz | 🔴 Fuera de línea | 0/2 |
 | Bolivisión Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/2 |
-| Cadena A | General | — | 🔴 Fuera de línea | 0/2 |
-| Cadena A | Noticias | La Paz | 🔴 Fuera de línea | 0/4 |
+| Cadena A | General | — | 🟢 En línea | 2/2 |
+| Cadena A | Noticias | La Paz | 🟢 En línea | 3/4 |
 | Canal 14 Valle Alto Television | General | — | 🟢 En línea | 1/1 |
 | Canal 15 Teleor | General | — | 🔴 Fuera de línea | 0/1 |
 | Canal 56 Quiero TV | General | — | 🔴 Fuera de línea | 0/1 |
 | Canal Guia ABE | General | — | 🟢 En línea | 1/1 |
-| CEACOM TV | General | — | 🔴 Fuera de línea | 0/2 |
+| CEACOM TV | General | — | 🟢 En línea | 2/2 |
 | Cinerama Television | Entretenimiento | — | 🟢 En línea | 1/2 |
 | Coral TV | General | — | 🟢 En línea | 3/3 |
 | Cosmos TV | General | — | 🟢 En línea | 1/1 |
@@ -164,41 +164,41 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Gigavisión Santa Cruz | General | Santa Cruz | 🟢 En línea | 1/2 |
 | Gogoplay TV | General | — | 🟢 En línea | 2/3 |
 | GoGoPlayTV | General | — | 🟢 En línea | 1/1 |
-| Imperial TV | General | — | 🔴 Fuera de línea | 0/1 |
+| Imperial TV | General | — | 🟢 En línea | 1/1 |
 | Interactivo Television | General | — | 🔴 Fuera de línea | 0/2 |
 | La Exitosa TV Riberalta | General | — | 🟢 En línea | 1/1 |
 | Palenque TV | General | — | 🟢 En línea | 2/3 |
-| PAT La Paz | General | La Paz | 🔴 Fuera de línea | 0/2 |
-| PAT Santa Cruz | General | Santa Cruz | 🔴 Fuera de línea | 0/2 |
+| PAT La Paz | General | La Paz | 🟡 Inestable | 0/2 |
+| PAT Santa Cruz | General | Santa Cruz | 🟡 Inestable | 0/2 |
 | Pi Media TV | General | — | 🟢 En línea | 1/1 |
 | Plus TLT | General | — | 🟢 En línea | 1/2 |
 | Poder De Dios | General | — | 🟢 En línea | 1/1 |
 | Poder de Dios TV | Religioso | — | 🟢 En línea | 1/2 |
 | PTV Paceñísima | General | La Paz | 🟢 En línea | 1/4 |
-| RA Television | General | — | 🔴 Fuera de línea | 0/1 |
+| RA Television | General | — | 🟢 En línea | 1/1 |
 | Radio Centro | General | — | 🟢 En línea | 1/1 |
 | Radio Clasica TV | Música | — | 🟢 En línea | 1/1 |
 | Radio Kollasuyo | General | — | 🟢 En línea | 1/1 |
-| Radio Mega TV Amazonia | General | — | 🔴 Fuera de línea | 0/1 |
-| Radio TV Mega | General | — | 🔴 Fuera de línea | 0/1 |
+| Radio Mega TV Amazonia | General | — | 🟢 En línea | 1/1 |
+| Radio TV Mega | General | — | 🟢 En línea | 1/1 |
 | Radio Universitaria San Andrés | Universitario | La Paz | 🟢 En línea | 1/1 |
 | Red ADvenir TV | Religioso | — | 🟢 En línea | 3/3 |
-| Red America TV | General | — | 🟢 En línea | 1/1 |
+| Red America TV | General | — | 🔴 Fuera de línea | 0/1 |
 | Red CCTV | General | — | 🟢 En línea | 2/3 |
 | Red DTV | General | — | 🔴 Fuera de línea | 0/1 |
 | Red Rubi | General | — | 🔴 Fuera de línea | 0/1 |
 | Red Siglo XXI | General | — | 🔴 Fuera de línea | 0/1 |
-| Red TV Shop | Compras | — | 🔴 Fuera de línea | 0/2 |
-| Red Uno | General | — | 🔴 Fuera de línea | 0/2 |
-| Red Uno La Paz | General | La Paz | 🟢 En línea | 1/2 |
-| Red Uno Santa Cruz | General | Santa Cruz | 🟢 En línea | 2/2 |
+| Red TV Shop | Compras | — | 🟢 En línea | 2/2 |
+| Red Uno | General | — | 🟢 En línea | 1/2 |
+| Red Uno La Paz | General | La Paz | 🟢 En línea | 2/2 |
+| Red Uno Santa Cruz | General | Santa Cruz | 🟢 En línea | 1/2 |
 | RTP | General | La Paz | 🟢 En línea | 4/4 |
 | SABCO Vision | General | — | 🟢 En línea | 1/1 |
 | Siglo XXI TV | General | — | 🟢 En línea | 2/2 |
 | Sol TV | General | — | 🟢 En línea | 1/2 |
-| SPC Canal 15 | General | — | 🔴 Fuera de línea | 0/2 |
-| Sucremanta TV | General | — | 🔴 Fuera de línea | 0/2 |
-| TDT Multimedia | General | — | 🔴 Fuera de línea | 0/2 |
+| SPC Canal 15 | General | — | 🟢 En línea | 2/2 |
+| Sucremanta TV | General | — | 🟢 En línea | 1/2 |
+| TDT Multimedia | General | — | 🟢 En línea | 1/2 |
 | Tele 6 | General | — | 🟢 En línea | 1/2 |
 | Tele Estrella | General | — | 🟢 En línea | 1/4 |
 | Tele Fe Bolivia | General | — | 🔴 Fuera de línea | 0/1 |
@@ -216,7 +216,7 @@ Para agregar un canal, incluye la URL pública en `config/manual.m3u` (con `tvg-
 | Unitel Cochabamba | General | — | 🟢 En línea | 1/3 |
 | Unitel La Paz | General | — | 🟢 En línea | 2/4 |
 | Unitel Santa Cruz | General | Santa Cruz | 🟢 En línea | 2/3 |
-| Univalle TV | Universitario | Cochabamba | 🟡 Inestable | 0/2 |
+| Univalle TV | Universitario | Cochabamba | 🟢 En línea | 2/2 |
 | UPEA TV | Universitario | La Paz | 🟢 En línea | 2/2 |
 | Vos TV | General | — | 🟢 En línea | 2/5 |
 | VTV Canal 17 | Religioso | — | 🟢 En línea | 2/3 |
